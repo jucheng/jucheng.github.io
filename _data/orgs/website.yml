@@ -1,4 +1,4 @@
-
+﻿
 name: 出没网站
 icon: fa fa-diamond
 members:
@@ -6,17 +6,19 @@ members:
     link: https://github.com/
   - name: stackoverflow
     link: http://stackoverflow.com/
-  - name: segmentfault
-    link: http://segmentfault.com/
+  - name: 博客园新闻
+    link: http://news.cnblogs.com/
   - name: 实验楼
     link: https://www.shiyanlou.com/
-  - name: kindle114
-    link: http://www.readfar.com/
+  - name: IT之家
+    link: http://news.cnblogs.com/
   - name: 知乎
     link: http://www.zhihu.com/
   - name: 慕课网
     link: http://www.imooc.com/course/list
-  - name: 泰课在线
-    link: http://www.taikr.com/
+  - name: 程序员之家
+    link: http://news.cnblogs.com/
   - name: 开源中国
     link: http://www.oschina.net/
+  -name:编程中国
+    link：http://www.hello-code.com/
