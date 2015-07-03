@@ -31,7 +31,6 @@ blockquote p {
 > 名称:{{site.blog.name}}  
 > Email:[{{ site.author.email }}](mailto:{{ site.author.email }}) 
 
-
 > GitHub:[{{ site.author.name }}]({{ site.author.github }})  
 
 
