@@ -12,7 +12,7 @@ blog:
     url: http://jucheng.github.io                    # 博客地址
     duoshuo:  jucheng                                         # 多说ID
     tongji: 921c5738feea196e168fcb377c0ee843             # 百度统计ID
-    author:
+author:
     name: jucheng                                       # 作者名称
     email: 847278378@qq.com                                 # 邮箱地址
     weibo: http://weibo.com/3100253227                    # 微博地址
