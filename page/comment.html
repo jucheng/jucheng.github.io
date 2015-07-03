@@ -1,0 +1,14 @@
+---
+title: 留言
+layout: blog
+---
+
+<link rel="stylesheet" href="/res/css/page.css">
+
+<div class="comment-img">
+    <img src="/res/img/logo.jpg">
+</div>
+
+<p class="category">走过路过，留个言呗......</p>
+
+{% if page.duoshuo != false %}{% include duoshuo.html %}{% endif %}

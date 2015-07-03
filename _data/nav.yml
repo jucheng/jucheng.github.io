@@ -1,0 +1,23 @@
+- href: /page/timing.html
+  icon: fa fa-clock-o
+  title: 时间轴
+
+- href: /page/category.html
+  icon: fa fa-list
+  title: 分类
+
+- href: /page/tag.html
+  icon:  fa fa-tags
+  title: 标签
+
+- href: /page/comment.html
+  icon:  fa fa-comments
+  title: 留言
+
+- href: /page/link.html
+  icon:  fa fa-link
+  title: 链接
+
+- href: /page/about.html
+  icon: fa fa-user
+  title: 关于

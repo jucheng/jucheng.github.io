@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+{% include head.html %}
+<body>
+  <div id="blog">
+    {% include sidebar.html %}
+    <div class="main">
+      {{ content }}
+    {% if page.index == true or page.post == true %}{% include footer.html %}{% endif %}
+    </div>
+  </div>
+  {% include tongji.html %}
+  </body>
+</html>

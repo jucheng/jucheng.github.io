@@ -1,0 +1,23 @@
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>{{site.blog.url}}/</loc>
+        <lastmod>2014-12-16 00:00:00 +0800</lastmod>
+    </url>{% for page in site.pages reversed %}{% assign t = page.url | split:"." | last %}{% if t != "xml" %}
+    <url>
+        <loc>{{ site.blog.url }}{{ page.url }}</loc>
+        <lastmod>2014-12-16 00:00:00 +0800</lastmod>
+    </url>{% endif %}{% endfor %}{% for post in site.posts reversed %}
+    <url>
+        <loc>{{ site.blog.url }}{{ post.url }}</loc>
+        <lastmod>{{ post.date }}</lastmod>
+    </url>{% endfor %}
+</urlset>

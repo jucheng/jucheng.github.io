@@ -1,0 +1,41 @@
+body{
+    font-family: "Cuprum", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+header{
+    display: block;
+}
+
+.start-button{
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 10px;    /*圆角*/
+    padding: 5px;
+}
+
+.start-button:hover{
+    background-color: aquamarine;
+}
+
+/*游戏主窗口*/
+.game-grid{
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-color: #b5bb9d;
+    position: relative;
+}
+
+.game-cell{
+    width: 100px;
+    height: 100px;
+    line-height:100px;
+    border-radius: 6px;
+    font-size: 30px;
+    background-color: #c4e6ab;
+    position: absolute;
+}

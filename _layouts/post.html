@@ -1,0 +1,26 @@
+---
+layout: blog
+post: true
+---
+
+{% assign t_page = page%}
+{% include header.html %}
+<div class="post-main">
+{{ content }}
+</div>
+{% include share.html %}
+
+<div class="pagination">
+{% if page.previous %}
+<a class="pagination-item newer" href="{{ page.previous.url }}"><i class="fa fa-arrow-left"></i>&nbsp;&nbsp;{{ page.previous.title }}</a>
+{% else %}
+<span class="pagination-item newer">上一篇&nbsp;<i class="fa fa-chain-broken"></i></span>
+{% endif %}
+
+{% if page.next %}
+<a class="pagination-item older" href="{{ page.next.url }}">{{ page.next.title }}&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></a>
+{% else %}
+<span class="pagination-item older">下一篇&nbsp;<i class="fa fa-chain-broken"></i></span>
+{% endif %}
+</div>
+{% if page.duoshuo != false %}{% include duoshuo.html %}{% endif %}

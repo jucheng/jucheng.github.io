@@ -1,0 +1,32 @@
+---
+layout: blog
+title: 时间轴
+---
+
+<link rel="stylesheet" href="/res/css/page.css">
+<div>
+    {% for post in site.posts %}
+    {% assign date = post.date%}
+    {% assign y = date | date:"%Y" %}
+    {% if year != y %}{% assign year = y%}
+    <h1 class="year">{{y}}</h1>
+    {% endif%}
+    <div class="timing">
+        <div class="point-time"></div>
+        <time class="time">{{ date | date: "%m-%d" }}</time>
+        <div class="link"><a href="{{ post.url }}">{{post.title}}</a></div>
+    </div>
+    {% endfor %}
+</div>
+<br/>
+<script>
+function change() {
+    var tags_a = document.getElementsByClassName("point-time");
+    for(var i=0;i<tags_a.length;++i)
+    {
+        var rand = parseInt(Math.random() * 5)+1;
+        tags_a[i].className=tags_a[i].className+" point"+rand;
+    }
+}
+window.onload = change();
+</script>

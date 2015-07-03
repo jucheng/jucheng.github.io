@@ -1,0 +1,22 @@
+
+name: 出没网站
+icon: fa fa-diamond
+members:
+  - name: GitHub
+    link: https://github.com/
+  - name: stackoverflow
+    link: http://stackoverflow.com/
+  - name: segmentfault
+    link: http://segmentfault.com/
+  - name: 实验楼
+    link: https://www.shiyanlou.com/
+  - name: kindle114
+    link: http://www.readfar.com/
+  - name: 知乎
+    link: http://www.zhihu.com/
+  - name: 慕课网
+    link: http://www.imooc.com/course/list
+  - name: 泰课在线
+    link: http://www.taikr.com/
+  - name: 开源中国
+    link: http://www.oschina.net/

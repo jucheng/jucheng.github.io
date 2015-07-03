@@ -1,0 +1,24 @@
+
+name: 资源
+icon: fa fa-paperclip
+members:
+  - name: XML-HELP
+    link: http://www.datypic.com/sc/ooxml/ss.html
+  - name: icon
+    link: http://fortawesome.github.io/Font-Awesome/icons/
+  - name: 时钟插件
+    link: http://chabudai.org/blog/?p=59
+  - name: 网页字体图标
+    link: https://icomoon.io/
+  - name: Jekyll-Light
+    link: https://github.com/pexcn/Jekyll-Light
+  - name: Liquid基础语法
+    link: http://www.cnblogs.com/lslvxy/p/3651936.html
+  - name: codecogs数学公式
+    link: http://www.codecogs.com/latex/integration/htmlequations.php
+  - name: beego
+    link: http://beego.me/
+  - name: 在线雨声
+    link: http://raining.fm/raindrops/
+  - name: 谷歌
+    link: "https://www.google.com.hk/?gws_rd=cr,ssl"
