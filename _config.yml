@@ -1,21 +1,23 @@
-markdown: kramdown
+﻿markdown: kramdown
 highlighter: pygments
-exclude: ["*.bat","README.md", "Rakefile.rb"]
 permalink: blog/:year/:month/:day/:title.html
-paginate: 5
+paginate: 6
 paginate_path: page/:num
 
 blog:
-    name: Quincy                                         # 博客名称
-    description: 独行的人走得最快！                         # 博客描述
-    title: Quincy                                        # 网页标题
-    url: http://zhengqinyu.github.io                    # 博客地址
-    duoshuo: huanzhen                                    # 多说ID
-    tongji: c086e0236c082c83fd4c34661f274848             # 百度统计ID
-    qiniu: http://7tsy3b.com1.z0.glb.clouddn.com         # 七牛云地址
+    name: jucheng                                               # 博客名称
+    description: 再好的东西也有失去的一天,再深的记忆也有淡忘的一天                                        # 博客描述
+    title: jucheng                                              # 网页标题
+    url: http://jucheng.github.io                                                # 博客地址
+    duoshuo:     jucheng                                        # 多说ID
+    tongji:    921c5738feea196e168fcb377c0ee843                                          # 百度统计ID
+    qiniu:                                               # 七牛云地址
 author:
-    name: Quincy                                    # 作者名称
-    email: 6601360zqy@gmail.com                             # 邮箱地址
-    weibo: http://weibo.com/2741705322                   # 微博地址
-    github: https://github.com/ZhengQinyu               # GitHub地址
-    qq: 1042862531
+    name: jucheng                                               # 作者名称
+    email: 847278378@qq.com                                              # 邮箱地址
+    weibo: http://weibo.com/3100253227                                              # 微博地址
+    github: https://github.com/jucheng                                             # GitHub地址
+    logo: http://jucheng.github.io/res/img/logo.jpeg                                               # logo地址
+    douban:
+        name:                                            # 豆瓣地址名称
+        key:                                             # 豆瓣API Key
