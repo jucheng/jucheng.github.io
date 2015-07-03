@@ -29,8 +29,8 @@ blockquote p {
 
 
 > 名称:{{site.blog.name}}  
-> Email:[{{ site.author.email }}](mailto:{{ site.author.email }}) OR [{{ site.author.qq }}@qq.com](mailto:{{ site.author.qq }}@qq.com)   
+> Email:[{{ site.author.email }}](mailto:{{ site.author.email }}) 
 > GitHub:[{{ site.author.name }}]({{ site.author.github }})  
-> QQ:[{{ site.author.qq }}](tencent://message/?uin={{ site.author.qq }})  
+
 
 <hr class="line"/>
