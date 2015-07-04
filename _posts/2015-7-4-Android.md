@@ -3,7 +3,7 @@ layout: post
 title: "关于android4.0中访问网络不能在主线程中进行"
 date: 2015-7-4
 categories: Android
-tags: [线程，Android]
+tags: [Android，线程]
 ---
 
 关于android4.0中访问网络不能在主线程中进行
