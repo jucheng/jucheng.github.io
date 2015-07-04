@@ -4,15 +4,15 @@ icon: fa fa-external-link
 members:
   - name: 十大算法
     link: http://www.36kr.com/p/212499.html
-  - name: 张洋博客
-    link: http://blog.codinglabs.org/
+  - name: 在线自动生成.9png图的Android设计切图工具推荐
+    link: http://www.25xt.com/allcode/6976.html
   - name: HTTP协议
     link: http://www.cnblogs.com/TankXiao/archive/2012/02/13/2342672.html
-  - name: 细说Cookie
-    link: http://www.cnblogs.com/fish-li/archive/2011/07/03/2096903.html
+  - name: 极简图床
+    link: http://yotuku.cn/#!/
   - name: <<程序员编程艺术：面试和算法心得>>
     link: https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/Readme.md
-  - name: Zend Framework 2教程
-    link: https://zf2-cn.readthedocs.org/en/latest/user-guide/skeleton-application.html
+  - name: Android官方培训课程中文版
+    link: http://hukai.me/android-training-course-in-chinese/index.html
   - name: IDEA配置SSH
     link: http://my.oschina.net/qsyan/blog/96166
