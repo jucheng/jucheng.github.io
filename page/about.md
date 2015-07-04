@@ -29,9 +29,12 @@ blockquote p {
 
 
 > 名称:{{site.blog.name}}  
+> 
 > Email:[{{ site.author.email }}](mailto:{{ site.author.email }}) 
-
+> 
 > GitHub:[{{ site.author.name }}]({{ site.author.github }})  
+> 
+> weibo:[{{ site.author.weibo }}]({{ site.author.weibo }})  
 
 
 <hr class="line"/>
