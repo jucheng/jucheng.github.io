@@ -3,6 +3,7 @@ layout: post
 title: "简易的图片浏览器的开发"
 date: 2015-6-24
 categories: Android
+tags: [Android，开发]
 ---
 一个简易的图片浏览器开发中遇到的问题以及总结
 

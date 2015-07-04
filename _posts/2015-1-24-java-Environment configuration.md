@@ -3,6 +3,7 @@ layout: post
 title: "Eclipse环境配置"
 date: 2015-1-24
 categories: java
+tags: [Eclipse]
 ---
 安装Eclipse的环境配置
 

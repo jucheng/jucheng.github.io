@@ -3,6 +3,7 @@ layout: post
 title: "view的几种布局方式及实践"
 date: 2015-6-29
 categories: Android
+tags: [Android，布局文件]
 ---
 这是一个讲四大布局讲得比较详细的一篇文章
 

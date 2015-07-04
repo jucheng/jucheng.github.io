@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Android布局优化的基本三大方案!"
-date: 2015-5-16
+date: 2015-6-30
 categories: Android
+tags: [Android，布局文件]
 ---
 
 Android布局优化的基本三大方案
