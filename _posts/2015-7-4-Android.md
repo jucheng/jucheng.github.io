@@ -43,13 +43,14 @@ categories: [线程，Android]
 **由于对于网络状况的不可预见性，很有可能在网络访问的时候造成阻塞，那么这样一来我们的主线程UI线程 就会出现假死的现象，产生很不好的用户体验。所以，默认的情况下如果直接在主线程中访问就报出了这个异常，名字是NetworkOnMainThreadException**
 
 解决该问题的办法
+
 ###1. 独立线程
 
 ###2. 异步线程AsyncTask
 
 ###3. StrictMode修改默认的策略
 
-###1) 独立线程的办法
+####1) 独立线程的办法
 
 启动一个新线程的代码：
 
@@ -69,7 +70,7 @@ categories: [线程，Android]
 
 此处我们重写了线程类的run方法，执行Dosomething. 在里面还有个handler对象，这又涉及到了跨线程修改UI元素内容的问题。在java中是不允许跨线程修改UI元素的，如我们在新启动的线程中想去修改UI主线程中TextView的文本时，会报错误的。如果想做这样的操作，我们就得借助Handler这个类来实现。
 
-###2) 异步调用的方法 AsyncTask
+####2) 异步调用的方法 AsyncTask
 
 这里关于AsyncTask 介绍的文章不错， 详细情况看作者的介绍吧  
 
@@ -77,7 +78,7 @@ categories: [线程，Android]
 
 接下来也将会有一篇博客专门介绍 关于更新主线程UI线程的所有办法
 
-###3) StrictMode修改默认的策略
+####3) StrictMode修改默认的策略
 
 在我们的Activity类的onCreate方法中，设置如下规则：
 
