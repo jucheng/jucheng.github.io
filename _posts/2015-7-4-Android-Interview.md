@@ -3,7 +3,7 @@ layout: post
 title: " BAT不是你想进就能进"
 date: 2015-7-4
 categories: Android
-tags: [Android，开发经验]
+tags: [Android，面试]
 ---
 
 BAT不是你想进就能进 (从知乎上边摘取和总结）
