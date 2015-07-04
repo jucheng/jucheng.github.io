@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Android 好的开发习惯（1）"
+title: " Android 好的开发习惯（2）"
 date: 2015-7-4
 categories: Android
 tags: [Android，开发经验]
