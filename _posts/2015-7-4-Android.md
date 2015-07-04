@@ -5,7 +5,7 @@ date: 2015-7-4
 categories: [线程，Android]
 ---
 
-####关于android4.0中访问网络不能在主线程中进行
+关于android4.0中访问网络不能在主线程中进行
 
 <!-- more -->
 
