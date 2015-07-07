@@ -265,7 +265,7 @@ Android三种基本的加载网络图片方式
 
 
 
-  <下载>地址：
+  下载地址：
  <http://www.oschina.net/action/code/download?code=36944&id=54305>
 
 
