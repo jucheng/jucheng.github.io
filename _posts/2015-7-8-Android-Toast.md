@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Android中Toast的用法简介"
-date:   2015-7-4
+date:   2015-7-8
 categories: Android
 tags: [Android，显示机制]
 ---
