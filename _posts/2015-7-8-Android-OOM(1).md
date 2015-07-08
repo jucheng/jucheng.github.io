@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android 系统稳定性 - OOM（一）"
+title:  "Android 系统稳定性 - OOM"
 date:   2015-7-4
 categories: Android
 tags: [Android，OOM]
