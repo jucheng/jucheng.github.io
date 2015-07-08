@@ -3,7 +3,7 @@ layout: post
 title:  "Android 系统稳定性 - OOM（一）"
 date:   2015-7-4
 categories: Android
-tags: [Android，图片加载]
+tags: [Android，OOM]
 ---
 
 Android 系统稳定性 - OOM（一）
