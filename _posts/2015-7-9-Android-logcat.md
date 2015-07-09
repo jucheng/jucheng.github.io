@@ -205,3 +205,6 @@ OK后就可以找到TAG = JAY-tag的日志信息了
  system.err输出,默认是ERROR类型的
 
  
+
+本文转自：
+<http://blog.csdn.net/coder_pig/article/details/17270323>
