@@ -2,9 +2,9 @@
 ---
 layout: post
 title:  "Java的一些基础知识 "
-date:   2015-7-8
-categories: Android
-tags: [Android，调试]
+date:   2015-7-10
+categories: Java
+tags: [Java，调试]
 ---
 
 Java的一些基础知识
