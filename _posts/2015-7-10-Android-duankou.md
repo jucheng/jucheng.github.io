@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Can't bind to local 8700 for debugger 端口占用 "
-date:   2015-7-8
+date:   2015-7-10
 categories: Android
 tags: [Android，调试]
 ---
