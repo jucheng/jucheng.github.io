@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Java的一些基础知识 "
@@ -13,6 +12,7 @@ Java的一些基础知识
 Java的一些基础知识
 
 ###1.java标识符
+
 Java标识符由数字，字母和下划线(_)，美元符号($)组成。在Java中是区分大小写的，而且还要求首位不能是数字。最重要的是，Java关键字不能当作Java标识符。
 
 
@@ -195,6 +195,7 @@ byte、char、short、int、枚举
      }
 
 ###16、Java常用的设计模式？说明工厂模式。 
+
 Java中的23种设计模式： 
 
 Factory（工厂模式）， Builder（建造模式）， Factory Method（工厂方法模式）， 
