@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Java的一些基础知识 "
-date:  2015-7-10
+title: "Java的一些基础知识 "
+date: 2015-7-10
 categories: Java
 tags: [Java]
 ---
