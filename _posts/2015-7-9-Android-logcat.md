@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Logcat查看/输出日志信息"
-date:   2015-7-8
+date:   2015-7-9
 categories: Android
 tags: [Android，调试]
 ---

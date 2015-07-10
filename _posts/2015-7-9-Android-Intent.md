@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "用Intent写出常用的几个功能"
-date:   2015-7-8
+date:   2015-7-9
 categories: Android
 tags: [Android，Intent]
 ---
