@@ -133,8 +133,7 @@ sleep(milliseconds)可以用时间指定使它自动唤醒过来，如果时间�
 
 唤醒当前对象锁的等待线程使用notify或notifyAll方法,waite() 和notify()必须在synchronized函数或synchronized　block中进行调用。 
 
-yield方法暂停当前正在执行的线程对象。yield()只是使当前线程重新回到可执行状态，所以执行 
-####3)
+yield方法暂停当前正在执行的线程对象。yield()只是使当前线程重新回到可执行状态，所以执行
 
 yield()的线程有可能在进入到可执行状态后马上又被执行。yield()只能使同优先级或更高优先级的线程有执行的机会。 
 
