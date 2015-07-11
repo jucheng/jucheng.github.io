@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "抽象类与接口 "
-date: 2015-7-10
+date: 2015-7-11
 categories: Java
 tags: [Java]
 ---
