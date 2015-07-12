@@ -124,14 +124,18 @@ sleep(milliseconds)可以用时间指定使它自动唤醒过来，如果时间�
 当应用程序在对象上调用了一个需要花费很长时间来执行的方法，并且不希望让程序等待方法的返回时，就应该使用异步编程，在很多情况下采用异步途径往往更有效率。
 
 ###18、线程中wait，join，sleep，yield, notify，notifyall，synchronized，区别及联系 
+
 ####1).sleep()方法 
 
 在指定时间内让当前正在执行的线程暂停执行，但不会释放“锁标志”。不推荐使用。sleep()使当前线程进入阻塞状态，在指定时间内不会执行。 
+
 ####2).wait()方法 
 
 在其他线程调用对象的notify或notifyAll方法前，导致当前线程等待。线程会释放掉它所占有的“锁标志”，从而使别的线程有机会抢占该锁。 
 
 唤醒当前对象锁的等待线程使用notify或notifyAll方法,waite() 和notify()必须在synchronized函数或synchronized　block中进行调用。 
+
+###3).yield()方法
 
 yield方法暂停当前正在执行的线程对象。yield()只是使当前线程重新回到可执行状态，所以执行
 
