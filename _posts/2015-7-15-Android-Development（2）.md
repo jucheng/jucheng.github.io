@@ -33,6 +33,26 @@ tags: [Android,开发]
 
 其实这里是相对比较复杂一点，所以可能这里会讲得比较多
 
+
+###先说这里的FrameLayout，这个布局就是用到显示我们之后定义的fragment的显示的容器,这里我们又用到了这个属性，这个属性的意思就是占据剩余的空间的分量，本来这个布局占据的空间应该是底部菜单栏上边的部分的，但是由于我们中间还多了个另外一个布局，所以，这个FrameLayout占据的空间就是剩下的了，也就是我们看到的剩下的那部分，在整个界面的最顶端那里。
+
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+
+1.这个是要在mainActivity里边定义的对象
+
+    //帧布局对象,就是用来存放Fragment的容器
+	private FrameLayout flayout;
+
+2.这个是我们在布局文件里边定义的FrameLayout文件
+	
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
 ###A.先说这里的布局
 ![](http://img-storage.qiniudn.com/15-7-15/72391198.jpg)
 
