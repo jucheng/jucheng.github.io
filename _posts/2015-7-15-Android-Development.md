@@ -34,4 +34,20 @@ tags: [Android,开发]
 
 ![](http://img-storage.qiniudn.com/15-7-14/74882615.jpg)
 
+###4.这个错误的具体原因我也不怎么清楚，报错如下：
 
+**Incorrect line ending: found carriage return (\r) without corresponding newline (\n)**
+
+解决方法就是：clean一下就行了
+
+###5.定义ID的敏感词汇（这个错误是要注意一下）
+
+**error: invalid symbol: 'return'**
+
+####报错原因：
+
+出现这个错误是因为类似default和continue等是Java的保留符号，而Android项目中资源文件（譬如drawable中的图片和strings.xml等）不能使用Java保留符号（原因是它们会被翻译成Java代码R.java，使Dalvik VM可以解释），只要将资源名做出修改即可解决这个错误。
+
+####解决方法：
+
+很简单，就是在把你对应的ID改成不行java的敏感词汇就行了。
