@@ -6,19 +6,19 @@ members:
     link: http://www.datypic.com/sc/ooxml/ss.html
   - name: icon
     link: http://fortawesome.github.io/Font-Awesome/icons/
-  - name: 时钟插件
-    link: http://chabudai.org/blog/?p=59
-  - name: 网页字体图标
-    link: https://icomoon.io/
+  - name: codepath
+    link: http://guides.codepath.com/android
+  - name: Android Core Tutorials
+    link: http://www.javacodegeeks.com/tutorials/android-tutorials/android-core-tutorials/
   - name: Jekyll-Light
     link: https://github.com/pexcn/Jekyll-Light
-  - name: Liquid基础语法
-    link: http://www.cnblogs.com/lslvxy/p/3651936.html
-  - name: codecogs数学公式
-    link: http://www.codecogs.com/latex/integration/htmlequations.php
-  - name: beego
-    link: http://beego.me/
-  - name: 在线雨声
-    link: http://raining.fm/raindrops/
-  - name: 谷歌
-    link: "https://www.google.com.hk/?gws_rd=cr,ssl"
+  - name: tutorialspoint
+    link: http://www.tutorialspoint.com/android/
+  - name: eoe Android 开发者社区
+    link: http://www.eoeandroid.com/portal.php
+  - name: Android 学习网
+    link: http://www.android-study.com/
+  - name: 极客学院IT视频
+    link: http://www.jikexueyuan.com/
+  - name: 一纳米学习
+    link: http://1nami.com/
