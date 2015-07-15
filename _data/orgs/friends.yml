@@ -4,9 +4,11 @@ icon: fa fa-users
 members:
   - name: 张国健
     link: http://www.zhangguojian.com/
-  - name: 张洋博客
-    link: http://blog.codinglabs.org/
+  - name: 码农老毕
+    link: http://blog.csdn.net/wirelessqa/article/category/1140507
   - name: 钦裕的博客
     link: http://zhengqinyu.github.io/
-  - name: 飘过的小牛
-    link: http://github.thinkingbar.com/
+  - name: 一些国内 Android 开发者博客
+    link: https://github.com/android-cn/android-dev-cn
+  - name: 有哪些 Android 大牛的 blog 值得推荐？
+    link: http://www.zhihu.com/question/19775981
