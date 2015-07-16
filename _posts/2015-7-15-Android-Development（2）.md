@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "改进后的图片浏览器开发总结-底部菜单栏 "
-date: 2015-7-15
+title: "改进后的图片浏览器的开发总结-底部菜单栏"
+date: 2015-7-16
 categories: Android
-tags: [Android,开发]
+tags: [Android，开发]
 ---
 改进后的图片浏览器的开发总结-底部菜单栏
 
