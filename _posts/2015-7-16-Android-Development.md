@@ -70,6 +70,7 @@ tags: [Android，开发]
 如果你的某个Activity中实现OnTouchListener接口，需要重写onTouch(View view，MotionEvent event)这个方法，getRawX()和getRawY()获得的是相对屏幕的位置，**getX()和getY()获得的永远是相对view的触摸位置坐标（这两个值不会超过view的长度和宽度）**，这个也就是在上边要判断这个条件了：
 解释：
 **之所以加上120是因为，我们要从屏幕触摸点开始截取宽和高是120的图片，但是假设我们的触摸点是imageview1里边的右下角的位置，那触摸点坐标+120就已经是超出了该图片的范围了，所以，这里加这个判断就是要重新获取了触摸点的最小坐标，也就是x+120=bitmap.getWidth()的时候就是最小的截取坐标，所以这里就是要这么判断的。**
+
            if(x+120>bitmap.getWidth())
 			{
 				x=bitmap.getWidth()-120;
