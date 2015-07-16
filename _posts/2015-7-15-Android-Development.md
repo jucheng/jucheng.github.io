@@ -3,7 +3,7 @@ layout: post
 title: "项目错误集中营 "
 date: 2015-7-15
 categories: Android
-tags: [Android,开发]
+tags: [Android，开发]
 ---
 项目错误集中营
 

@@ -3,7 +3,7 @@ layout: post
 title: "防止数组越界的一个好的方法 "
 date: 2015-7-15
 categories: Android
-tags: [Android,开发]
+tags: [Android，开发]
 ---
 防止数组越界的一个好的方法
 
