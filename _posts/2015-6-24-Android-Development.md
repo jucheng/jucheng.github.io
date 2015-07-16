@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "简易的图片浏览器的开发"
+title: "简易的图片浏览器的开发(初版）"
 date: 2015-6-24
 categories: Android
 tags: [Android，开发]
