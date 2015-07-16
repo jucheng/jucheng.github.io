@@ -27,7 +27,7 @@ tags: [Android，开发]
 
 ![](http://img-storage.qiniudn.com/15-7-16/80687588.jpg)
 
-####1，由上图我们可以看到界面布局中定义了两个ImageView，其中第一个ImageView（也就是上边的那个）指定了android:scaleType=“finCenter”，这表明ImageView显示的图片的时候会进行纵横比的缩放，并将缩放后的图片放在该ImageView的中央。而第二个ImageView就是用来显示截取一定大小后的图片的显示区域。
+####1，由上图我们可以看到界面布局中定义了两个ImageView，其中第一个ImageView（也就是上边的那个）指定了android:scaleType=“finCenter”，这表明ImageView显示的图片的时候会进行纵横比的缩放，并将缩放后的图片放在该ImageView的中央。而第二个ImageView就是用来显示截取一定大小后的图片的显示区域。而这里的话，我定义好了一开始进入界面的时候，Imageview1是显示一张固定的图片的，而在我们还没点击截取屏幕的时候，下边的Imageview2也是处于初始的状态的，我给他定义了一个背景颜色是蓝色，但是点击截取图片之后，就会立刻显示相关的截取部分了。
 
 ####2.为了能够动态显示图片的局部细节，程序为第一个ImageView添加OnTouchListener监听器。用户在第一个Imageview上发生触摸事件的时候，程序就会从原始图片中读取相应部分的图片，并将其显示在第二个ImageView中。
 
