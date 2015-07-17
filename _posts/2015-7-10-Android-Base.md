@@ -25,6 +25,7 @@ Android项目工程目录详解
 7.res：该目录用于存放应用程序中经常使用的资源文件，其中包括图片、布局文件以及参数描述文件等，其中包括多个目录
 
 a)其中以drawable开头的三个文件夹用于存储.png、.9.png、.jpg等图片资源（.9.png是Android特有的图片格式，可以根据情况进行拉伸，达到不变形的效果），他们的分变率从高到低，如果你打算在android应用中包含一个图片或者图标，就应该把它们放在这个目录。
+
 b)layout文件夹存放的是应用程序的布局文件，这些layout是以xml形式保存的，关于layout的进一步信息，你可以参考android文档中的UI layout。
 
 c)raw用于存放应用程序所用到的声音等资源。raw中的文件会被映射到R.java文件中，访问的时候直接使用资源ID即R.id.filename；相比较assets文件夹下的文件不会被映射到R.java中，访问的时候需要AssetManager类。
@@ -33,6 +34,6 @@ d)values 这个目录也包含了一些xml文件，但主要是应用中要引�
 
 8.AndroidManifest.xml：清单文件 这个XML文件包含了android应用中的元信息，是每个android项目中的重要文件。在软件安装的时候被读取 ，Android中的四大组件（Activity、ContentProvider、BroadcastReceiver、Service）都需要在该文件中，以及运行这个android应用程序需要的用户权限列表，例如：电话、短信、互联网、访问SD卡，同时也详细描述了android应用的项目结构。
 
-9. proguard-project.txt：代码混淆相关文件
+9.proguard-project.txt：代码混淆相关文件
 
 10.project.properties：工程属性的配置文件，配置编译的版本等。ADT14 以后， project.properties和default.properties合并成了project.properties。供Eclipse使用，读取该项目使用Android版本号
