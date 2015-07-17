@@ -3,7 +3,7 @@ layout: post
 title: "Android四大（五大）基本组件简介（一）   "
 date: 2015-7-13
 categories: Android
-tags: [Android,四大组件]
+tags: [Android，四大组件]
 ---
 Android四大（五大）基本组件简介（一）  
 

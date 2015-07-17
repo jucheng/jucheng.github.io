@@ -3,7 +3,7 @@ layout: post
 title: "android四大组件详解 "
 date: 2015-7-13
 categories: Android
-tags: [Android,四大组件]
+tags: [Android，四大组件]
 ---
 android四大组件详解
 
