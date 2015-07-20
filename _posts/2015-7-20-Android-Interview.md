@@ -8,6 +8,7 @@ tags: [Android,面试]
 说说牛客网测试题
 
 <!-- more -->
+
 ###1.考察AIDL
 ![](http://img-storage.qiniudn.com/15-7-20/66204415.jpg)
 
@@ -31,6 +32,7 @@ Android 使用AIDL提供公开服务接口，使得不同进程间可以相互�
 aidl对应的接口名称必须与aidl文件名相同不然无法自动编译；
 
 aidl对应的接口的方法不能加访问权限修饰符（记一下）
+
 ）
 
 ###2.考察ServiceConnection
@@ -103,6 +105,7 @@ C：只有当layout 渲染之后才能找到该layout中的view，否则报错
 （解析：
 
 ![](http://img-storage.qiniudn.com/15-7-20/86702619.jpg)
+
 ）
 
 ###5.广播的注册
@@ -130,10 +133,12 @@ C：只有当layout 渲染之后才能找到该layout中的view，否则报错
     //  代码中注销广播 
     unregisterReceiver(mBatteryInfoReceiver);
 
+）
 
 ###6.考察Toast提示时长
 ![](http://img-storage.qiniudn.com/15-7-20/11947457.jpg)
 
+（注释：
 **A.显示时长只有2种设置**
 Toast.makeText(this, str, Toast.LENGTH_LONG).show();
 
@@ -142,6 +147,8 @@ Toast.makeText(this, str, Toast.LENGTH_LONG).show();
 实现方式在NotificationManagerService.java的scheduleTimeoutLocked()这个函数里。
 
 **Toast的默认显示时间有两个，分别为Toast.LENGTH_SHORT和Toast.LENGTH_LONG**
+
+）
 
 ###7.有关于AlertDialog
 
@@ -163,11 +170,13 @@ B项解释：
 ![](http://img-storage.qiniudn.com/15-7-20/59970957.jpg)
 ![](http://img-storage.qiniudn.com/15-7-20/76298454.jpg)
 
+）
 
 ###8. Intent传递数据
 
 ![](http://img-storage.qiniudn.com/15-7-20/73860103.jpg)
 
+（注释：
 **Serializable :**
 
 将 Java 对象序列化为二进制文件的 Java 序列化技术是 Java系列技术中一个较为重要的技术点，在大部分情况下，开发人员只需要了解被序列化的类需要实现 Serializable 接口，使用ObjectInputStream 和 ObjectOutputStream 进行对象的读写。
@@ -190,12 +199,16 @@ android提供了一种新的类型：Parcel。本类被用作封装数据的容�
 
 Bundle是将数据传递到另一个上下文中或保存或回复你自己状态的数据存储方式。它的数据不是持久化状态。
 
-
+）
 ###9.在android中使用Menu时可能需要重写的方法有?
 
 ![](http://img-storage.qiniudn.com/15-7-20/93813877.jpg)
 
-（注释：一个是创建菜单的方法，还有一个是菜单项点击事件方法）
+（注释：
+
+一个是创建菜单的方法，还有一个是菜单项点击事件方法）
+
+）
 
 ###10.对数据库版本进行管理的方法
 ![](http://img-storage.qiniudn.com/15-7-20/91538058.jpg)
@@ -205,6 +218,7 @@ Bundle是将数据传递到另一个上下文中或保存或回复你自己状�
 如果只是数据库的查询，则只需调用getReadableDatabase()，获取数据库的信息。
 
 如果是修改的话，则使用 getWriteableDatabase()方法，对数据库进行修改。
+
 ）
 
 ###11.有关service生命周期
@@ -216,6 +230,7 @@ Bundle是将数据传递到另一个上下文中或保存或回复你自己状�
 (注释：
 NDK是一系列工具的集合， NDK 提供了一系列的工具，帮助开发者迅速的开发 C/C++ 的动态库，并能自动将 so 和 java  应用打成 apk 包。 
 NDK集成了交叉编译器，并提供了相应的 mk 文件和隔离 cpu 、平台等的差异，开发人员只需简单的修改 mk 文件就可以创建出 so。
+
 ）
 
 ###13.有关Activity生命周期
@@ -223,6 +238,7 @@ NDK集成了交叉编译器，并提供了相应的 mk 文件和隔离 cpu 、�
 
 （注释：
 launchMode 为 singleTask 的时候，通过 Intent 启到一个 Activity, 如果系统已经存在一个实例，系统就会将请求发送到这个实例上，但这个时候，系统就不会再调用通常情况下我们处理请求数据的 onCreate 方法，而是调用 onNewIntent 方法
+
 ）
 
 ####14.ANR和Force close
@@ -232,6 +248,7 @@ launchMode 为 singleTask 的时候，通过 Intent 启到一个 Activity, 如�
 AD：产生ANR，程序没有响应，有可能程序会再次响应
 
 BC：程序抛出异常，会强制退出
+
 ）
 
 
