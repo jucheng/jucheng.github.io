@@ -3,7 +3,7 @@ layout: post
 title: "一些安卓基础总结"
 date: 2015-7-21
 categories: Android
-tags: [Android,面试]
+tags: [Android，面试]
 ---
 一些安卓基础总结
 
