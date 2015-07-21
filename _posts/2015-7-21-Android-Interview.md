@@ -384,3 +384,17 @@ Intent i = new Intent(Intent.ACTION_VIEW,uri); 手机的 Intent 分发过程中�
 
 ###20.能说下Android应用的入口点吗?
 真正的Android入口点是application的main，你可以看下androidmanifest.xml的包含关系就清楚了。可以没有Activity但是必须有Application
+
+
+###21.Android开发过程中如何进行算法与界面的优化？
+1. 调整程序的进程结构
+减少进程数量(善用ViewStub、ViewSwitch等)
+减少进程周期循环次数，及时让进程休眠
+不编写长寿代码，只在需要时运行，服务应快速完成并立即结束
+2. 调整算法，取消不必要的环节，减少对CPU和内存的需求
+减少函数调用次数
+适当使用JNI
+3. 精心设计界面
+避免复杂布局。控制嵌套和View数量，善用Merge、inflate()、RelativeLayout等
+去除不必要的背景、动画
+执行长时间、耗电的任务之前检查电量、提示用户
