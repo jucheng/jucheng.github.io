@@ -381,3 +381,6 @@ Intent i = new Intent(Intent.ACTION_VIEW,uri); 手机的 Intent 分发过程中�
 **4.extras （附加信息)**
 
 是其它所有附加信息的集合。使用 extras 可以为组件提供扩展信息，比如，如果要执行 “ 发送电子邮件 ” 这个动作，可以将电子邮件的标题、正文等保存在 extras 里，传给电子邮件发送组件。
+
+###20.能说下Android应用的入口点吗?
+真正的Android入口点是application的main，你可以看下androidmanifest.xml的包含关系就清楚了。可以没有Activity但是必须有Application
