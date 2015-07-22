@@ -169,7 +169,7 @@ JVM中类的装载是由ClassLoader和它的子类来实现的,Java ClassLoader 
 
 使用serializable关键字 使用一个输出流构造一个对象流流对象 然后使用对象流对象的writeObject（）就可以将参数为obj的对象写出
 
-#32.Anonymous Inner Class(匿名内部类)是否可以extends(继承)其它类，是否可以implements(实现)interface(接口)？
+###32.Anonymous Inner Class(匿名内部类)是否可以extends(继承)其它类，是否可以implements(实现)interface(接口)？
 匿名内部类可以继承类或实现接口，但不是显示的使用extends或implements来继承或实现。
 
 ###33.ArrayList和Vector的区别,HashMap和Hashtable的区别？
