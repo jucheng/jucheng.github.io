@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Android开发中错误集中营"
-date: 2015-7-22
+date: 2015-7-24
 categories: Android
 tags: [Android，调试]
 ---
