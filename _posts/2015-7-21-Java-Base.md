@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "一些Java基础总结"
+title: "Java基础总结（一）"
 date: 2015-7-21
 categories: Java
 tags: [Java]
 ---
-一些Java基础总结
+Java基础总结（一）
 
 <!-- more -->
 

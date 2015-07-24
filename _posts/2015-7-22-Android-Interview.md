@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "一些android基础总结"
+title: "android基础总结（二）"
 date: 2015-7-22
 categories: Android
 tags: [Android，面试]
 ---
-一些android基础总结
+android基础总结（二）
 
 <!-- more -->
 
