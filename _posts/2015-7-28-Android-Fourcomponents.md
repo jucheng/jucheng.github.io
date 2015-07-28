@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "有关于安卓生命周期的认知"
+title: "有关于Activity的生命周期的认知"
 date: 2015-7-28
 categories: Android
 tags: [Android，四大组件]
 ---
-有关于安卓生命周期的认知
+有关于Activity的生命周期的认知
 
 <!-- more -->
 
