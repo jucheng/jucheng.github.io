@@ -8,6 +8,8 @@ tags: [Android，调试]
 海贼王ListView开发过程中出现的错误
 
 <!-- more -->
+
+
 ###1.activity_main cannot be resolved or is not a field
 
 ![](http://img-storage.qiniudn.com/15-7-30/38942521.jpg)
