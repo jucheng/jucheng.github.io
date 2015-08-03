@@ -3,7 +3,7 @@ layout: post
 title: "说说Android中的ANR"
 date: 2015-7-19
 categories: Android
-tags: [Android,ANR]
+tags: [Android，ANR]
 ---
 说说Android中的ANR
 
