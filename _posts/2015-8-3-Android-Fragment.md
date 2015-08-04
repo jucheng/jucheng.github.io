@@ -44,11 +44,11 @@ tags: [Android，Fragment]
         android:name="com.example.fragmenttest.LeftFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-（
 
+（
 提示：
 
-**我们使用<fragment>在布局汇中动态添加碎片，这里有一点需要注意的是：需要通过android:name属性来显式指明要添加的碎片的类名，一定也要将类的包名加上。**
+####我们使用<fragment>在布局汇中动态添加碎片，这里有一点需要注意的是：需要通过android:name属性来显式指明要添加的碎片的类名，一定也要将类的包名加上。
 
 ）
 
