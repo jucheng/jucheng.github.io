@@ -54,6 +54,7 @@ tags: [Android，Fragment]
 
 
 4.实现动态添加碎片的功能：
+
     public class MainActivity extends Activity implements OnClickListener {
 
 	@Override
