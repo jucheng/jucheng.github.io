@@ -87,23 +87,51 @@ tags: [Android，Fragment]
 
 通过以上的代码我们可以看到，动态添加碎片主要有以下几步：
 
-1.创建待添加的碎片实例：
+**1.创建待添加的碎片实例：**
 
     AnotherRightFragment fragment = new AnotherRightFragment();
 
-2.获取到FragmentManager，在活动中可以直接调用getFragmentManager()方法得到；
+**2.获取到FragmentManager，在活动中可以直接调用getFragmentManager()方法得到；**
 
     FragmentManager fragmentManager = getFragmentManager();
 
-3.开启一个事务，通过调用beginTransaction()开启；
+**3.开启一个事务，通过调用beginTransaction()开启；**
 
      FragmentTransaction transaction = fragmentManager
 					.beginTransaction();
 
-4.向容器内加入碎片，一般使用replace()方法实现，需要传入容器的id和待添加的碎片实例；
+**4.向容器内加入碎片，一般使用replace()方法实现，需要传入容器的id和待添加的碎片实例；**
 
     transaction.replace(R.id.right_layout, fragment);
 
-5.提交事务，调用commit()方法来完成。
+**5.提交事务，调用commit()方法来完成。**
 
      transaction.commit();
+
+(补充：
+
+###在碎片中模拟返回栈
+
+
+我们上边说的是向一个活动当中动态的添加一个碎片，我们可以通过按一个按钮，就可以添加一个碎片，而这个时候，要是我们按下BACK键，程序就会直接退出了，所以，我们在这里要是想像做出返回上一个界面的效果，就是类似于返回栈的效果，按下Back键可以返回到上一个碎片，我们可以用以下的方法：
+
+**实际上Fragment给我们提供了一个addToBackStack（）的方法，可以将一个事务添加到返回栈当中。**
+
+        public void onClick(View v) {
+		switch (v.getId()) {
+		case R.id.button:
+			AnotherRightFragment fragment = new AnotherRightFragment();
+			FragmentManager fragmentManager = getFragmentManager();
+			FragmentTransaction transaction = fragmentManager
+					.beginTransaction();
+			transaction.replace(R.id.right_layout, fragment);
+			transaction.addToBackStack(null);
+			transaction.commit();
+			break;
+		default:
+			break;
+		}
+	}
+
+这个也就是上边我们代码中的一段，**这里我们在提交事务之前，调用了FragmentTransaction的addToBackStack()的方法，他可以接收一个名字用于描述返回栈的状态，。我们一般是传入null即可。**所以在程序执行之后，我们就可以看到，当我们按下按钮进入 AnotherRightFragment之后，当我们按下Back键的时候，程序会先是返回到RightFragment的界面，再次按下Back键的时候，程序才会退出。
+）
