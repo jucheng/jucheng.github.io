@@ -568,6 +568,6 @@ NewsAdapter写了父类的一组构造函数，用于将上下文，ListView子�
 **首先在onCreateView()方法里边加载了我们刚刚创建的new_content_frag布局，然后接下来的就是又提供了一个refresh（）方法，这个方法就是用于将人物的名字和人物的介绍显示在界面上。在这里我们可以看到，这里是通过findViewById（）方法获取到人物的名字和人物介绍的内容控件，然后将方法传递进来的参数设置进去。而这里的setVisibility（）方法，我相信你也不陌生，这个方法的作用就是设置控件的可见性。**
 
 
-###6.
+###6.NewTitleFragment.java
 
 **根据碎片的生命周期，我们可以知道，onAttach（）方法会首先执行，因此在这里我们做了一些数据的初始化，比如调用getNews()方法来获取几条模拟的人物数据，以及完成NewsAdapter的创建。然后在onCreateView（）方法中加载了news_title_frag布局，并给名字列表的点击注册了点击事件。接下来在onActivityCreated（）方法中，我们通过是否能够找到一个id为news_content_layout的VIew来判断当前是双页模式还是单页模式，这个id为news_content_layout的View只在双页模式中出现，在稍后的布局中你将会看到。然后在ListView的点击事件里我们可以判断。如当前是单页模式，那就启动一个新的活动去显示人物介绍的内容，如果当前是双页模式，那就更新人物介绍内容碎片里的数据。**
