@@ -1,4 +1,4 @@
-o---
+---
 layout: post
 title: "碎片最佳实践-简易的海贼王人物介绍Fragment"
 date: 2015-8-6
