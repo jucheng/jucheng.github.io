@@ -204,7 +204,7 @@ NewsAdapter写了父类的一组构造函数，用于将上下文，ListView子�
 效果图：
 ![](http://img-storage.qiniudn.com/15-8-5/90337221.jpg)
 
-**其实从上边的这个图里边，我们课易很清楚的看到，人物介绍的这个布局是分为两个部分的。头部是显示完整的名字，正文部分显示的是人物介绍的内容，中间使用一条细线分割开来。这里的细线是利用ImageView显示了一张很窄的图片来实现的，将ImageView的android:scaleType设置为fitXY，表示让这张图片充满整个控件的大小。**
+**其实从上边的这个图里边，我们可以很清楚的看到，人物介绍的这个布局是分为两个部分的。头部是显示完整的名字，正文部分显示的是人物介绍的内容，中间使用一条细线分割开来。这里的细线是利用ImageView显示了一张很窄的图片来实现的，将ImageView的android:scaleType设置为fitXY，表示让这张图片充满整个控件的大小。**
 
 5.然后又创建一个NewsContentFragment类，继承自Fragment。
 
@@ -292,7 +292,7 @@ NewsAdapter写了父类的一组构造函数，用于将上下文，ListView子�
 
 ）
 
-7.接着就是需啊哟创建一个用于显示名字列表的布局，新建news_title_frag.xml,代码如下：
+7.接着就是需要创建一个用于显示名字列表的布局，新建news_title_frag.xml,代码如下：
 
     <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -506,3 +506,68 @@ NewsAdapter写了父类的一组构造函数，用于将上下文，ListView子�
 **我们在这里是定义了一个layout-sw600dp文件夹，然后在这个文件夹下边新建activity_main.xml布局，这就意味着，当程序运行在屏幕大于600dp的设备上时，会加载layout-sw600dp中的这个activity_main.xml布局。**
 
 **最小限定符是在Android 3.2版本引入的，由于我们虚拟机的版本是4.3的，所以运行上是没问题的。**
+我们最后再次大概说明一下这个功能的大概文件说明吧：
+
+##一.布局方面：
+
+###1.(Layout中的）activity.main.xml:
+
+**在单页的模式下，只会加载一个名字标题的碎片**
+
+###2.news_ content_ fragment.xml
+
+**我们可以很清楚的看到，在这个布局里是主要说明了，人物介绍的这个布局是分为两个部分的。头部是显示完整的名字，正文部分显示的是人物介绍的内容，中间使用一条细线分割开来。这里的细线是利用ImageView显示了一张很窄的图片来实现的，将ImageView的android:scaleType设置为fitXY，表示让这张图片充满整个控件的大小。**
+
+
+###3.news_content.xml
+
+**在这里充分发挥了代码的复用性，直接在布局中引入了NewsContentFragment，这样也就相当于把news_conetent_frag布局中的内容自动加了进来。**
+
+###4.news_item.xml
+
+**这里的布局架构我们可以很清晰的看到，只是在LinearLayout中放入了一个TextView 用于显示要介绍的人物的名字（也就是新闻的标题）**
+
+###5.news_ title_ frag.xml
+
+**这个布局很简单，就是单纯的设置了一个ListView，但是，这个布局是并不是给活动用的，而是给碎片使用的，因此我们还需要创建一个碎片来加载这个布局。**
+
+###6.（layout-sw600dp中的）activity_main.xml
+
+**从代码上我们可以看到在双页模式下，我们同时引入了两个碎片，并将人物介绍的碎片放在了一个FrameLayout布局下，而这个布局的id正是new_ content_ layout。因此，能够找到这个id的时候就是双页模式，否则就是单页模式。** 
+
+##二.类方面：
+###1.MainActivity
+
+**就是加载activity_main.xml的功能，主要增加了一个去掉标题的函数**
+
+###2.News.java
+
+**很简单，就是设置和获取人物的名字和介绍的内容**
+
+###3.NewsAdapter.java
+
+**这个类是名字列表的适配器，也就是一种数据填充器，继承自ArrayAdapter，将泛型指定为News类。
+当然这里的数据填充对象肯定是ListView，创建的数据填充器是NewsAdapter，这里主要是重写了getView（）方法，每当你的ListView里边的item滑动进入你的屏幕的时候，这个方法就会进行重绘
+，通过getItem()方法得到当前项的News（也就是名字）的实例，然后使用 LayoutInflater来为这个子项加载我们传入的布局.**
+
+**getview（）方法中还有一个convertView参数，这个参数就是将之前加载好的布局进行缓存，以便以后可以进行重用。**
+
+**从上述代码中我们可以看到，我们在getview（）方法中进行了判断，如果convertView为空，则使用LayoutInflater去加载布局，如果不为空，则直接对convertView进行重用。这样就大大的提高了ListView的运行效率，在快速滑动的时候也可以表现出更好的性能。**
+
+
+###4. NewsContentActivity.java
+
+**可以看到，在onCreate（）方法中我们通过获取到传入的相对应的名字和人物介绍的内容，然后调用FragmentManager（）的findFragmentById()方法得到NewsContentFragment的实例，接着调用它的refresh（）方法，并将人物的名字和人物介绍的内容传入，这样就可以把这些数据显示出来了。**
+
+**需要注意的是，这里我们调用了一个actionStart（）的方法，这个方法的作用就是：**
+
+**在这个方法中完成了Intent的构建，另外所有的 NewsContentActivity所需要的数据都是通过actionStart（）方法的参数传递进来的，然后把他们存储到Intent当中，最后调用startActivity（）方法启动 NewsContentActivity。**
+
+###5.NewsContentFragment.java
+
+**首先在onCreateView()方法里边加载了我们刚刚创建的new_content_frag布局，然后接下来的就是又提供了一个refresh（）方法，这个方法就是用于将人物的名字和人物的介绍显示在界面上。在这里我们可以看到，这里是通过findViewById（）方法获取到人物的名字和人物介绍的内容控件，然后将方法传递进来的参数设置进去。而这里的setVisibility（）方法，我相信你也不陌生，这个方法的作用就是设置控件的可见性。**
+
+
+###6.
+
+**根据碎片的生命周期，我们可以知道，onAttach（）方法会首先执行，因此在这里我们做了一些数据的初始化，比如调用getNews()方法来获取几条模拟的人物数据，以及完成NewsAdapter的创建。然后在onCreateView（）方法中加载了news_title_frag布局，并给名字列表的点击注册了点击事件。接下来在onActivityCreated（）方法中，我们通过是否能够找到一个id为news_content_layout的VIew来判断当前是双页模式还是单页模式，这个id为news_content_layout的View只在双页模式中出现，在稍后的布局中你将会看到。然后在ListView的点击事件里我们可以判断。如当前是单页模式，那就启动一个新的活动去显示人物介绍的内容，如果当前是双页模式，那就更新人物介绍内容碎片里的数据。**
