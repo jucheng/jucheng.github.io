@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "碎片最佳实践-简易的海贼王人物介绍Fragment"
+title: "Fragment实践-简易的海贼王人物介绍"
 date: 2015-8-6
 categories: Android
 tags: [Android，开发]
 ---
-碎片最佳实践-简易的海贼王人物介绍Fragment
+Fragment实践-简易的海贼王人物介绍
 
 <!-- more -->
 
