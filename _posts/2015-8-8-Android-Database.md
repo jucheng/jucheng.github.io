@@ -3,7 +3,7 @@ layout: post
 title: "如何用Eclipse连接MySQL（自制傻瓜教程）"
 date: 2015-8-8
 categories: Android
-tags: [Android,数据库]
+tags: [Android，数据库]
 ---
 如何用Eclipse连接MySQL（自制傻瓜教程）
 

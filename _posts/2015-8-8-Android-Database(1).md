@@ -3,7 +3,7 @@ layout: post
 title: "MySQL 数据库常用命令小结"
 date: 2015-8-8
 categories: Android
-tags: [Android,数据库]
+tags: [Android，数据库]
 ---
 MySQL 数据库常用命令小结
 

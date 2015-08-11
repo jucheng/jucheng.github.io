@@ -3,7 +3,7 @@ layout: post
 title: "如何在myeclipse中安装tomcat和部署项目到tomcat中
 date: 2015-8-10
 categories: Android
-tags: [Android,Tomcat]
+tags: [Android，Tomcat]
 ---
 如何在myeclipse中安装tomcat和部署项目到tomcat中
 

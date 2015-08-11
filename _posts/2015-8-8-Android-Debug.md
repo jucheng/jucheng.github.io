@@ -3,7 +3,7 @@ layout: post
 title: "Eclipse连接MySQL时的错误"
 date: 2015-8-8
 categories: Android
-tags: [Android,调试]
+tags: [Android，调试]
 ---
 Eclipse连接MySQL时的错误
 
