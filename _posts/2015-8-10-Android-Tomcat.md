@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "如何在myeclipse中安装tomcat和部署项目到tomcat中
+title: "如何在myeclipse中安装tomcat和部署项目到tomcat中"
 date: 2015-8-10
 categories: Android
 tags: [Android，Tomcat]
@@ -8,10 +8,6 @@ tags: [Android，Tomcat]
 如何在myeclipse中安装tomcat和部署项目到tomcat中
 
 <!-- more -->
-
-
-如何在myeclipse中安装tomcat和部署项目到tomcat中
-
 
 一、单击工具栏的的黑小三角或者单击 菜单栏窗口—>首选项，出现首选项对话框，在对话框的左边框中找到Myeclipse—>Application Servers下找到Tomcat选项，如下图，
 
