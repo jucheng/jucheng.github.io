@@ -44,7 +44,8 @@ jre名称(N)选项填上名字（可以随便取），在JRE主目录选项选�
 
 
 ##（附加教程）
-##1.你进入myeclipse,选择file->new->* project 
+
+###1.你进入myeclipse,选择file->new->* project 
 
 然后在菜单栏的window->preferences->myeclipse->server->tomcat->tomcat 5.x ;
 
