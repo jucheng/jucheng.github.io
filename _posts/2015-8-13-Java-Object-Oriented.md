@@ -40,3 +40,5 @@ tags: [Java]
 完整性：类和模块的接口记录了它的全部特征。
 
 基础性：只有访问该抽象的底层表现形式才能够有效的实现那些操作。
+
+转自<http://blog.csdn.net/luoxinwu123/article/details/8446094>
