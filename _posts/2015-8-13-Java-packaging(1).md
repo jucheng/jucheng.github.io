@@ -3,11 +3,12 @@ layout: post
 title: " Java中的封装的简单介绍 "
 date: 2015-8-13
 categories: Java
-tags: [Java，抽象]
+tags: [Java，封装]
 ---
 Java中的封装的简单介绍
 
 <!-- more -->
+
 ###1、什么是封装？
 
 封装就是将属性私有化，提供公有的方法访问私有属性。
