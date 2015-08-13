@@ -10,71 +10,43 @@ tags: [Java，继承]
 
 <!-- more -->
 
-在日常生活中，经常遇到如下问题。有一辆自行车，自行车有颜色和型号大小之分，而公路赛车也有颜色和型号大小之分，公路赛车多了一项速度的优势。自行车有的东西公路赛车全都有，而公路赛车有的东西自行车不一定有，它们相同地方有很多。在Java中，对于这种情况下就采用继承来完成这个功能。
-【范例】通过示例代码来理解什么是继承。
-
-          //这是一个类，表述的是一个自行车  
-        public class bike
-        {
-                public String color;         //自行车的颜色 
-        public int size;                 //自行车的大小,即型号
-        }
-        
-        //这是一个类，表述的是一个公路赛类
-        pubic class racing_cycle
-        {
-                public String color;          //自行车的颜色
-        public int size;              //自行车的大小,即型号
-        public String speed;         //公路赛车的速度
-        }
-
-
-下面就来使用继承来简化上面的程序。
-
-        //这是一个类，表述的是一个自行车
-        public class bike
-        {
-                public String color;        //自行车的颜色
-        public int size;                         //自行车的大小，即型号
-        }
-        //这是一个类，表述的是一个公路赛车，它继承于自行车
-        pubic class racing_cycle extends bike
-        {
-        public String speed;                  //公路赛车的速度
-        }
 
 
 ###1.什么是继承
 
 在日常生活中，经常遇到如下问题。有一辆自行车，自行车有颜色和型号大小之分，而公路赛车也有颜色和型号大小之分，公路赛车多了一项速度的优势。自行车有的东西公路赛车全都有，而公路赛车有的东西自行车不一定有，它们相同地方有很多。在Java中，对于这种情况下就采用继承来完成这个功能。
+在日常生活中，经常遇到如下问题。有一辆自行车，自行车有颜色和型号大小之分，而公路赛车也有颜色和型号大小之分，公路赛车多了一项速度的优势。自行车有的东西公路赛车全都有，而公路赛车有的东西自行车不一定有，它们相同地方有很多。在Java中，对于这种情况下就采用继承来完成这个功能。
 【范例】通过示例代码来理解什么是继承。
-        //这是一个类，表述的是一个自行车  
-        public class bike
+
+         public class bike          //这是一个类，表述的是一个自行车 
         {
-                public String color;         //自行车的颜色 
+
+        public String color;         //自行车的颜色 
         public int size;                 //自行车的大小,即型号
         }
         
-        //这是一个类，表述的是一个公路赛类
-        pubic class racing_cycle
+        pubic class racing_cycle        //这是一个类，表述的是一个公路赛类
         {
                 public String color;          //自行车的颜色
         public int size;              //自行车的大小,即型号
         public String speed;         //公路赛车的速度
         }
 
+
 下面就来使用继承来简化上面的程序。
-        //这是一个类，表述的是一个自行车
-        public class bike
+
+     
+        public class bike      //这是一个类，表述的是一个自行车
         {
                 public String color;        //自行车的颜色
         public int size;                         //自行车的大小，即型号
         }
-        //这是一个类，表述的是一个公路赛车，它继承于自行车
-        pubic class racing_cycle extends bike
+       
+        pubic class racing_cycle extends bike   //这是一个类，表述的是一个公路赛车，它继承于自行车
         {
         public String speed;                  //公路赛车的速度
         }
+
 
 **继承是为了让代码重复使用，提高效率，在此基础上衍生出更多的新类。继承是面向对象编程的特点，没有继承就不是面向对象编程，而是面向过程了。Java提供了单一继承，通过接口可以实现多重继承。本节要说明什么是继承，继承有那些特点。**
 
