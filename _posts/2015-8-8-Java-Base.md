@@ -2,8 +2,8 @@
 layout: post
 title: "详细解析Java中抽象类和接口的区别"
 date: 2015-8-8
-categories: Android
-tags: [Java]
+categories: Java
+tags: [Java，基础知识]
 ---
 详细解析Java中抽象类和接口的区别
 

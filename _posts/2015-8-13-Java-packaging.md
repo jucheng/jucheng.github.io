@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "面向对象—抽象 "
+title: "Java中的封装 "
 date: 2015-8-13
 categories: Java
 tags: [Java，封装]
 ---
-面向对象—抽象
+Java中的封装
 
 <!-- more -->
 

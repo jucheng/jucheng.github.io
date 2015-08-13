@@ -2,8 +2,8 @@
 layout: post
 title: "String与StringBuffer的区别 "
 date: 2015-8-13
-categories: Android
-tags: [Java]
+categories: Java
+tags: [Java，字符串]
 ---
 String与StringBuffer的区别
 

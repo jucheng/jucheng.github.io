@@ -3,7 +3,7 @@ layout: post
 title: "Java的一些基础知识 "
 date: 2015-7-10
 categories: Java
-tags: [Java]
+tags: [Java，基础知识]
 ---
 
 Java的一些基础知识

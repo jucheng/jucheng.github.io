@@ -3,7 +3,7 @@ layout: post
 title: "Java基础总结(二）"
 date: 2015-7-22
 categories: Java
-tags: [Java]
+tags: [Java，基础知识]
 ---
 Java基础总结(二）
 

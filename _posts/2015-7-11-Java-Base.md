@@ -3,7 +3,7 @@ layout: post
 title: "抽象类与接口 "
 date: 2015-7-11
 categories: Java
-tags: [Java]
+tags: [Java，基础知识]
 ---
 抽象类与接口 
 
