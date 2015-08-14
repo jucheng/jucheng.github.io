@@ -5,7 +5,7 @@ date: 2015-8-14
 categories: Java
 tags: [Java，多态]
 ---
-**String与StringBuffer的区别**
+Java多态性详解
 
 <!-- more -->
 
