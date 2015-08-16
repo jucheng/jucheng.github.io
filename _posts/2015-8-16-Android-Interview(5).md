@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Android开发面试经验——6.常见面试官提问Android题"
+title: " Android开发面试经验——5.常见面试官提问Android题"
 date: 2015-8-16
 categories: Android
 tags: [Android，面试]
@@ -192,3 +192,5 @@ Service，广播 会出现ANR
 平时用的比较多有单例模式（在内存中仅实例化一个对象时使用），适配器模式（典型的就是ListView和GridView的适配器），建造者模式（AlertDialog.Builder）,观察者模式可能比较隐蔽，在Android源码中BaseAdapater的NotifyDataSetChanged的实现（？） 
 
 单例：DownloadManager
+
+转自<http://blog.csdn.net/sbvfhp/article/details/44814915>
