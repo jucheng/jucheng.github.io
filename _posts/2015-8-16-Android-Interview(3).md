@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Android开发面试经验——4.常见Android进阶笔试题"
+title: "Android开发面试经验——3.常见Android进阶笔试题"
 date: 2015-8-16
 categories: Android
 tags: [Android，面试]
 ---
-Android开发面试经验——4.常见Android进阶笔试题
+Android开发面试经验——3.常见Android进阶笔试题
 
 <!-- more -->
 
@@ -232,3 +232,5 @@ NDK 全称：Native Development Kit。
 
 因为设置给ViewStub的只能是某个布局文件的Id，所以无法让它来控制某个View。 
 所以，如果想要控制某个View(如Button或TextView)的显示与隐藏，或者想要在运行时不断的显示与隐藏某个布局或View，只能使用View的可见性来控制。
+
+转自<http://blog.csdn.net/sbvfhp/article/details/44814809>
