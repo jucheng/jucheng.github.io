@@ -1,11 +1,11 @@
 ---
 layout: post
-title: " Android开发面试经验——5.常见面试官提问Android题"
+title: " Android开发面试经验——4.常见面试官提问Android题"
 date: 2015-8-16
 categories: Android
 tags: [Android，面试]
 ---
- Android开发面试经验——5.常见面试官提问Android题
+ Android开发面试经验——4.常见面试官提问Android题
 
 <!-- more -->
 
@@ -259,3 +259,4 @@ BlankActivity手动触发GC进行前后对比，对象是否被及时回收
 
 观测到期间的内存分配，哪些对象被创建，什么时候创建，从而准确定位
 
+转自<http://blog.csdn.net/sbvfhp/article/details/44814759>
