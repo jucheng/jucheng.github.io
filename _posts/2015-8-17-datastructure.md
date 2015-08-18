@@ -2,7 +2,7 @@
 layout: post
 title: " 散列函数的构造方法 "
 date: 2015-8-18
-categories: IT
+categories: 数据结构
 tags: [数据结构]
 ---
 散列函数的构造方法
