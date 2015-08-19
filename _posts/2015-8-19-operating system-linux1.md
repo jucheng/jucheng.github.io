@@ -17,14 +17,14 @@ Linux系统平均负载3个数字的含义
 
 在Linux shell下，有很多命令可以看到Load Average，例如：
 
-root@Slyar.com:~# uptime
-12:49:10 up 182 days, 16:54, 2 users, load average: 0.08, 0.04, 0.01
+    root@Slyar.com:~# uptime
+    12:49:10 up 182 days, 16:54, 2 users, load average: 0.08, 0.04, 0.01
 
-root@Slyar.com:~# w
-12:49:18 up 182 days, 16:54, 2 users, load average: 0.11, 0.07, 0.01
+    root@Slyar.com:~# w
+    12:49:18 up 182 days, 16:54, 2 users, load average: 0.11, 0.07, 0.01
 
-root@Slyar.com:~# top
-top - 12:50:28 up 182 days, 16:55, 2 users, load average: 0.02, 0.05, 0.00
+    root@Slyar.com:~# top
+    top - 12:50:28 up 182 days, 16:55, 2 users, load average: 0.02, 0.05, 0.00
 
 先大致给一下这3个数字的含义：分别表示系统在过去1分钟、5分钟、15分钟内运行进程队列中的平均进程数量。
 
@@ -32,8 +32,8 @@ top - 12:50:28 up 182 days, 16:55, 2 users, load average: 0.02, 0.05, 0.00
 
 另外还有一个最直接的显示系统平均负载的命令
 
-root@Slyar.com:~# cat /proc/loadavg
-0.10 0.06 0.01 1/72 29632
+    root@Slyar.com:~# cat /proc/loadavg
+    0.10 0.06 0.01 1/72 29632
 
 除了前3个数字表示平均进程数量外，后面的1个分数，分母表示系统进程总数，分子表示正在运行的进程数；最后一个数字表示最近运行的进程ID.
 
@@ -41,7 +41,7 @@ root@Slyar.com:~# cat /proc/loadavg
 
 只是上面那一句话的解释，基本等于没解释。写这篇文章的缘由就是因为看到了一篇老外写的关于Load Average的文章，觉得解释的很好，所以才打算摘取一部分用自己的话翻译一下。
 
-@scoutapp Thanks for your article Understanding Linux CPU Load, I just translate and share it to Chinese audiences.
+    @scoutapp Thanks for your article Understanding Linux CPU Load, I just translate and share it to Chinese audiences.
 
 为了更好地理解系统负载，我们用交通流量来做类比。
 
