@@ -201,6 +201,7 @@ A: n  B: n+1    C: n-1   D:n+边数
 图的邻接表表示:
 
 ![](http://img-storage.qiniudn.com/15-8-18/69143950.jpg)
+
 ####13.
 ![](http://img-storage.qiniudn.com/15-8-18/87250450.jpg)
 
