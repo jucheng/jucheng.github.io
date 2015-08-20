@@ -198,5 +198,7 @@ tags: [算法]
 
 ####（6）稳定性
  
-**快速排序是非稳定的**，例如[2，2，1]。
+**快速排序是非稳定的**，例如[2，2，1]。‘
+
+本文转自<http://student.zjzk.cn/course_ware/data_structure/web/paixu/paixu8.3.2.1.htm>
 
