@@ -156,3 +156,5 @@ Java的内存机制
 
 
 **在计算机内存中主要来自四个地方：heap segment（堆区）、stacksegment（栈区）、codesegment（代码区）、data segment（数据区）；不同的地方存放不同数据：其中堆区主要存放Java程序运行时创建的所有引用类型都放在其中；栈区主要存放Java程序运行时所需的局部变量、方法的参数、对象的引用以及中间运算结果等数据；代码区主要存放Java的代码；数据区主要存放静态变量及全局变量**
+
+本文转自<http://blog.csdn.net/xuxurui007/article/details/17127191>
