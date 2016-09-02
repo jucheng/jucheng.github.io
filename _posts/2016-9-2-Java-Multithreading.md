@@ -68,6 +68,7 @@ Tread类中的join方法的简单使用
 ![](http://obzqtmk2d.bkt.clouddn.com/3.PNG)
 
 2、采用了join()方法的运行结果：
+
 ![](http://obzqtmk2d.bkt.clouddn.com/1.PNG)
 
 
