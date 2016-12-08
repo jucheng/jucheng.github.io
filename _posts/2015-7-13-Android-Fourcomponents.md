@@ -9,11 +9,11 @@ android四大组件详解
 
 <!-- more -->
 
-###android四大组件分别为activity、service、content provider、broadcast receiver。
+### android四大组件分别为activity、service、content provider、broadcast receiver。
 
-##一、android四大组件详解
+## 一、android四大组件详解
 
-##1、activity
+## 1、activity
 
 （1）一个Activity通常就是一个单独的屏幕（窗口）。
 
@@ -21,7 +21,7 @@ android四大组件详解
 
 （3）android应用中每一个Activity都必须要在AndroidManifest.xml配置文件中声明，否则系统将不识别也不执行该Activity。
 
-##2、service
+## 2、service
 
 ###（1）service用于在后台完成用户指定的操作。service分为两种：
 
@@ -29,19 +29,19 @@ android四大组件详解
 
 （b）bound（绑定）：当应用程序组件调用bindService()方法绑定到服务时，服务处于bound状态。
 
-###(2)startService()与bindService()区别：
+### (2)startService()与bindService()区别：
 
 (a)started service（启动服务）是由其他组件调用startService()方法启动的，这导致服务的onStartCommand()方法被调用。当服务是started状态时，其生命周期与启动它的组件无关，并且可以在后台无限期运行，即使启动服务的组件已经被销毁。因此，服务需要在完成任务后调用stopSelf()方法停止，或者由其他组件调用stopService()方法停止。
 
 (b)使用bindService()方法启用服务，调用者与服务绑定在了一起，调用者一旦退出，服务也就终止，大有“不求同时生，必须同时死”的特点。
 
-###(3)
+### (3)
 开发人员需要在应用程序配置文件中声明全部的service，使用<service></service>标签。
 
-###(4)
+### (4)
 Service通常位于后台运行，它一般不需要与用户交互，因此Service组件没有图形用户界面。Service组件需要继承Service基类。Service组件通常用于为其他组件提供后台服务或监控其他组件的运行状态。
 
-##3、content provider
+## 3、content provider
 
 ###（1）
 
@@ -59,7 +59,7 @@ ContentProvider实现数据共享。ContentProvider用于保存和获取数据�
 ###（5）
 ContentProvider使用URI来唯一标识其数据集，这里的URI以content://作为前缀，表示该数据由ContentProvider来管理。
 
-##4、broadcast receiver
+## 4、broadcast receiver
 
 ####（1）
 你的应用可以使用它对外部事件进行过滤，只对感兴趣的外部事件(如当电话呼入时，或者数据网络可用时)进行接收并做出响应。广播接收器没有用户界面。然而，它们可以启动一个activity或serice来响应它们收到的信息，或者用NotificationManager来通知用户。通知可以用很多种方式来吸引用户的注意力，例如闪动背灯、震动、播放声音等。一般来说是在状态栏上放一个持久的图标，用户可以打开它并获取消息。
@@ -70,7 +70,7 @@ ContentProvider使用URI来唯一标识其数据集，这里的URI以content://�
 ###（3）
 动态注册广播接收器特点是当用来注册的Activity关掉后，广播也就失效了。静态注册无需担忧广播接收器是否被关闭，只要设备是开启状态，广播接收器也是打开着的。也就是说哪怕app本身未启动，该app订阅的广播在触发时也会对它起作用。
 
-##二、android四大组件总结：
+## 二、android四大组件总结：
 
 ###（1）4大组件的注册
 

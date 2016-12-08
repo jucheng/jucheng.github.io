@@ -8,7 +8,7 @@ categories: Android
 Android Studio 图片使用问题
 
 <!-- more -->
-####今天在Amdroid Studio 上边用FrameLayout布局做一个普通的图片应用的时候，代码基本都已经编写完毕了，但是在程序编译的时候却出现了一个让我意想不到的问题，就是关于我所插入的图片的格式问题，相信很多友友在使用Android Studio的时候都出现过这个问题，
+#### 今天在Amdroid Studio 上边用FrameLayout布局做一个普通的图片应用的时候，代码基本都已经编写完毕了，但是在程序编译的时候却出现了一个让我意想不到的问题，就是关于我所插入的图片的格式问题，相信很多友友在使用Android Studio的时候都出现过这个问题，
 ![](http://img-storage.qiniudn.com/15-7-2/39442750.jpg)
 （注：可能这样是看不清楚的，他的内容是这样的：
 
@@ -41,7 +41,7 @@ Android Studio 图片使用问题
 
 
 
-##在这里附上那个图片转换器的网站和操作说明：
+## 在这里附上那个图片转换器的网站和操作说明：
 
 1.这个是图片转换器的网站
 <http://romannurik.github.io/AndroidAssetStudio/nine-patches.html>

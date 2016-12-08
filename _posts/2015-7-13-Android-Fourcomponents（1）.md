@@ -16,7 +16,7 @@ Content Provider 属于Android应用程序的组件之一，作为应用程序�
 
  
 
-##① Activity
+## ① Activity
 
 它是Android应用中负责与用户交互的组件——大致上把它想象成Swing编程中的JFrame控件。不过它与JFrame的区别在于：JFrame本身可以设置布局管理器，不断地向JFrame中添加组件，但Activity只能通过setContentView(View)来显示指定组件。
 
@@ -28,13 +28,13 @@ View组件是所有UI控件、容器控件的基类，View组件就是Android应
 
  
 
-##② Service
+## ② Service
 
 它与Activity的地位是并列的，它也代表一个单独的Android组件。Service与Activity的区别在于：Service通常位于后台运行，它一般不需要与用户交互，因此Service组件没有图形用户界面。Service组件需要继承Service基类。一个Service组件被运行起来之后，它将拥有自己独立的生命周期，Service组件通常用于为其他组件提供后台服务或监控其他组件的运行状态。
 
  
 
-##③ BroadcastReceiver
+## ③ BroadcastReceiver
 
 它是Android应用中另一个重要的组件，BroadcastReceiver代表广播消息接收器。从代码实现角度来看，BroadcastReceiver非常类似于事件编程中的监听器。与普通事件监听器不同的是：普通事件监听器监听的事件源是程序中的对象;而BroadcastReceiver监听的事件源Android应用中的其他组件。使用BroadcastReceiver组件接收广播消息比较简单，开发者只要实现自己的BroadcastReceiver子类，并重写onReceive(Context context,Intent intent)方法即可。当其他组件通过sendBroadcast()、sendStickyBroadcst()或sendOrderedBroadcast()方法发送广播时，如该BroadcastReceiver也对该消息“感兴趣”（通过IntentFilter配置），BroadcastReceiver的onReceive(Context context,Intent intent)方法将会被触发。   开发者实现里自己的BroadcastReceiver之后，通常有两种方式来注册这个系统级的“事件监听器”。
 
@@ -44,7 +44,7 @@ View组件是所有UI控件、容器控件的基类，View组件就是Android应
 
  
 
-##④ ContentProvider
+## ④ ContentProvider
 
  对于Android应用而言，组件必须相互独立，如果这些Android应用之间需要实现实时的数据交换。例如我们开发里一个发送短信的程序，当发送短信时需要从联系人管理应用中读取指定联系人的数据----这就需要多个应用程序之间进行实时的数据交换。
 

@@ -123,7 +123,7 @@ View的布局显示方式直接影响用户界面，View的布局方式是指一
    若赋一个高于零的值，则将父视图中的可用空间分割，分割大小具体取决于每一个视图的layout_weight值以及该值在当前屏幕布局的整体layout_weight值和在其它视图屏幕布局的layout_weight值中所占的比率而定。举个例子：比如说我们在 水平方向上有一个文本标签和两个文本编辑元素。该文本标签并无指定layout_weight值，所以它将占据需要提供的最少空间。如果两个文本编辑元素每一个的layout_weight值都设置为1，则两者平分在父视图布局剩余的宽度(因为我们声明这两者的重要度相等)。如果两个文本编辑元素其中第一个的layout_weight值设置为1，而第二个的设置为2，则剩余空间的三分之二分给第一个，三分之一分给第二个(数值越小，重要度越高)。 
 
 
-###3、相对布局（Relative Layout）
+### 3、相对布局（Relative Layout）
 **相对布局**：是一个ViewGroup以相对位置显示它的子视图（view）元素，一个视图可以指定相对于它的兄弟视图的位置（例如在给定视图的左边或者下面）或相对于RelativeLayout的特定区域的位置（例如底部对齐，或中间偏左）。
 
 相对布局是设计用户界面的有力工具，因为它消除了嵌套视图组。**如果你发现你使用了多个嵌套的LinearLayout视图组后，你可以考虑使用一个RelativeLayout视图组了**。看下面的res/layour/main.xml： 
@@ -241,7 +241,7 @@ View的布局显示方式直接影响用户界面，View的布局方式是指一
 
 
 
-###5、列表视图（List View）
+### 5、列表视图（List View）
 
 **列表布局**：是一个ViewGroup以列表显示它的子视图（view）元素，列表是可滚动的列表。列表元素通过ListAdapter自动插入到列表。
 
@@ -253,7 +253,7 @@ View的布局显示方式直接影响用户界面，View的布局方式是指一
 **public abstract boolean  isEnabled (int position) **：判断指定位置的元素是否可激活的？
 下面通过一个例子来，创建一个可滚动的列表，并从一个字符串数组读取列表元素。当一个元素被选择时，显示该元素在列表中的位置的消息。
 
-###1)、首先，将res/layour/main.xml的内容置为如下： 
+### 1)、首先，将res/layour/main.xml的内容置为如下： 
 
 
     <?xml version="1.0" encoding="utf-8"?> 
@@ -266,7 +266,7 @@ View的布局显示方式直接影响用户界面，View的布局方式是指一
 
 这样就定义了元素在列表中的布局。
 
-###2)、src/skynet.com.cnblogs.www/HelloWorld.java文件的代码如下：
+### 2)、src/skynet.com.cnblogs.www/HelloWorld.java文件的代码如下：
 
 package skynet.com.cnblogs.www;
 
@@ -325,7 +325,7 @@ setOnItemClickListener(OnItemClickListener)定义了每个元素的点击（on-c
    NOTE:如果你改了HelloWorld extends ListActivity 而不是Activity之后，运行程序是提示：“Conversion to Dalvik format failed with error 1”。可以这么解决：解决办法是 Project > Clean... > Clean project selected below > Ok
 
 
-###5.1、一个小的改进
+### 5.1、一个小的改进
 
 上面我们是把要填充到ListView中的元素硬编码到HelloWorld.java文件中，这样就缺乏灵活性！也不符合推荐的应用程序的界面与控制它行为的代码更好地分离的准则！
 
@@ -348,7 +348,7 @@ setOnItemClickListener(OnItemClickListener)定义了每个元素的点击（on-c
 String[] countries = getResources().getStringArray(R.array.countries_array); 
 setListAdapter(new ArrayAdapter<String>(this, R.layout.list_item, countries));
 
-###5.2、补充说明
+### 5.2、补充说明
 
 **首先总结一下列表布局的关键部分：**
 
@@ -374,7 +374,7 @@ List<Map<String,?>>: SimpleAdapter
 使用ArrayAdapter（数组适配器）顾名思义，需要把数据放入一个数组以便显示，上面的例子就是这样的；SimpleAdapter能定义各种各样的布局出来，可以放上ImageView（图片），还可以放上Button（按钮），CheckBox（复选框）等等；SimpleCursorAdapter是和数据库有关的东西。篇幅有限后面两种就不举例实践了。你可以参考android ListView详解orArrayAdapter ,SimpleAdapter ,SimpleCursorAdapter 区别。
 
 
-###6、网格视图（Grid View）
+### 6、网格视图（Grid View）
 
 **网格布局**：是一个ViewGroup以网格显示它的子视图（view）元素，即二维的、滚动的网格。网格元素通过ListAdapter自动插入到网格。ListAdapter跟上面的列表布局是一样的，这里就不重复累述了。
 
@@ -496,7 +496,7 @@ setPadding(int, int, int, int)：定义补距，如果图片有不同的横纵�
                         图8、网格布局
 
 
-###7、绝对布局（AbsoluteLayout）
+### 7、绝对布局（AbsoluteLayout）
 
 绝对布局：是一个ViewGroup以绝对方式显示它的子视图（view）元素，即以坐标的方式来定位在屏幕上位置。
 
@@ -521,7 +521,7 @@ setPadding(int, int, int, int)：定义补距，如果图片有不同的横纵�
 
 
 
-###8、标签布局（Tab Layout）
+### 8、标签布局（Tab Layout）
 
 **标签布局：是一个ViewGroup以标签的方式显示它的子视图（view）元素，就像在Firefox中的一个窗口中显示多个网页一样。**
 
