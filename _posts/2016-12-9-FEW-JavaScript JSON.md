@@ -79,6 +79,7 @@ json数组
     "age":24,
     "love":"Online Game"
      }
+
 > 从上我们可以看出这就是用字面量表示一个对象，而这个格式就是json格式的， 因为本身json就是JavaScript语法集的一种，所以json字面量就是用json格式的JavaScript对象字面量。
  
 > json放到JavaScript中执行是合法代码，是JavaScript对象字面量，但是JavaScript对象字面量不一定是json
