@@ -28,7 +28,7 @@ Trident实际上是一款开放的内核，其接口内核设计的相当成熟�
 
 国内很多的双核浏览器的其中一核便是 Trident，美其名曰 “兼容模式”。
 
-Window10 发布后，IE 将其内置浏览器命名为 Edge，Edge 最显著的特点就是新内核 EdgeHTML。关于 Edge 浏览器更多可以参考 <p><a href="https://www.zhihu.com/question/29985708"> 如何评价 Microsoft Edge 浏览器？</a> </p>
+Window10 发布后，IE 将其内置浏览器命名为 Edge，Edge 最显著的特点就是新内核 EdgeHTML。关于 Edge 浏览器更多可以参考 <a href="https://www.zhihu.com/question/29985708"> 如何评价 Microsoft Edge 浏览器？</a> 
 
 ### 二、Gecko ([‘gekəʊ])
 
