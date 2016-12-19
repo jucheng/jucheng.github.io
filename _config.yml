@@ -1,5 +1,5 @@
 ﻿markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 exclude: ["*.bat","README.md", "Rakefile.rb"]
 permalink: blog/:year/:month/:day/:title.html
 paginate: 5
