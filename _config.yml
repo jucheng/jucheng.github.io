@@ -1,5 +1,5 @@
 ﻿markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 exclude: ["*.bat","README.md", "Rakefile.rb"]
 permalink: blog/:year/:month/:day/:title.html
 paginate: 5
@@ -7,7 +7,7 @@ paginate_path: page/:num
 
 blog:
     name: jucheng                                         # 博客名称
-    description: "压力不是有人比你努力，而是比你牛几倍的人，依然在努力"                        # 博客描述
+    description: "男人身上的品质就是有梦想。如果选择一种方式死去，我希望是在工作中死去。"                        # 博客描述
     title: jucheng                                         # 网页标题
     url: http://jucheng.github.io                    # 博客地址
     duoshuo:  jucheng                                         # 多说ID

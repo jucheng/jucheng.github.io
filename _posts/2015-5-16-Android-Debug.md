@@ -10,12 +10,10 @@ Android开发中错误集中营
 <!-- more -->
 
 
-### 1.eclipse的左侧的导航栏有时候会不见了的的调节方法：
-
+###1.eclipse的左侧的导航栏有时候会不见了的的调节方法：
 ![](http://img-storage.qiniudn.com/15-7-24/23716141.jpg)
 
-### 2.在这个过程中遇到了以下这个的问题，这是一个布局里边比较常见的问题：
-
+###2.在这个过程中遇到了以下这个的问题，这是一个布局里边比较常见的问题：
 就是其中的：
 
 **tools:context=".MainActivity"**
@@ -29,14 +27,13 @@ Android开发中错误集中营
 
 每一个元素都看作一个矩形的话，leftMargin就是本元素的矩形与左侧元素的矩形的间隔
 
-### 3.一直没有搞懂android:padding和android:layout_margin的区别，其实概念很简单。
-
+###3.一直没有搞懂android:padding和android:layout_margin的区别，其实概念很简单。
 padding是站在父view的角度描述问题，它规定它里面的内容必须与这个父view边界的距离;
 
 margin则是站在自己的角度描述问题，规定自己和其他（上下左右）的view之间的距离，如果同一级只有一个view，那么它的效果基本上就和padding一样了。
 
 
-### 4.在一个Android的project中，如何在src目录的包里面新建java源文件？
+###4.在一个Android的project中，如何在src目录的包里面新建java源文件？
 
 A在你想添加java文件的package处右键，新建class； 
 
@@ -44,16 +41,14 @@ B.然后手动添加代码让它继承activity(extends activity)；
 
 C.接下来你可以直接在类中重写方法protected void onCreate(Bundle savedInstanceState)， 也可以按快捷键shift+alt+s，从里面选择onCreate()方法。
 
-### 5.一张让你了解AndroidManifest.xml的图
-
+###5.一张让你了解AndroidManifest.xml的图
 AndroidManifest 里面配置权限、网络、启动等。xml 配置布局等。
 
 ![](http://img-storage.qiniudn.com/15-7-24/65842547.jpg)
 
 
 
-### 6.在运行项目到真机的时候一般会出现一个常见的问题
-
+###6.在运行项目到真机的时候一般会出现一个常见的问题
 ![](http://img-storage.qiniudn.com/15-7-24/75102320.jpg)
 
 这个问题一般是由于adb端口的问题，所以根据下述方法即可解决：
@@ -76,37 +71,30 @@ E:\ADT\adt-bundle-windows-x86_64-20131030\sdk\platform-tools
 
 ![](http://img-storage.qiniudn.com/15-7-24/17621499.jpg)
 
-### 7.要想找到相对应的文件夹下边的话，是用到以下的方法：
-
+###7.要想找到相对应的文件夹下边的话，是用到以下的方法：
 ![](http://img-storage.qiniudn.com/15-7-24/16639161.jpg)
 
 所以就是cd E:\ADT\adt-bundle-windows-x86_64-20131030\sdk\platform-tools
 之后的方法就是按照之前的那个来做了的。
 
-### 8. "cannot be resolved or is not a field"问题
-
+###8. "cannot be resolved or is not a field"问题
 ![](http://img-storage.qiniudn.com/15-7-24/52522316.jpg)
 
-### 9.如果你要添加一个重写的方法的话：
-
+###9.如果你要添加一个重写的方法的话：
 ![](http://img-storage.qiniudn.com/15-7-24/95895413.jpg)
 
-### 10.error: Error: Color value not valid -- must be #rgb, #argb, #rrggbb, or #aarrggbb (at 'textColor' with value '#FFFFF').
-
+###10.error: Error: Color value not valid -- must be #rgb, #argb, #rrggbb, or #aarrggbb (at 'textColor' with value '#FFFFF').
 这个错误如下述所说的就是你设置的颜色的值错误了：
 
 ![](http://img-storage.qiniudn.com/15-7-24/29630481.jpg)
 
-### 11.[2015-05-06 12:14:06 - myTabTest] Unable to resolve target 'android-8'
+###11.[2015-05-06 12:14:06 - myTabTest] Unable to resolve target 'android-8'
 
 意思就是没有找到“android_6”，这里的6不是android版本，而是API版本。
-
 打开项目文件里的default.properties，把target=android-6改成你有的版本。 
-
 android SDK 目录下的platforms文件夹内有你下载的全部版本。
 
 解决方法：
-
 就是右键项目，打开properties ，选择android 那个栏目，给那个target打上钩钩就行了。
 
 ![](http://img-storage.qiniudn.com/15-7-24/23480834.jpg)

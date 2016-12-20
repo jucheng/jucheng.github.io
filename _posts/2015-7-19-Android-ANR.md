@@ -11,13 +11,13 @@ tags: [Android，ANR]
 
 有过Android开发经历的人都不会对ANR陌生，它和崩溃一样是程序设计的问题。本文将以较为深入的视角来介绍什么是ANR，出现场景，如何避免以及如何定位分析ANR,希望可以帮助大家在编写程序时有所帮助。
 
-## 什么是ANR
+##什么是ANR
 
 ANR全称 Application Not Responding ，意思就是程序未响应。如果一个应用无法响应用户的输入，系统就会弹出一个ANR对话框，如下图所示,用户可以自行选择继续等待亦或者是停止当前程序。
 
 ![](http://img-storage.qiniudn.com/15-7-19/23345988.jpg)
 
-### 出现场景
+###出现场景
 
 主线程被IO操作（从4.0之后网络IO不允许在主线程中）阻塞。
 
@@ -25,13 +25,13 @@ ANR全称 Application Not Responding ，意思就是程序未响应。如果一�
 
 主线程中错误的操作，比如Thread.wait或者Thread.sleep等
 
-### Android系统会监控程序的响应状况，一旦出现下面两种情况，则弹出ANR对话框
+###Android系统会监控程序的响应状况，一旦出现下面两种情况，则弹出ANR对话框
 
 应用在 5秒 内未响应用户的输入事件（如按键或者触摸）
 
 BroadcastReceiver未在 10秒 内完成相关的处理
 
-### 如何避免
+###如何避免
 
 **基本的思路就是将IO操作在工作线程来处理，减少其他耗时操作和错误操作**
 
@@ -45,7 +45,7 @@ Activity的onCreate和onResume回调中尽量避免耗时的代码
 
 BroadcastReceiver中onReceive代码也要尽量减少耗时，建议使用IntentService处理。
 
-### 画龙点睛
+###画龙点睛
 
 **通常100到200毫秒就会让人察觉程序反应慢，为了更加提升响应，可以使用下面的几种方法**
 
@@ -55,7 +55,7 @@ BroadcastReceiver中onReceive代码也要尽量减少耗时，建议使用Intent
 
 使用Systrace和TraceView找出影响响应的问题。
 
-### 如何定位
+###如何定位
 
 如果开发机器上出现问题，我们可以通过查看 /data/anr/traces.txt 即可，最新的ANR信息在最开始部分。我们从stacktrace中即可找到出问题的具体行数。本例中问题出现在MainActivity.java 27行，因为这里调用了Thread.sleep方法。
 

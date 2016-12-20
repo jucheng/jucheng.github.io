@@ -9,7 +9,7 @@ BitMap类
 
 <!-- more -->
 
-## BitMap类： 
+##BitMap类： 
 
 
 **public void recycle()——回收位图占用的内存空间，把位图标记为Dead** 
@@ -32,7 +32,7 @@ format：Bitmap.CompressFormat.PNG或Bitmap.CompressFormat.JPEG
 
 quality：画质，0-100.0表示最低画质压缩，100以最高画质压缩。对于PNG等无损格式的图片，会忽略此项设置。 
 
-## 常用的静态方法： 
+##常用的静态方法： 
 **public static Bitmap createBitmap(Bitmap src) ——以src为原图生成不可变得新图像 **
 
 public static Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight, boolean filter)——以src为原图，创建新的图像，指定新图像的高宽以及是否可变。 
@@ -44,9 +44,9 @@ public static Bitmap createScaledBitmap(Bitmap src, int dstWidth, int dstHeight,
 public static Bitmap createBitmap(Bitmap source, int x, int y, int width, int height,  Matrix m, boolean filter) 
 
 
-## BitmapFactory工厂类： 
+##BitmapFactory工厂类： 
 
-#### Option 参数类： 
+####Option 参数类： 
 
 public boolean inJustDecodeBounds——如果设置为true，不获取图片，不分配内存，但会返回图片的高度宽度信息。
  
@@ -64,13 +64,13 @@ public int inTargetDensity——用于目标位图的像素压缩比（要生成
 
 public boolean inScaled——设置为true时进行图片压缩，从inDensity到inTargetDensity。 
 
-#### 读取一个文件路径得到一个位图。如果指定文件为空或者不能解码成文件，则返回NULL。 
+####读取一个文件路径得到一个位图。如果指定文件为空或者不能解码成文件，则返回NULL。 
 
 public static Bitmap decodeFile(String pathName, Options opts) 
 
 public static Bitmap decodeFile(String pathName) 
 
-#### 读取一个资源文件得到一个位图。如果位图数据不能被解码，或者opts参数只请求大小信息时，则返回NuLL。 
+####读取一个资源文件得到一个位图。如果位图数据不能被解码，或者opts参数只请求大小信息时，则返回NuLL。 
 
 （即当Options.inJustDecodeBounds=true,只请求图片的大小信息。）
  
@@ -78,11 +78,11 @@ public static Bitmap decodeResource(Resources res, int id)
 
 public static Bitmap decodeResource(Resources res, int id, Options opts) 
 
-#### 从输入流中解码位图 
+####从输入流中解码位图 
 
 public static Bitmap decodeStream(InputStream is) 
 
-#### 从字节数组中解码生成不可变的位图 
+####从字节数组中解码生成不可变的位图 
 
 public static Bitmap decodeByteArray(byte[] data, int offset, int length) 
 
@@ -101,7 +101,7 @@ public BitmapDrawable(Resources res, java.io.InputStream is)——Create a drawa
 
 
 
-### 首先介绍我们最常用的Bitmap(位图)。位图是我们开发中最常用的资源，毕竟一个漂亮的界面对用户是最有吸引力的。按照对位图的操作，分为以下几个功能分别介绍：
+###首先介绍我们最常用的Bitmap(位图)。位图是我们开发中最常用的资源，毕竟一个漂亮的界面对用户是最有吸引力的。按照对位图的操作，分为以下几个功能分别介绍：
  
 从资源中获取位图 
 
@@ -113,13 +113,13 @@ public BitmapDrawable(Resources res, java.io.InputStream is)——Create a drawa
 
 位图旋转 
 
-### 1. 从资源中获取位图 
+###1. 从资源中获取位图 
 
 可以使用BitmapDrawable或者BitmapFactory来获取资源中的位图。 
 
 当然，首先需要获取资源： Resources res=getResources(); 
 
-### 使用BitmapDrawable获取位图 
+###使用BitmapDrawable获取位图 
 
    **1.使用BitmapDrawable (InputStream is)构造一个BitmapDrawable；** 
    
@@ -161,7 +161,7 @@ BitmapFactory的所有函数都是static，这个辅助类可以通过资源ID�
 
 
 
-### 2. 获取位图的信息 
+###2. 获取位图的信息 
 
 要获取位图信息，比如位图大小、是否包含透明度、颜色格式等，获取得到Bitmap就迎刃而解了，这些信息在Bitmap的函数中可以轻松获取到。Android SDK中对Bitmap有详细说明，阅读起来也比较容易，不在此详细说明，这里只是辅助说明以下2点： 
 
@@ -169,7 +169,7 @@ BitmapFactory的所有函数都是static，这个辅助类可以通过资源ID�
 
 Bitmap还提供了compress()接口来压缩图片，不过AndroidSAK只支持PNG、JPG格式的压缩；其他格式的需要Android开发人员自己补充了。 
 
-### 3. 显示位图 
+###3. 显示位图 
 
 显示位图可以使用核心类Canvas，通过Canvas类的drawBirmap()显示位图，或者借助于BitmapDrawable来将Bitmap绘制到Canvas。当然，也可以通过BitmapDrawable将位图显示到View中。 
 
@@ -208,7 +208,7 @@ Java代码
     }    
 }  
 
-### 4. 位图缩放 
+###4. 位图缩放 
 
 （1）将一个位图按照需求重画一遍，画后的位图就是我们需要的了，与位图的显示几乎一样：drawBitmap(Bitmap bitmap, Rect src, Rect dst, Paint paint)。 
 
@@ -227,7 +227,7 @@ Java代码
     canvas.drawBitmap(dstbmp, 10, 10, null);    
      
 
-### 5. 位图旋转 
+###5. 位图旋转 
 同样，位图的旋转也可以借助Matrix或者Canvas来实现。Matrix在线性代数中都学习过，Android SDK提供了Matrix类，可以通过各种接口来设置矩阵。结合上面的例子程序，将位图缩放例子程序在显示位图的时候前，增加位图旋转功能，修改代码如下： 
 
     Matrix matrix = new Matrix(); 
@@ -244,6 +244,6 @@ Java代码
  
     public static Bitmap createBitmap (Bitmap source, int x, int y, int width, int height, Matrix m, boolean filter)，在原有位图旋转的基础上，创建新位图。 
 
-### 总结说明 
+###总结说明 
 
 对位图的操作，结合Android SDK中的类，详细的介绍完了。最后还需要强调的是：这篇文章只是对Android SDK中代码阅读分析，它代替不了你阅读Android SDK，深入的学习还是要仔细的阅读Android SDK。 

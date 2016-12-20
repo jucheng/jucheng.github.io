@@ -16,7 +16,7 @@ Can't bind to local 8700 for debugger 端口占用
 在windows命令行窗口下执行： 
 
 
-### 1.查看所有的端口占用情况
+###1.查看所有的端口占用情况
 
 C:\>netstat -ano
 
@@ -25,7 +25,7 @@ C:\>netstat -ano
   TCP    127.0.0.1:8700         0.0.0.0:0              LISTENING       3236
 
 
-### 2.查看指定端口的占用情况
+###2.查看指定端口的占用情况
 
 C:\>netstat -aon|findstr "8700"
 
@@ -33,7 +33,7 @@ C:\>netstat -aon|findstr "8700"
 
   TCP    127.0.0.1:8700         0.0.0.0:0              LISTENING       2014
 
-### 3.查看PID对应的进程
+###3.查看PID对应的进程
 
 C:\>tasklist|findstr "2014"
 
@@ -42,6 +42,6 @@ C:\>tasklist|findstr "2014"
   tadb.exe                     2014 Console                 0     16,064 K 
 
 
-### 4.结束该进程
+###4.结束该进程
 
 C:\>taskkill /f /t /im 进程名

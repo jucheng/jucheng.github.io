@@ -10,13 +10,13 @@ tags: [Android，Fragment]
 
 <!-- more -->
 
-## 一、为什么要使用Fragment 
+##一、为什么要使用Fragment 
 
 1、当我们需要动态的多界面切换的时候，就需要将UI元素和Activity融合成一 个模块。在2.3中我们一般通过各种Activity中进行跳转来实现多界面的跳转和单个界面动态改变。在4.0或以上系统中就可以使用新的特性来方便的 达到这个效果--Fragment类。Fragment类似一个嵌套Activity，可以定义自己的layout和自己的生命周期。
 
 2、 多个Fragment可以放在一个Activity中（所以上面讲到类似一个嵌套Activity），而这个类可以对这些Fragment进行配置以适应不同的屏幕尺寸（比如平板和手机）。
 
-## 二、使用Fragment 
+##二、使用Fragment 
 
 1、Fragment 是 activity 的界面中的一部分或一种行为。可以把多个 Fragment 组合到一个 activity 中来创建一 个多面界面并且可以在多个 activity 中重用一个 Fragment。可以把 Fragment 认为模块化的一段 activity,它具 有自己的生命周期,接收它自己的事件,并可以在 activity 运行时被添加或删除。
 
@@ -24,7 +24,7 @@ tags: [Android，Fragment]
 
 3、当向 activity 中添加一个 Fragment 时,它须置于 ViewGroup 控件中,并且需定义 Fragment 自己的界面。可 以在 layout.xml 文件中声明 Fragment,元素为:<fragment>;也可以在代码中创建 Fragment,然后把它加入到 ViewGroup 控件中。然而,Fragment 不一定非要放在 activity 的界面中,它可以隐藏在后台为 actvitiy 工作。
 
-## 三、 生命周期
+##三、 生命周期
 
  
 
@@ -52,9 +52,9 @@ onPause()
 ![](http://img-storage.qiniudn.com/15-7-2/46829065.jpg)
 
 
-## 四、如何使用Fragment 
+##四、如何使用Fragment 
 
-### 1、添加一个用户界面   
+###1、添加一个用户界面   
 fragment通常用来作为一个activity的用户界面的一部分,并将它的layout提供给activity.为了给一
 个fragment提供 一 个layout,你必须实现 onCreateView()回调方法, 当到了fragment绘制它自己的layout的时候,Android系统调用它.你的此方法的实现代码必须返回一个你的fragment的 layout的根view. 
 
@@ -87,12 +87,12 @@ fragment通常用来作为一个activity的用户界面的一部分,并将它的
 **c、布尔值指示在加载期间, 展开的layout是否应当附着到ViewGroup (第二个参数).**
 
 
-### 2、将fragment添加到activity
+###2、将fragment添加到activity
 
   通常地, fragment为宿主activity提供UI的一部分, 被作为activity的整个viewhierarchy的一部分被嵌入. 有2种方法你可以添加一个fragment到activity layout:
 
 
-#### 2.1、使用XML将Fragment添加到一个Activity中
+####2.1、使用XML将Fragment添加到一个Activity中
 
   在这种情况下，你可以像为View一样, 为fragment指定layout属性。
 
@@ -121,7 +121,7 @@ PS：
 
    **2、通过在xml中定义fragment的方式，我们不能在运行时移除fragment。如果我们想要通过切换fragments来跟用户有更好的互动，那么就需要在activity启动的时候定义fragment了。**
 
-### 2.2、在运行时添加一个Fragment到Activity
+###2.2、在运行时添加一个Fragment到Activity
 
 上面一节的在activity的布局文件（layout xml）中添加Fragment的方法我们已经知道了。现在我们将学习另外一种方式，这种方式允许我们在运行时动态的显示和隐藏fragment。为了达 到在activity中动态管理Fragment，我们需要用到FragmentManager，并且通过它创建 FragmentTransaction。
 
@@ -224,7 +224,7 @@ PS
     }</span>     
 
 
-### 3、Frament 管理
+###3、Frament 管理
 
 **要管理 fragment,需使用 FragmentManager,要获取它,需在 activity 中调用方法 getFragmentManager()。 可以用 FragmentManager 来做以上事情:**
 
@@ -246,7 +246,7 @@ PS
 
 **一个事务是在同一时刻执行的一组动作(很像数据库中的事务)。可以用 add(),remove(),replace()等方法构成事务,最后使用 commit()方法提交事务。在调用 commint()之前,可以用addToBackStack()把事务添加到一个后退栈中, 这个后退栈属于所在的 activity。有了它,就可以在用户按下返回键时,返回到 fragment 执行事务之前的状态。如 下例:演示了如何用一个 fragment 代替另一个 fragment,同时在后退栈中保存被代替的 fragment 的状态。**
 
-### 4、为Activity创建事件回调方法
+###4、为Activity创建事件回调方法
 
 **在 一些情况下, 你可能需要一个fragment与activity分享事件. 一个好的方法是在fragment中定义一个回调的interface, 并要求宿主activity实现它.当activity通过interface接收到一个回调, 必要时它可以和在layout中的其他fragment分享信息.**
 
