@@ -26,7 +26,7 @@ Android布局优化的基本三大方案
 
 **由于Android的碎片化程度很高，市面上存在的屏幕尺寸也是各式各样，使用RelativeLayout能使我们构建的布局适应性更强，构建出来的UI布局对多屏幕的适配效果越好，通过指定UI控件间的相对位置，使在不同屏幕上布局的表现能基本保持一致。当然，也不是所有情况下都得使用相对布局，根据具体情况来选择和其他布局方式的搭配来实现最优布局。**
 
-##1、< include />的使用
+## 1、< include />的使用
 
 **在实际开发中，我们经常会遇到一些共用的UI组件，比如带返回按钮的导航栏，如果为每一个xml文件都设置这部分布局，一是重复的工作量大，二是如果有变更，那么每一个xml文件都得修改。还好，Android为我们提供了< include />标签，顾名思义，通过它，我们可以将这些共用的组件抽取出来单独放到一个xml文件中，然后使用< include />标签导入共用布局，这样，前面提到的两个问题都解决了。例如上面提到的例子，新建一个xml布局文件作为顶部导航的共用布局。**
 
@@ -88,7 +88,7 @@ Android布局优化的基本三大方案
 
 ![](http://img-storage.qiniudn.com/15-6-30/4439999.jpg)
 
-##2、< merge />的使用
+## 2、< merge />的使用
 
 **< merge />标签的作用是合并UI布局，使用该标签能降低UI布局的嵌套层次。该标签的主要使用场景主要包括两个，第一是当xml文件的根布局是FrameLayout时，可以用merge作为根节点。理由是因为Activity的内容布局中，默认就用了一个FrameLayout作为xml布局根节点的父节点，这一点可以从上图中看到，main.xml的根节点是一个RelativeLayout，其父节点就是一个FrameLayout，如果我们在main.xml里面使用FrameLayout作为根节点的话，这时就可以使用merge来合并成一个FrameLayout，这样就降低了布局嵌套层次**。
 
@@ -198,7 +198,7 @@ Android布局优化的基本三大方案
 
 ![](http://img-storage.qiniudn.com/15-6-30/72045077.jpg)
 
-##3、< ViewStub />的使用
+## 3、< ViewStub />的使用
 
 也许有不少同学对ViewStub还比较陌生，首先来看看ViewStub在官方文档里是怎么介绍的：
 
@@ -317,14 +317,14 @@ A ViewStub is an invisible, zero-sized View that can be used to lazily inflate l
 
 <http://www.infoq.com/cn/articles/android-optimise-layout/>
 
-##相关链接
-###1.布局技巧：合并布局
+## 相关链接
+### 1.布局技巧：合并布局
 **这是一个对于“合并布局”讲得很不错的文章，特别是对merge标签讲得很详细，不懂可以借鉴一下**
 
 <http://www.cnblogs.com/xirihanlin/archive/2010/04/23/1718353.html>
 
 
-###2.New UI-(merge)标签减少视图层级,让布局更高效
+### 2.New UI-(merge)标签减少视图层级,让布局更高效
 这篇文章也是讲merge标签的，但是讲得很彻底，作者用通俗幽默的语言生动地描述出merge标签的作用
 
 <http://www.2cto.com/kf/201501/374240.html>
