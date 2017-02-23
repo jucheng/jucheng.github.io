@@ -3,7 +3,7 @@ layout: post
 title: "Java编程语言中栈与堆内存区别详解"
 date: 2015-8-17
 categories: Java
-tags: [Java，堆和栈]
+tags: [Java，基础知识]
 ---
 Java编程语言中栈与堆内存区别详解
 

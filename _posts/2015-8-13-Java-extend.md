@@ -3,7 +3,7 @@ layout: post
 title: " 什么是继承 "
 date: 2015-8-13
 categories: Java
-tags: [Java，继承]
+tags: [Java，基础知识]
 ---
 
 什么是继承

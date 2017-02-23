@@ -3,7 +3,7 @@ layout: post
 title: " 对Java中栈(stack)和堆(heap)的一点小认识 "
 date: 2015-8-17
 categories: Java
-tags: [Java，堆和栈]
+tags: [Java，基础知识]
 ---
 对Java中栈(stack)和堆(heap)的一点小认识
 

@@ -3,7 +3,7 @@ layout: post
 title: "面向对象实践之路：提升抽象层次 "
 date: 2015-8-13
 categories: Android
-tags: [Java，抽象]
+tags: [Java，基础知识]
 ---
 面向对象实践之路：提升抽象层次
 

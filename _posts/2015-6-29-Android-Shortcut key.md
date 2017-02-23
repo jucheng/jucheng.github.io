@@ -3,7 +3,7 @@ layout: post
 title: "ADT eclipse的几个快捷键"
 date: 2015-6-29
 categories: Android
-tags: [Android，快捷键]
+tags: [Android]
 ---
 ADT eclipse的几个快捷键
 

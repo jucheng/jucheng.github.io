@@ -3,7 +3,7 @@ layout: post
 title: "Android开发之重点——Fragment!"
 date: 2015-7-2
 categories: Android
-tags: [Android，Fragment]
+tags: [Android]
 ---
 
 ☆ fragment和fragmentactivity解析 (转)

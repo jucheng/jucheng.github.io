@@ -3,7 +3,7 @@ layout: post
 title: "String与StringBuffer的区别 "
 date: 2015-8-13
 categories: Java
-tags: [Java，字符串]
+tags: [Java，基础知识]
 ---
 String与StringBuffer的区别
 

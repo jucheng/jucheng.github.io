@@ -3,7 +3,7 @@ layout: post
 title: "面向对象—抽象 "
 date: 2015-8-13
 categories: Java
-tags: [Java，抽象]
+tags: [Java，基础知识]
 ---
 面向对象—抽象
 

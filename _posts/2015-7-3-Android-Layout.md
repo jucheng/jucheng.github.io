@@ -3,7 +3,7 @@ layout: post
 title: "android布局layout中的一些属性!"
 date: 2015-7-3
 categories: Android
-tags: [Android，布局文件]
+tags: [Android]
 ---
 android布局layout中的一些属性
 

@@ -3,7 +3,7 @@ layout: post
 title: "Java MySQL 连接 "
 date: 2016-9-1
 categories: Java
-tags: [Java，数据库]
+tags: [Java，基础知识]
 ---
 Java MySQL 连接
 

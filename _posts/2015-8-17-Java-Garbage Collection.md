@@ -3,7 +3,7 @@ layout: post
 title: "详细介绍Java垃圾回收机制"
 date: 2015-8-17
 categories: Java
-tags: [Java，垃圾回收机制]
+tags: [Java，基础知识]
 ---
 详细介绍Java垃圾回收机制
 

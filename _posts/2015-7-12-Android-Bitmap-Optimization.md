@@ -3,7 +3,7 @@ layout: post
 title: "对Bitmap的内存优化 "
 date: 2015-7-12
 categories: Android
-tags: [Android，Bitmap]
+tags: [Android]
 ---
 对Bitmap的内存优化
 

@@ -3,7 +3,7 @@ layout: post
 title: "Java多态性详解 "
 date: 2015-8-14
 categories: Java
-tags: [Java，多态]
+tags: [Java，基础知识]
 ---
 Java多态性详解
 

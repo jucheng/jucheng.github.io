@@ -3,7 +3,7 @@ layout: post
 title: "Tread类中的join方法的简单使用 "
 date: 2016-9-1
 categories: Java
-tags: [Java，多线程]
+tags: [Java，基础知识]
 ---
 Tread类中的join方法的简单使用
 

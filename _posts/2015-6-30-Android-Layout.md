@@ -3,7 +3,7 @@ layout: post
 title: "Android布局优化的基本三大方案!"
 date: 2015-6-30
 categories: Android
-tags: [Android，布局文件]
+tags: [Android]
 ---
 
 Android布局优化的基本三大方案

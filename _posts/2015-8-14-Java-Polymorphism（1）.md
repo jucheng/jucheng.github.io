@@ -3,7 +3,7 @@ layout: post
 title: "多态详解(整理) "
 date: 2015-8-14
 categories: Java
-tags: [Java，多态]
+tags: [Java，基础知识]
 ---
 多态详解(整理)
 

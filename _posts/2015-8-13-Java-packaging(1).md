@@ -3,7 +3,7 @@ layout: post
 title: " Java中的封装的简单介绍 "
 date: 2015-8-13
 categories: Java
-tags: [Java，封装]
+tags: [Java，基础知识]
 ---
 Java中的封装的简单介绍
 
