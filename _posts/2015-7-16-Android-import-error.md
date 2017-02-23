@@ -3,7 +3,7 @@ layout: post
 title: "android 导入项目 项目中文字乱码问题"
 date: 2015-7-16
 categories: Android
-tags: [Android，调试]
+tags: [Android]
 ---
 android 导入项目 项目中文字乱码问题
 

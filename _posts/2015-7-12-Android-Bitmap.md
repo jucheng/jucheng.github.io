@@ -3,7 +3,7 @@ layout: post
 title: "BitMap类 "
 date: 2015-7-12
 categories: Android
-tags: [Android，Bitmap]
+tags: [Android]
 ---
 BitMap类
 
