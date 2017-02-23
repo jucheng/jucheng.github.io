@@ -3,7 +3,7 @@ layout: post
 title: "javascript中相应的方法练习代码 "
 date: 2017-2-9
 categories: 前端
-tags: [前端开发，javascript]
+tags: [前端开发，javaScript]
 ---
 
 javascript中相应的方法练习代码
