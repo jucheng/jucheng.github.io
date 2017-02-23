@@ -3,7 +3,7 @@ layout: post
 title: "二叉树的遍历 "
 date: 2015-7-11
 categories: 数据结构
-tags: [数据结构，二叉树]
+tags: [数据结构]
 ---
 二叉树的遍历
 

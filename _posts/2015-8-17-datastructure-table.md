@@ -3,7 +3,7 @@ layout: post
 title: " 哈希函数(散列函数） "
 date: 2015-8-18
 categories: 数据结构
-tags: [数据结构，哈希函数]
+tags: [数据结构]
 ---
 哈希函数(散列函数)
 
