@@ -3,7 +3,7 @@ layout: post
 title: "javascript中变量名和函数名重名 "
 date: 2017-2-9
 categories: 前端
-tags: [前端开发，javaScript]
+tags: [前端开发，JavaScript]
 ---
 
 javascript中变量名和函数名重名

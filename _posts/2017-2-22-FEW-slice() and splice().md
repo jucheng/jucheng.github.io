@@ -3,7 +3,7 @@ layout: post
 title: "javascript中容易混淆的两个数组的操作方法slice()和splice() "
 date: 2017-2-22
 categories: 前端
-tags: [前端开发，javaScript]
+tags: [前端开发，JavaScript]
 ---
 
 javascript中容易混淆的两个数组的操作方法slice()和splice()
