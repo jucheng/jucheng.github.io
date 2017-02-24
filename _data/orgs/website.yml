@@ -4,20 +4,19 @@ icon: fa fa-diamond
 members:
   - name: GitHub
     link: https://github.com/
-  - name: stackoverflow
-    link: http://stackoverflow.com/
-  - name: 博客园新闻
-    link: http://news.cnblogs.com/
-  - name: 实验楼
-    link: https://www.shiyanlou.com/
-  - name: IT之家
-    link: http://news.cnblogs.com/
-  - name: 知乎
-    link: http://www.zhihu.com/
-  - name: 慕课网
-    link: http://www.imooc.com/course/list
-  - name: 程序员之家
-    link: http://news.cnblogs.com/
-  - name: 开源中国
-    link: http://www.oschina.net/
+  - name: w3school
+    link: http://www.w3school.com.cn/
+  - name: MDN
+    link: https://developer.mozilla.org/zh-CN/
+  - name: 各类API文档
+    link: http://overapi.com/
+  - name: webplatform
+    link: http://docs.webplatform.org/Main_Page/
+  - name: 廖雪峰javascript
+    link: http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000
+  - name: JavaScript秘密花园
+    link: http://bonsaiden.github.io/JavaScript-Garden/zh/
+  - name: 菜鸟教程
+    link: http://www.runoob.com/sitemap
+
   
