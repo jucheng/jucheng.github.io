@@ -1,18 +1,18 @@
 
-name: 文章
+name: 工具
 icon: fa fa-external-link
 members:
-  - name: 十大算法
-    link: http://www.36kr.com/p/212499.html
-  - name: 在线自动生成.9png图的Android设计切图工具推荐
-    link: http://www.25xt.com/allcode/6976.html
-  - name: Android自学资料汇总
-    link: http://zhuanlan.zhihu.com/anzhuo/19657543
+  - name: Can I Use
+    link: http://caniuse.com/
+  - name: 精灵图制作
+    link: http://www.cn.spritegen.website-performance.org/
+  - name: sublime-text3的插件emmet快捷语法
+    link: http://docs.emmet.io/cheat-sheet/
   - name: 极简图床
     link: http://yotuku.cn/#!/
-  - name: <<程序员编程艺术：面试和算法心得>>
-    link: https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/Readme.md
-  - name: Android官方培训课程中文版
-    link: http://hukai.me/android-training-course-in-chinese/index.html
-  - name: 我是如何自学Android，资料分享（2015 版）
-    link: http://www.jianshu.com/p/874ff12a4c01
+  - name: 智图
+    link: http://zhitu.isux.us/
+  - name: 阿里巴巴-iconfont
+    link: http://www.iconfont.cn/plus
+  - name: echarts
+    link: http://echarts.baidu.com/

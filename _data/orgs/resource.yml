@@ -2,23 +2,27 @@
 name: 资源
 icon: fa fa-paperclip
 members:
-  - name: XML-HELP
-    link: http://www.datypic.com/sc/ooxml/ss.html
-  - name: icon
-    link: http://fortawesome.github.io/Font-Awesome/icons/
-  - name: codepath
-    link: http://guides.codepath.com/android
-  - name: Android Core Tutorials
-    link: http://www.javacodegeeks.com/tutorials/android-tutorials/android-core-tutorials/
-  - name: Jekyll-Light
-    link: https://github.com/pexcn/Jekyll-Light
-  - name: tutorialspoint
-    link: http://www.tutorialspoint.com/android/
-  - name: eoe Android 开发者社区
-    link: http://www.eoeandroid.com/portal.php
-  - name: Android 学习网
-    link: http://www.android-study.com/
-  - name: 极客学院IT视频
-    link: http://www.jikexueyuan.com/
-  - name: 一纳米学习
-    link: http://1nami.com/
+  - name: 大前端工具集
+    link: https://github.com/nieweidong/fetool#html
+  - name: node.js中文资料导航
+    link: https://github.com/youyudehexie/node123
+  - name: gulp 入门指南
+    link: https://github.com/nimojs/gulp-book
+  - name: webpack 教程资源收集
+    link: https://github.com/jucheng?page=1&tab=stars
+  - name: fex-team/fis
+    link: https://github.com/fex-team/fis
+  - name: 收集优质的中文前端博客
+    link: https://github.com/FrankFang/best-chinese-front-end-blogs
+  - name: 前端收藏夹，值得分享、学习的前端网站
+    link: https://github.com/FrankFang/best-chinese-front-end-blogs
+  - name: Web 前端常用插件
+    link: https://github.com/iamjoel/front-end-plugins
+  - name: 前端技能汇总
+    link: https://github.com/JacksonTian/fks
+  - name: 前端农民工博客
+    link: https://github.com/fouber/blog
+  - name: 前端资料整理
+    link: https://github.com/OXOYO/F2E-Tutorial-Collect
+  - name: 最全的资源教程-前端涉及的所有知识体系
+    link: https://github.com/Daiyichen/Front-end-tutorial
