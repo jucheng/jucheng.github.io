@@ -24,7 +24,7 @@ tags: [前端开发，JavaScript]
 
 A、转化前：
 
-![](http://i1.piimg.com/567571/6d2d4eb481fcb6f8.png)
+![](http://i1.piimg.com/567571/5534d63a782fc1ad.png)
 
 B、转换后：
 
