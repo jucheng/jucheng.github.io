@@ -13,11 +13,11 @@ CSS ::first-letter伪元素引出的两个问题
 ### 一、问题一：first-letter生效的前提
 
 
-####1、元素的display的值
+#### 1、元素的display的值
 
 元素的display计算值必须是 **block, inline-block, table-cell, list-item或者table-caption**，其他所有display计算值都没有用，包括**display:table以及display:flex**等。
 
-####2、元素的种类
+#### 2、元素的种类
 
 **不是所有的字符都能单独作为::first-letter伪元素存在的**，如下：
 
