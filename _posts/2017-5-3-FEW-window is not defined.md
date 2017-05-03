@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "sublime 运行js文件window is not defined"
-date: 2017-3-17
+date: 2017-5-3
 categories: 前端
 tags: [前端开发，JavaScript]
 ---
