@@ -43,6 +43,16 @@ sublime 运行js文件window is not defined
 
 因为在我们的sublime-text中，这里的运行的实际环境是是运行的 node.js,问题就是出在这里，因为 在我们代码中的 window，是属于浏览器环境中的全局变量,在 node.js环境中是读取不到的，所以程序运行出错。
 
+**通常我们所说的全局变量是执行环境顶层对象的属性。浏览器的顶层对象是windows对象，在node.js中，顶层对象叫做global，变量作用域的工作方式也不一样。window对象包含了很多属性，包括对象，方法（onload,onresize,alert,close....),DOM元素（document、frames.....)以及其他变量，所有这些属性使用语法window.property来访问。**
+
+    window.onload=function(){
+	     window.alert('i am cjc');
+      }
+
+**node.js的顶层对象叫做global。由于node.js是网络服务器而不是浏览器，其中可用的函数和属性是很不一样的。**
+
+**当浏览器中的JavaScript检查全局变量是否存在的时候，它是在window对象上查找的。**
+
 以上的代码中，我们可以把window改成 global，那么运行就不会出错。
 
      function Cat(name) {
