@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "浅析JavaScript中"=="和"===""
+title: "浅析JavaScript中==和==="
 date: 2017-5-11
 categories: 前端
 tags: [前端开发，JavaScript]
 ---
 
-浅析JavaScript中"=="和"==="
+浅析JavaScript中==和===
 
 <!-- more -->
 
@@ -21,7 +21,7 @@ tags: [前端开发，JavaScript]
 
 **===，不做类型转换，类型不同的一定不等。**
 
-我们在绝大多数场合应该使用 === ，只有检测 null/undefined 的时候可以使用 x == null ，因为通常我们不区分 null 和 undefined ，即将 x == null 作为 x === null || x === undefined 的缩写。
+我们在绝大多数场合应该使用 === ，只有检测 null/undefined 的时候可以使用 x == null ，因为通常我们不区分 null 和 undefined 。
 
 == 的比较看似会比较方便，比如 1 == '1' ，但是会埋下隐患，比如可能对类型做出错误的假设。
 
@@ -51,7 +51,7 @@ if (x == 10) x += 5
 
 6、如果两个值都是null，或者都是undefined，那么[相等]。
 
-####Ｂ、＝＝的判断说明
+#### Ｂ、＝＝的判断说明
 
 **==：用于比较两个操作数是否相等，这两个操作数的数据类型不一定要相等，只要进行数据类型转换后相等即为true**
 
