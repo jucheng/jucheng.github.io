@@ -39,7 +39,7 @@ display 是我们熟知的 CSS 属性，对于 Flexbox 来说，多了有两种�
 
 此外另外一种方式则是「inline-flex」，和 inline-block 也是几乎雷同，意义上都是一个display:flex的元素外面包覆display:inline的属性，在后方的元素不会换行。
 
-这样做将元素定义为弹性容器，其子元素则成为弹性项目。值 flex 使弹性容器成为块级元素。值 inline-flex 使弹性容器成为单个不可分的行内级元素。
+这样做将元素定义为弹性容器，其子元素则成为弹性项目。**值 flex 使弹性容器成为块级元素。值 inline-flex 使弹性容器成为单个不可分的行内级元素。**
 
 ![](http://i2.muimg.com/588926/0277667d97ecc1c8.png)
 
@@ -60,7 +60,7 @@ flex-direction 表示 Flexbox 內容元素的「排列方向」，分別有下�
 
 #### C、justify-content
 
-justify-content 决定了内容元素与整个 Flexbox 的「水平对齐」位置，回想一下最上面讲的 Flexbox 盒子模型，具有 main start 与 main end 左右两个端点，justify-content 就是按照这个方式做设定，而其中的设定值总共有下列五个。
+**justify-content 决定了内容元素与整个 Flexbox 的「水平对齐」位置**，回想一下最上面讲的 Flexbox 盒子模型，具有 main start 与 main end 左右两个端点，justify-content 就是按照这个方式做设定，而其中的设定值总共有下列五个。
 
 + flex-start：预设值，对齐最左边的 main start
 + flex-end：对齐最左边的 main end
@@ -74,7 +74,7 @@ justify-content 决定了内容元素与整个 Flexbox 的「水平对齐」位�
 
 #### D、align-items
 
-align-items 刚好和 justify-content 相反，align-items 决定了内容元素与整个 Flexbox 的「垂直对齐」位置，再回想一下最上面讲的 Flexbox 盒子模型，具有 cross start 与 cross end 左右两个端点，align-items 与 align-self 就是按照这个方式做设定，设定值总共有下列五个。
+**align-items 刚好和 justify-content 相反，align-items 决定了内容元素与整个 Flexbox 的「垂直对齐」位置**，再回想一下最上面讲的 Flexbox 盒子模型，具有 cross start 与 cross end 左右两个端点，align-items 与 align-self 就是按照这个方式做设定，设定值总共有下列五个。
 
 + flex-start：预设值，对齐最上面的 cross start
 + flex-end：对齐最下面的 cross end
@@ -88,7 +88,7 @@ align-items 刚好和 justify-content 相反，align-items 决定了内容元素
 
 #### E、align-self
 
-align-self 的设定与 align-items 相同，但目的不同，align-self 的作用在于覆写已经套用 align-items 的属性，如果照我们以前所写，因为 align-items 是针对子元素，所以必须要用 align-self 来进行覆写，我们直接用上一个范例来修改就很清楚了。
+align-self 的设定与 align-items 相同，但目的不同，**align-self 的作用在于覆写已经套用 align-items 的属性，如果照我们以前所写，因为 align-items 是针对子元素，所以必须要用 align-self 来进行覆写**，我们直接用上一个范例来修改就很清楚了。
 
 + auto
 
@@ -130,7 +130,7 @@ flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-si
 
 #### F、align-content
 
-刚刚谈到的 align-items 是针对内容为单行的元素进行处理，如果遇到多行的元素，就要使用 align-content 这个属性，这个属性总共有六个设定值。( 范例：css-flexbox-demo6.html、W3C 说明 )
+刚刚谈到的 **align-items 是针对内容为单行的元素进行处理，如果遇到多行的元素，就要使用 align-content 这个属性**，这个属性总共有六个设定值。( 范例：css-flexbox-demo6.html、W3C 说明 )
 
 + flex-start：预设值，对齐最上面的 cross start
 + flex-end：对齐最下面的 cross end
@@ -145,7 +145,7 @@ flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-si
 
 #### G、flex-wrap
 
-在刚刚的范例看到一个 flex-wrap 的属性，这个属性负责的是让内容的元素换行，因为当我们把父元素的 display 设定为 flex 或 inline-flex 的时候，子元素就是以单行的方式，弹性撑满父元素，所以就要利用 flex-wrap 来换行，共有三个设定值。( 范例：css-flexbox-demo7.html)
+在刚刚的范例看到一个 flex-wrap 的属性，**这个属性负责的是让内容的元素换行，因为当我们把父元素的 display 设定为 flex 或 inline-flex 的时候，子元素就是以单行的方式，弹性撑满父元素，所以就要利用 flex-wrap 来换行**，共有三个设定值。( 范例：css-flexbox-demo7.html)
 
 + nowrap：预设值，单行
 + wrap：多行
@@ -157,7 +157,7 @@ flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-si
 
 #### H、order
 
-刚刚在 flex-wrap 的属性里头看到了可以把元素反转，order 这个属性更是可以直接指定一个数字，就可以由小到大的排列顺序
+刚刚在 flex-wrap 的属性里头看到了可以把元素反转，**order 这个属性更是可以直接指定一个数字，就可以由小到大的排列顺序**
 
 ![](http://i1.piimg.com/588926/295f171221f191f3.png)
 
@@ -165,11 +165,13 @@ flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-si
 
 #### I、flex
 
-好酒沉瓮底，有耐心看到下面的才会看到重点喔哈哈！flex 应该是 Flexbox 里头最重要的属性了，而 flex 其实是由三个属性组合而成，依照先后顺序分别是「flex-grow」、「flex-shrink」和「flex-basis」，如果 flex 只填了一个数值 ( 无单位 )，那麽预设就是以 flex-grow 的方式呈现，至于三个属性的解释如下：
+好酒沉瓮底，有耐心看到下面的才会看到重点喔哈哈！flex 应该是 Flexbox 里头最重要的属性了，而 **flex 其实是由三个属性组合而成，依照先后顺序分别是「flex-grow」、「flex-shrink」和「flex-basis」**，如果 flex 只填了一个数值 ( 无单位 )，那麽预设就是以 flex-grow 的方式呈现，至于三个属性的解释如下：
 
-flex-grow：数字，无单位，当子元素的 flex-basis 长度「小」于它自己在父元素分配到的长度，按照数字做相对应的「伸展」比例分配，预设值为 1，设为 0 的话不会进行弹性变化，不可为负值。
-flex-shrink：数字，无单位，当子元素的 flex-basis 长度「大」于它自己在父元素分配到的长度，按照数字做相对应的「压缩」比例分配，预设值为 1，设为 0 的话不会进行弹性变化，不可为负值。
-flex-basis：子元素的基本大小，作为父元素的大小比较基准，预设值为 0，也因为预设值为 0，所以没有设定此属性的时候，会以直接採用 flex-grow 属性，flex-basis 也可以设为 auto，如果设为 auto，就表示子元素以自己的基本大小为单位。。
+**flex-grow**：数字，无单位，当子元素的 flex-basis 长度「小」于它自己在父元素分配到的长度，按照数字做相对应的「伸展」比例分配，预设值为 1，设为 0 的话不会进行弹性变化，不可为负值。
+
+**flex-shrink**：数字，无单位，当子元素的 flex-basis 长度「大」于它自己在父元素分配到的长度，按照数字做相对应的「压缩」比例分配，预设值为 1，设为 0 的话不会进行弹性变化，不可为负值。
+
+**flex-basis**：子元素的基本大小，作为父元素的大小比较基准，预设值为 0，也因为预设值为 0，所以没有设定此属性的时候，会以直接採用 flex-grow 属性，flex-basis 也可以设为 auto，如果设为 auto，就表示子元素以自己的基本大小为单位。。
 
 三个属性可以分开设定，也可以合在一起用一个 flex 统一设定，下面的例子展现出同一个 Flexbox，在不同的宽度，子元素会有不同大小的呈现。
 
