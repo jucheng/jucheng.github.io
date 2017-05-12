@@ -41,7 +41,7 @@ tags: [前端开发，JavaScript]
 
 **两者作用一致，都是把object(也就是this)绑定到thisObj，这个时候thisObject具备了object的属性和方法。或者说thisObj继承了object的属性和方法。**
 
-**他们之间唯一的区别是call接受的是连续的参数，二apply接受的是数组参数。**
+**他们之间唯一的区别是call接受的是连续的参数，而apply接受的是数组参数。**
 
 ![](http://i1.piimg.com/588926/cc9db96cca52ab55.png)
 
