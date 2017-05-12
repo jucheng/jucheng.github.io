@@ -33,7 +33,7 @@ tags: [前端开发，JavaScript]
 
 从上述例子，我们可以看到，**call和apply的存在是为了动态改变this的指向，当一个对象没有某个方法，但是其他对象有的时候，我们就可以借助call或apply用其它对象的方法来操作。**
 
-### 二、
+### 二、两者的具体用法
 
     object.call(thisObj, arg1, arg2, ...);
   
