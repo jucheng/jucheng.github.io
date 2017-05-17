@@ -85,7 +85,7 @@ JavaScript的单线程与它的语言用途是有关的。作为一门浏览器�
 
 为了更好地理解Event Loop，下面参照Philip Roberts的演讲中的一张图。
 
-![](http://p1.bqimg.com/567571/eadf3db4bf455904.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-8-FEW-JavaScript%20Operating%20Mechanism.png)
 
 上图中，主线程在运行时，产生了heap（堆）和stack（栈），栈中的代码调用各种外部API，并在“任务队列”中加入各种事件（click，load，done）。当栈中的代码执行完毕，主线程就会读取“任务队列”，并依次执行那些事件所对应的回调函数。
 
