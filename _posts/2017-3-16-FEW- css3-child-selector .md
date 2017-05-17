@@ -35,7 +35,7 @@ CSS3选择器:nth-child和:nth-of-type之间的差异
 
  C、如下这个是效果截图：在这里，这两个选择器所实现的效果是一致的：
 
-![](http://p1.bqimg.com/567571/178234afee2ec022.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-16-FEW-%20css3-child-selector%20-1.png)
 
 当然，虽然上面两个demo的最后的显示效果是一致的，但这两个选择器之间存在差异是一定的。
 
@@ -74,7 +74,7 @@ B、那么这里我先设置：
 
 p:nth-child(2)就悲剧了，其渲染的结果不是第二个p标签文字变蓝，而是第一个p标签，也就是父标签的第二个子元素
 
-![](http://p1.bqimg.com/567571/1d9f0750e0390e9e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-16-FEW-%20css3-child-selector%20-2.png)
 
 **（PS：看清楚咯，这里是第二行被设置了颜色！！！）**
 
@@ -86,7 +86,7 @@ p:nth-child(2)就悲剧了，其渲染的结果不是第二个p标签文字变�
 
 p:nth-of-type(2)的表现显得很坚挺，其把希望渲染的第二个p标签染蓝了
 
-![](http://p1.bpimg.com/567571/0f7405f95f711306.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-16-FEW-%20css3-child-selector%20-3.png)
 
 **（PS：看清楚咯，这里是第三行被设置了颜色！！！）**
 
@@ -105,12 +105,12 @@ A、直接上HTML代码
 
 那么p:nth-child(2)将不会选择任何元素。
 
-![](http://i1.piimg.com/567571/1019c6e4c8397e22.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-16-FEW-%20css3-child-selector%20-4.png)
 
 
 而p:nth-of-type(2)表示父标签下的第二个p元素，显然，无论在div标签后面再插入个span标签，还是h1标签，都是第二个p标签中的文字变蓝。
 
-![](http://i1.piimg.com/567571/531ff121520fa1c6.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-16-FEW-%20css3-child-selector%20-5.png)
 
 
 #### 4、总结
