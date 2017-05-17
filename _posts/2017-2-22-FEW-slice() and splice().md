@@ -41,7 +41,7 @@ Array.slice()方法返回了指定数组的一个片段或者子数组。
 
 为了能更方便地理解这个概念，我们举几个例子：
 
-![](http://p1.bpimg.com/567571/cd589b06dbf55636.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-22-FEW-slice%28%29%20and%20splice%28%29-1.png)
 
 B、splice()
 
@@ -59,13 +59,13 @@ splice()能够从数组中删除元素，插入元素到数组中或者同时完
 
 **splice()的的第一个参数指定了插入或者删除的起始位置。第二个参数指定了应该从数组中删除的元素的个数。**
 
-![](http://p1.bqimg.com/567571/a6e76e8410b0e664.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-22-FEW-slice%28%29%20and%20splice%28%29-2.png)
 
 + 一个参数
 
 **如果省略了第二个参数，从起点开始到数组结尾的所有元素都将被删除。**
 
-![](http://i1.piimg.com/567571/6827b162643d45ea.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-22-FEW-slice%28%29%20and%20splice%28%29-3.png)
 
 splice()返回的是一个由被删除的元素组成的数组，当然，如果没有所要删除的元素，这里就会返回一个空数组。
 
@@ -75,11 +75,11 @@ splice()返回的是一个由被删除的元素组成的数组，当然，如果
 
 + 第一种情况
 
-![](http://p1.bpimg.com/567571/931dd622192688d6.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-22-FEW-slice%28%29%20and%20splice%28%29-4.png)
 
 + 第二种情况
 
-![](http://i1.piimg.com/567571/f93ebe9ce22787c6.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-22-FEW-slice%28%29%20and%20splice%28%29-5.png)
 
 **注意：区别与concat(),splice()会插入数组本身而并非数组的元素。**
 
