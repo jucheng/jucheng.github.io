@@ -27,7 +27,7 @@ break-all 允许在单词内换行。
  
 keep-all 只能在半角空格或连字符处换行。
 
-![](http://i1.piimg.com/567571/32df74ace1bc6b5e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-19-FEW-word-break%20and%20word-wrap-1.png)
 
 #### 总结：
 
@@ -45,7 +45,7 @@ normal 只在允许的断字点换行（浏览器保持默认处理）。
 
 break-word 在长单词或 URL 地址内部进行换行。
 
-![](http://i1.piimg.com/567571/3a1543b8c1893bb3.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-19-FEW-word-break%20and%20word-wrap-2.png)
 
 #### 总结：
 
@@ -67,7 +67,7 @@ word-wrap 当行尾放不下时，决定单词内是否允许换行
 
 例子与上面一样，但区别就是它会把congratulation整个单词看成一个整体，如果该行末端宽度不够显示整个单词，它会自动把整个单词放到下一行，而不会把单词截断掉的。
 
-![](http://i1.piimg.com/567571/7ff93da6010f4000.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-19-FEW-word-break%20and%20word-wrap-3.png)
 
 #### 3、我们该如何记住这两个CSS的声明的呢？
 
