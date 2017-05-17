@@ -31,7 +31,7 @@ scrollWidth,clientWidth,offsetWidth的区别
 
 **offsetWidth为元素的实际宽度。**
 
-![](http://i1.piimg.com/567571/f053effd7bfebe36.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-26-FEW-all%20type%20of%20width-1.png)
 
 
 ### 情况2：元素内无内容或者内容不超过可视区，滚动不出现或不可用的情况下。
@@ -40,6 +40,6 @@ scrollWidth,clientWidth,offsetWidth的区别
 
 **offsetWidth为元素的实际宽度。**
 
-![](http://i1.piimg.com/567571/79fd33d60e86dd8f.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-26-FEW-all%20type%20of%20width-2.png)
 
 本文转自<a href="http://www.cnblogs.com/kongxianghai/p/4192032.html">白色的海的博客，再次表示感谢！！！</a>
