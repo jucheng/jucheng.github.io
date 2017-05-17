@@ -32,7 +32,7 @@ CSS 实现三角形
 
 效果如下：
 
-![](http://i2.muimg.com/567571/14a8fde74ee3d856.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-1.png)
 
 #### 2、width和height都为0的盒子效果
 
@@ -50,7 +50,7 @@ CSS 实现三角形
 
 效果如下：
 
-![](http://i4.buimg.com/567571/5c03324316bd6868.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-2.png)
 
 
 #### 3、我们知道border属性包含四个值，分别对应“上 右 下 左”，呈顺时针排列，我们随便将其中三条边改变透明的颜色transparent,也就是透明的颜色。
@@ -67,7 +67,7 @@ CSS 实现三角形
 
 效果如下：
 
-![](http://i4.buimg.com/567571/3f9955709dc82ea2.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-3.png)
 
 #### 4、我们设置两条边为透明的颜色
 
@@ -83,7 +83,7 @@ CSS 实现三角形
 
 效果如下：
 
-![](http://i2.muimg.com/567571/448dc9f560de9996.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-4.png)
 
 #### 5、总结
 
@@ -133,13 +133,13 @@ CSS 实现三角形
 
 效果如下：
 
-![](http://i1.piimg.com/567571/b1e7cd8a81ed8238.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-5.png)
 
 分析：但是，以上这个结果并不是我们想要的结果，外层三角形高为30px，内层三角形高为29px,按道理说，如果内层三角形top定义为1px,(也就是向下移动1px），left定义为0的时候，预期效果应该是如下图，但是为什么效果不一样呢？
 
 其实在CSS中，子元素的绝对定位是根据父元素的“内容边界(content)”进行定位的。也就是说，“内层三角形对应的盒子”的绝对定位是根据“外层三角形对应的盒子“的内容content来进行定位的，而不是根据我们肉眼所看到的三角形的边界进行定位的。如下图可以得到很详细的视觉效果：
 
-![](http://i4.buimg.com/567571/af7b674433c057e9.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-6.jpg)
 
 由于盒子的宽和高都是0，因此content是在盒子的中心，也就是中心点。
 
@@ -169,7 +169,7 @@ CSS 实现三角形
 
 效果如下：
 
-![](http://i1.piimg.com/567571/96c6bfbf24091621.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-7.png)
 
 #### 7、实现带内容的三角形边框
 
@@ -225,7 +225,7 @@ CSS 实现三角形
     }
 
 
-![](http://i2.muimg.com/567571/a081a11779e60842.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle-8.png)
 
 
 #### 8、总结
