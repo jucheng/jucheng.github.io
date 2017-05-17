@@ -49,7 +49,7 @@ Sublime Text内运行javascript(ES6)
 
 使用快捷键ctrl + b, 将得到以下执行结果:
 
-![](http://p1.bpimg.com/567571/7a4c6e2f2fc0dfd8.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-22-FEW-Sublime%20Text%203%20-1.png)
 
 注: 文件必须是存在于磁盘中的, 而不是untitled的, 否则sublime无法找到相应的文件.
 
