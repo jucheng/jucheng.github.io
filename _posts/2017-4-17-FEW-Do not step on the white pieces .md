@@ -85,11 +85,11 @@ tags: [前端开发，项目]
 
 ##### A、这个是top未提升100px之前的界面图：
 
-![](http://i1.piimg.com/567571/d66af6057b91873c.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-17-FEW-Do%20not%20step%20on%20the%20white%20pieces%20-1.png)
 
 ##### B、这个是top提升了100px之后的显示界面：
 
-![](http://i2.muimg.com/567571/36b3c1415dd8fbba.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-17-FEW-Do%20not%20step%20on%20the%20white%20pieces%20-2.png)
 
 
 ### 3.JavaScript部分 
@@ -178,7 +178,7 @@ tags: [前端开发，项目]
             confirm('你的最终得分为 ' + parseInt($('score').innerHTML) );
         }
 
-![](http://i1.piimg.com/567571/1aa26a8c48aeb7b8.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-17-FEW-Do%20not%20step%20on%20the%20white%20pieces%20-3.png)
 
 #### 3.3 判断是否点击到黑块
 
@@ -197,5 +197,5 @@ tags: [前端开发，项目]
 
 其实程序写到这里，几个核心的功能点都已经实现了。以下是这个小游戏的运行截图：
 
-![](http://i4.buimg.com/567571/a71f815bd510e6d4.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-17-FEW-Do%20not%20step%20on%20the%20white%20pieces%20-4.png)
 
