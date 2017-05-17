@@ -66,13 +66,13 @@ CSS代码：
 
 结果显示：
 
-![](http://i1.piimg.com/567571/c8b663b6877840ae.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-word_spacing%20and%20letter_spacing-1.png)
 
 #### A、word-spacing的使用
 
 如果在这里，我什么都不改，就只是直接把CSS代码中的letter-spacing改成word-spacing，结果是以下这样的：surprise！！！什么格都没有，别说空格。
 
-![](http://i4.buimg.com/567571/c5f50b0a0144f613.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-word_spacing%20and%20letter_spacing-2.png)
 
 原因分析：
 
@@ -99,8 +99,8 @@ CSS代码：
 
 ##### A、汉字之间没有空格，英文单词有空格
 
-![](http://i2.muimg.com/567571/58e59c4e3bb7b103.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-word_spacing%20and%20letter_spacing-3.png)
 
 ##### B、汉字之间有空格
 
-![](http://i1.piimg.com/567571/657ece42b3e4c7a0.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-word_spacing%20and%20letter_spacing-4.png)
