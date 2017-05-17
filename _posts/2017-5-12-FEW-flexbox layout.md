@@ -17,7 +17,7 @@ Flexbox 是一个 CSS3 的盒子模型 ( box model )，顾名思义它就是一�
 
 第一步要来看 Flexbox 的盒子模型，根据 W3C 文章所描述，flex 的盒子模型如下图所呈现，与一般的盒子模型不同的地方，在于 Flexbox 的盒子模型具有水平的起点与终点 ( main start、main end )，垂直的起点与终点 ( cross start、cross end )，水平轴与垂直轴 ( main axis、cross axis )，然后元素具有水平尺寸与垂直尺寸 ( main size、cross size )，这些都是相当重要的布局规画。
 
-![](http://i4.buimg.com/588926/b3534b1da3cfdd49.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-1.jpg)
 
 再来我们先看看 Flexbox 有哪些属性，也可参考<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">MDN的使用 CSS 弹性盒子</a>
 
@@ -41,9 +41,9 @@ display 是我们熟知的 CSS 属性，对于 Flexbox 来说，多了有两种�
 
 这样做将元素定义为弹性容器，其子元素则成为弹性项目。**值 flex 使弹性容器成为块级元素。值 inline-flex 使弹性容器成为单个不可分的行内级元素。**
 
-![](http://i2.muimg.com/588926/0277667d97ecc1c8.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-2.png)
 
-![](http://i4.buimg.com/588926/197e5d0441bdc5e6.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-3.png)
 
 #### B、flex-direction
 
@@ -54,9 +54,9 @@ flex-direction 表示 Flexbox 內容元素的「排列方向」，分別有下�
 + column：从上到下，再由左到右
 + column-reverse：与 column 相反
 
-![](http://i4.buimg.com/588926/74800943c2f894aa.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-4.png)
 
-![](http://i2.muimg.com/588926/7c41d423a5c0f5dd.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-5.jpg)
 
 #### C、justify-content
 
@@ -68,9 +68,9 @@ flex-direction 表示 Flexbox 內容元素的「排列方向」，分別有下�
 + space-between：平均分配内容元素，左右元素将会与 main start 和 main end 贴齐
 + space-around：平均分配内容元素，间距也是平均分配
 
-![](http://i2.muimg.com/588926/db036e916099f983.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-6.png)
 
-![](http://i2.muimg.com/588926/b2d3ff8a87c4958a.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-7.jpg)
 
 #### D、align-items
 
@@ -82,9 +82,9 @@ flex-direction 表示 Flexbox 內容元素的「排列方向」，分別有下�
 + stretch：将内容元素全部撑开至 Flexbox 的高度
 + baseline：以所有内容元素的基线作为对齐标准
 
-![](http://i4.buimg.com/588926/6c992e6de23078ee.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-8.png)
 
-![](http://i4.buimg.com/588926/97f5ef22f8b4dcf3.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-9.jpg)
 
 #### E、align-self
 
@@ -98,35 +98,32 @@ align-self 的设定与 align-items 相同，但目的不同，**align-self 的�
 
 flex 元素会对齐到 cross-axis 的首端。
 
-![](http://i2.muimg.com/588926/0935339edf451c57.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-10.png)
 
 + flex-end
 
 flex 元素会对齐到 cross-axis 的尾端。
 
-![](http://i2.muimg.com/588926/bbd85ff1edcdbc9c.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-11.png)
 
 + center
 
 flex 元素会对齐到 cross-axis 的中间，如果该元素的 cross-size 的尺寸大于 flex 容器，将在两个方向均等溢出。
 
-![](http://i4.buimg.com/588926/45f60948520566ad.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-12.png)
 
 + baseline
 
 所有的 flex 元素会沿着基线对齐。
 
-![](http://i2.muimg.com/588926/ba376047f2dcfee3.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-13.png)
 
 + stretch
 
 flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-size 拉伸。
 
-![](http://i1.piimg.com/588926/6252ed3ca1cb7365.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-14.png)
 
-![](http://i1.piimg.com/588926/ba9c3d4b290c21f4.png)
-
-![](http://i4.buimg.com/588926/62898ca0adf3fd8c.jpg)
 
 #### F、align-content
 
@@ -139,9 +136,9 @@ flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-si
 + space-around：每行平均分配间距
 + stretch：内容元素全部撑开
 
-![](http://i1.piimg.com/588926/c1b72313ebaf8edb.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-15.png)
 
-![](http://i2.muimg.com/588926/7d35f8799a9c6679.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-16.jpg)
 
 #### G、flex-wrap
 
@@ -151,17 +148,17 @@ flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-si
 + wrap：多行
 + wrap-reverse：多行，但内容元素反转
 
-![](http://i1.piimg.com/588926/8487d49ef0f579fe.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-17.png)
 
-![](http://i1.piimg.com/588926/579020e7bdf70889.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-18.jpg)
 
 #### H、order
 
 刚刚在 flex-wrap 的属性里头看到了可以把元素反转，**order 这个属性更是可以直接指定一个数字，就可以由小到大的排列顺序**
 
-![](http://i1.piimg.com/588926/295f171221f191f3.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-19.png)
 
-![](http://i1.piimg.com/588926/4bb4b54f05b645ca.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-20.jpg)
 
 #### I、flex
 
@@ -177,17 +174,17 @@ flex 元素将会基于容器的宽和高，按照自身 margin box 的 cross-si
 
 **HTML代码：**
 
-![](http://i2.muimg.com/588926/023cb94babf5d0b1.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-21.png)
 
 **CSS代码：**
 
-![](http://i4.buimg.com/588926/8b002874050097f3.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-22.png)
 
-![](http://i1.piimg.com/588926/3ebbae5896d5677d.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-23.jpg)
 
 如果用动画来表现，可以看出拉长的时候红色会变得比蓝色长，但压缩的时候却是蓝色变得比红色长，如此一来就更能体会 flex 在响应式设计里头的关键脚色萝！
 
-![](http://i4.buimg.com/588926/fb864b2edca41f08.gif)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-flexbox%20layout-24.gif)
 
 以上就是 Flexbox 的完整介绍，想不到一个 CSS3 的属性，可以花费这麽大一篇来介绍，不过也因为有了这个新的属性，让在做 layout 的佈局又更加弹性喽！在这里附上一个测试Flexbox的在线网站：
 
