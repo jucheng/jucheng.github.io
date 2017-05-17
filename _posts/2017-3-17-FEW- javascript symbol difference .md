@@ -23,7 +23,7 @@ javascript的符号中括号[]和大括号{}的区别
 
 测试结果如下：
 
-![](http://i1.piimg.com/567571/f86b7e55c300b1af.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-17-FEW-%20javascript%20symbol%20difference%20-1.png)
 
 
 ### 二、区别
@@ -82,7 +82,7 @@ var CJC = Array( "Name","CJC","Address","GuangZhou" );
 
 测试结果如下：
 
-![](http://i1.piimg.com/567571/e9e4d5bebb3d6b03.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-17-FEW-%20javascript%20symbol%20difference%20-2.png)
 
  从上面的结构来看，CJC对象里面的第一项是属性，第二项是一个数组，第三项是一个数组对象。
 
