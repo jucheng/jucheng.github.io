@@ -33,11 +33,11 @@ sublime 运行js文件window is not defined
 
 **sublime-text3控制台运行结果：**
 
-![](http://i4.buimg.com/567571/5cf75f0a1c952038.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-3-FEW-window%20is%20not%20defined-1.png)
 
 **谷歌浏览器控制台运行结果**：
 
-![](http://i4.buimg.com/567571/2a1a8c6a1c90d179.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-3-FEW-window%20is%20not%20defined-2.png)
 
 ### 三、原因分析
 
@@ -67,4 +67,4 @@ sublime 运行js文件window is not defined
     const cat = new Cat('Mew');
     cat.sayCatName(); // => undefined
 
-![](http://i1.piimg.com/567571/009ae117d7c53925.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-3-FEW-window%20is%20not%20defined-3.png)
