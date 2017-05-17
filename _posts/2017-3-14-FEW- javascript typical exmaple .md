@@ -37,7 +37,7 @@ We are family:cjc,cjp,clj,clm.
     console.log(start);
     console.log(end);
 
-![](http://p1.bqimg.com/567571/cdbdd0451b58a111.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-14-FEW-%20javascript%20typical%20exmaple%20-1.png)
 
 笔记：（娱乐中记住更多，认真你就输了^_^）
 
@@ -56,9 +56,6 @@ C、记住:indexOf()方法接受一个搜索值作为第一个参数，还有一
 
 (备注:"tt"是在html文件中定义的一个p标签的id）
 
-![](http://p1.bpimg.com/567571/3cd06ad0c1c8f485.png)
-
-
 #### 3、删除或者替换数组元素
 
 原数组是：[cjc","cjp","who","clj","clm","ccc"]
@@ -75,7 +72,7 @@ C、记住:indexOf()方法接受一个搜索值作为第一个参数，还有一
     stranger.splice(stranger.lastIndexOf("ccc"),1,"cap");
     console.log(stranger);
 
-![](http://p1.bqimg.com/567571/a041378bb78d52f4.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-14-FEW-%20javascript%20typical%20exmaple%20-2.png)
 
 笔记：（娱乐中记住更多，认真你就输了^_^）
 
