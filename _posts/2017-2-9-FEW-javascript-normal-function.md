@@ -18,13 +18,13 @@ javascript中相应的方法练习代码
 
 获取当前日期：
 
-![](http://p1.bqimg.com/567571/e4b2663c64531c05.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-1.png)
 
 ### 2、charAt(index)方法
 
 charAt 方法返回一个字符值，该字符位于指定索引位置。字符串中的第一个字符的索引为 0，第二个的索引为 1，等等。超出有效范围的索引值返回 undefined。
 
-![](http://p1.bpimg.com/567571/79c92e121a534b8b.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-2.png)
 
 ### 3、random()方法和floor()方法
 
@@ -33,7 +33,7 @@ random()方法 可返回介于 0 ~ 1 之间的一个随机数。
 floor()方法  返回小于等于其数字参数的最大整数。 
 
 
-![](http://p1.bpimg.com/567571/4241f9e27423031b.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-3.png)
 
 ### 4、indexOf（） 方法 
 
@@ -45,7 +45,7 @@ indexOf 方法返回一个整数值，指出 String 对象内子字符串的开�
 
 从左向右执行查找。否则，该方法与 lastIndexOf 相同。
 
-![](http://p1.bqimg.com/567571/295b24e934ebc511.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-4.png)
 
 ### 5、Math.max()和Math.min()方法
 
@@ -59,9 +59,9 @@ Math.min(number1, number2) 返回给出的两个数值表达式中较小者。
 
 parseFloat 方法返回与 numstring 中保存的数相等的数字表示。如果 numstring 的前缀不能解释为浮点数，则返回 NaN （而不是数字）。
 
-![](http://i1.piimg.com/567571/0d53a24bb9033c59.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-5.png)
 
-![](http://i1.piimg.com/567571/05eb9cfd6dd5205b.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-6.png)
 
 ### 7、reverse（） 方法 
 
@@ -69,13 +69,13 @@ parseFloat 方法返回与 numstring 中保存的数相等的数字表示。如�
 
 reverse 方法将一个 Array 对象中的元素位置进行反转。在执行过程中，这个方法并不会创建一个新的 Array 对象。 
 
-![](http://i1.piimg.com/567571/7afb602875d87150.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-7.png)
 
 ### 8、pop() 方法
 
 删除并返回数组的最后一个元素
 
-![](http://p1.bpimg.com/567571/cd47afe609b64bb4.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-8.png)
 
 ### 9、concat() 方法
 
@@ -83,7 +83,7 @@ concat() 方法用于连接两个或多个数组。
 
 该方法不会改变现有的数组，而仅仅会返回被连接数组的一个副本。
 
-![](http://p1.bpimg.com/567571/ca99c4fa1656cd28.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-9.png)
 
 ### 10、join( )  方法 
 
@@ -94,7 +94,7 @@ arrayobj.join(separator)
 其中 separator 参数是一个 String 对象，它被用来在最终的 String 对象中对数组元素之间的分隔符。如果省略了这个参数，那么数组元素之间就用一个空字符串来分隔。
 
 
-![](http://i1.piimg.com/567571/8a50d2e508902e2e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-10.png)
 
 ### 11、push() 方法
 
@@ -102,7 +102,7 @@ push() 方法可向数组的末尾添加一个或多个元素，并返回新的�
 
 push() 方法可把它的参数顺序添加到 arrayObject 的尾部。它直接修改 arrayObject，而不是创建一个新的数组。push() 方法和 pop() 方法使用数组提供的先进后出栈的功能。
 
-![](http://i1.piimg.com/567571/26b3461dca7a077a.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-11.png)
 
 ### 12、shift() 方法
 
@@ -116,21 +116,21 @@ shift() 方法用于把数组的第一个元素从其中删除，并返回第一
 
 如果数组是空的，那么 shift() 方法将不进行任何操作，返回 undefined 值。请注意，该方法不创建新数组，而是直接修改原有的 arrayObject。
 
-![](http://i1.piimg.com/567571/07e163f633c92efc.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-12.png)
 
 ### 13、slice() 方法
 
 slice() 方法可从已有的数组中返回选定的元素。
 
-![](http://p1.bpimg.com/567571/c99a52ce6f9d6156.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-13.png)
 
 A、一个参数
 
-![](http://p1.bqimg.com/567571/5145bedc45d519a6.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-14.png)
 
 B、两个参数
 
-![](http://p1.bqimg.com/567571/9966a8cbc8f0202f.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-15.png)
 
 ### 14、splice() 方法
 
@@ -138,81 +138,81 @@ splice() 方法向/从数组中添加/删除项目，然后返回被删除的项
 
 注释：该方法会改变原始数组。
 
-![](http://p1.bpimg.com/567571/77fa0acc9c5b7dbe.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-16.png)
 
 测试代码：
 
-![](http://p1.bqimg.com/567571/0cb00a1370286b94.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-17.png)
 
 ### 15、sort() 方法
 
 sort() 方法用于对数组的元素进行排序。
 
-![](http://p1.bpimg.com/567571/561766893a7b6d40.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-18.png)
 
 A、测试代码：字母类型
 
-![](http://p1.bqimg.com/567571/0db65b13d3483e61.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-19.png)
 
 B、测试代码2：数字类型（未按照数字大小顺序排序）
 
-![](http://p1.bpimg.com/567571/ec337e095fb00bb3.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-20.png)
 
 C、测试代码3：数字类型（按照数字大小顺序排序）
 
-![](http://p1.bqimg.com/567571/e08989a9f90edb64.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-21.png)
 
 ### 16、unshift() 方法
 
 unshift() 方法可向数组的开头添加一个或更多元素，并返回新的长度。
 
-![](http://p1.bqimg.com/567571/5a5a3ddd28587aa5.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-22.png)
 
 测试代码：
 
-![](http://i1.piimg.com/567571/569e714049b860fd.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-23.png)
 
 ### 17、toString() 方法
 
 toString() 方法可把数组转换为字符串，并返回结果。
 
-![](http://p1.bpimg.com/567571/b84a56a59f15f143.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-24.png)
 
 测试代码：
 
-![](http://i1.piimg.com/567571/4b5bedbec3a8afc1.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-23-25.png)
 
 ### 18、split() 方法
 
 split() 方法用于把一个字符串分割成字符串数组。
 
-![](http://p1.bpimg.com/567571/c2468128c0d46fb3.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-26.png)
 
 A、分割简单的字符串：
 
-![](http://p1.bqimg.com/567571/738ca6eb460f9c37.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-27.png)
 
 B、分割结构更为复杂的字符串：
 
-![](http://p1.bqimg.com/567571/8adce86cf9edac0f.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-28.png)
 
 C、分割单词为字符：
 
-![](http://p1.bqimg.com/567571/21f9652fec01fd07.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-29.png)
 
 D、若只需要返回一部分字符，请使用 howmany 参数：
 
-![](http://p1.bpimg.com/567571/4625af46b329c180.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-30.png)
 
 ### 19、substring() 方法
 
 substring() 方法用于提取字符串中介于两个指定下标之间的字符。
 
-![](http://p1.bpimg.com/567571/2d667626be893e74.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-31.png)
 
 测试代码：
 
-![](http://p1.bpimg.com/567571/3c017dcd9fbd57af.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-32.png)
 
 ### 20、decodeURI() 函数 和encodeURI() 函数
 
@@ -222,19 +222,19 @@ encodeURI() 函数可把字符串作为 URI 进行编码。
 
 测试代码：**明白了一般网址栏里会出现%20的原因了吧**
 
-![](http://p1.bpimg.com/567571/cc675ed0169c9a3d.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-33.png)
 
-![](http://p1.bpimg.com/567571/b65c45eb37035a4e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-34.png)
 
-![](http://p1.bqimg.com/567571/078be6ea1bd089d8.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-35.png)
 
 ### 21、isNaN() 函数
 
 isNaN() 函数用于检查其参数是否是非数字值。
 
-![](http://p1.bpimg.com/567571/9cc81e9b641be54d.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-36.png)
 
-![](http://p1.bqimg.com/567571/e9a0eb0c2ecdc526.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function-37.png)
 
 ### 22、setInterval() 方法和setTimeout() 方法
 
