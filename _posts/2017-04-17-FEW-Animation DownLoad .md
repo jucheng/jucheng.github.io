@@ -53,7 +53,7 @@ user-scalable：用户是否可以手动缩放（默认设置为no，因为我�
 
 以下这个是在chrome浏览器中移动端的IPhone 6的显示效果：
 
-![](http://i1.piimg.com/567571/bd14755e7c6d633a.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-1.png)
 
 ##### B、标签二 ：设置IE渲染方式默认为最高(这部分可以选择添加也可以不添加)
 现在有很多人的IE浏览器都升级到IE9以上了，所以这个时候就有又很多诡异的事情发生了，例如现在是IE9的浏览器，但是浏览器的文档模式却是IE8:
@@ -75,7 +75,7 @@ user-scalable：用户是否可以手动缩放（默认设置为no，因为我�
 
 在Bootstrap官方文档里有定义，相关的分辨率归属设备如下：
 
-![](http://i4.buimg.com/567571/bb2bcbbb632b73b8.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-2.png)
 
 而我们在这里的是针对小于768px的设备，也就是手机屏幕，还有大于992px的设备，也就是电脑设备，进行了响应式设计。
 
@@ -85,24 +85,24 @@ user-scalable：用户是否可以手动缩放（默认设置为no，因为我�
 
 ##### A、当大于992px的时候，显示效果是这样的：
 
-![](http://i2.muimg.com/567571/cfb15572719b741c.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-3.png)
 
 ##### B、当分辨率大于768px,小于992px，的时候，显示效果是这样的：
 
-![](http://i4.buimg.com/567571/560845972c821f5b.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-4.png)
 
 ##### C、当屏幕小于768px的时候，显示效果如是这样的：
 
-![](http://i2.muimg.com/567571/fb8dd5338a71b7ae.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-5.png)
 
 
 ### 4、界面布局
 
 ##### A、顶部导航栏模块
 
-![](http://i2.muimg.com/567571/4b15386bc498922f.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-6.png)
 
-![](http://i1.piimg.com/567571/69788e505691fade.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-7.png)
 
 导航栏在您的应用或网站中作为导航页头的响应式基础组件。导航栏在移动设备的视图中是折叠的，随着可用视口宽度的增加，导航栏也会水平展开
 
@@ -120,7 +120,7 @@ user-scalable：用户是否可以手动缩放（默认设置为no，因为我�
 
 显示效果为：
 
-![](http://i1.piimg.com/567571/af9c4375ea8c70bf.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-8.png)
 
 **如果不设置的话，显示效果上，你的轮播图那里的图片会往上提上50px，那么会遮盖住部分的图片。**
 
@@ -138,11 +138,11 @@ user-scalable：用户是否可以手动缩放（默认设置为no，因为我�
 
 data-ride="carousel" 属性用于标记轮播在页面加载时就开始动画播放。
 
-![](http://i1.piimg.com/567571/9a93e4722273859d.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-9.png)
 
 ##### 2、轮播（Carousel）插件中有用的方法：
 
-![](http://i2.muimg.com/567571/5b0436a6cca56e66.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-10.png)
 
 **.carousel('prev')：循环轮播到上一个项目。**
 
@@ -152,26 +152,26 @@ data-ride="carousel" 属性用于标记轮播在页面加载时就开始动画�
 
 可以通过 .item 内的 .carousel-caption 元素向幻灯片添加标题。只需要在该处放置任何可选的 HTML 即可，它会自动对齐并格式化
 
-![](http://i4.buimg.com/567571/8382029eed612fec.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-11.png)
 
 ##### 4、轮播效果
 
-![](http://i4.buimg.com/567571/d2a597041b038703.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-12.png)
 
-![](http://i4.buimg.com/567571/f070a308d6e5d797.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-13.png)
 
 所以说你点那个图片中的小圆点可以实现轮播效果，那自动轮播的效果可以通过JS调用carousel（）方法来实现自动轮播。
 
 
 ###### C、Bootstrap 网格系统
 
-![](http://i4.buimg.com/567571/35a062f84c447657.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-14.png)
 
 **Bootstrap 提供了一套响应式、移动设备优先的流式网格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列。**
 
-![](http://i1.piimg.com/567571/8427dc9f8478aa07.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-15.png)
 
-![](http://i1.piimg.com/567571/9a1519e6f452acdf.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-16.png)
 
 而在我们的这个项目里，我们是设置了col-md-4，也就是把12列分为3列去显示。
 
@@ -179,11 +179,11 @@ data-ride="carousel" 属性用于标记轮播在页面加载时就开始动画�
 
 ##### D、Bootstrap 标签页（Tab）插件
 
-![](http://i4.buimg.com/567571/25b9b2f712eae400.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-17.png)
 
 这个是你的代码：
 
-![](http://i1.piimg.com/567571/8efb7fecdbed0c8b.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-18.png)
 
 这里是把12列分为两部分，一部分是col-md-7，一部分是col-md-5。
 
@@ -192,48 +192,48 @@ data-ride="carousel" 属性用于标记轮播在页面加载时就开始动画�
 
 模态框（Modal）是覆盖在父窗体上的子窗体。通常，目的是显示来自一个单独的源的内容，可以在不离开父窗体的情况下有一些互动。子窗体可提供信息、交互等。
 
-![](http://i2.muimg.com/567571/6185aaf93ce6eb5a.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-19.png)
 
 你的代码部分：
 
-![](http://i4.buimg.com/567571/3b03674110746491.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-20.png)
 
-![](http://i4.buimg.com/567571/09baeff592da21d7.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-21.png)
 
 效果显示：
 
-![](http://i2.muimg.com/567571/0fa323e23e3ac4cf.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-22.png)
 
 
 ##### F、顶部导航栏跳转底部的tab标签模块
 
 顶部导航栏：
 
-![](http://i2.muimg.com/567571/4cfccade34fc208e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-23.png)
 
 底部的tab标签：
 
-![](http://i1.piimg.com/567571/7a60c3302fbfa28c.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-24.png)
 
 ###### 1、切换的原理：
 
-![](http://i1.piimg.com/567571/69788e505691fade.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-25.png)
 
-![](http://i1.piimg.com/567571/a1a34af375354a42.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-26.png)
 
-![](http://i4.buimg.com/567571/e4c14531a4d50262.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-27.png)
 
 
 ##### 2、切换的JS代码：
 
-![](http://i1.piimg.com/567571/32b5d96d5aa44ed5.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-28.png)
 
-![](http://i2.muimg.com/567571/3fff677afc8669fc.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-29.png)
 
 这里就是如果点击了弹出框里的a标签中的选项：
 
  **e.preventDefault();这句是为了取消事件的默认动作。**
 
-![](http://i4.buimg.com/567571/e3c74a993942073e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20-30.png)
 
 这里的设置了滚动条的位置，如果点击了相应的链接，则进行跳转，然后滚动条也会进行相应的跳动。
