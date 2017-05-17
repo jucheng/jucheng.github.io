@@ -9,7 +9,9 @@ java中integer跟int的区别
 
 <!-- more -->
 
-Java基本数据类型 int与Integer 区别
+### Java基本数据类型 int与Integer 区别
+
+#### 1、类型介绍
  
 基本类型，或者叫做内置类型，是JAVA中不同于类的特殊类型。 Java中的简单类型从概念上分为四种：实数、整数、字符、布尔值。但是有一点需要说明的是，Java里面只有八种原始类型，其列表如下：
 
@@ -25,7 +27,7 @@ Java基本数据类型 int与Integer 区别
 
 **而其他的只要是继承于Object类的复杂数据类型都是按照Java里面存储对象的内存模型来进行数据存储的，使用Java内存堆和内存栈来进行这种类型的数据存储，简单地讲，“引用”是存储在有序的内存栈上的，而对象本身的值存储在内存堆上的。**
 
-Java的简单数据讲解列表如下：
+#### 2、 Java的简单数据讲解列表如下：
 
 int：int为整数类型，在存储的时候，用4个字节存储，范围为-2,147,483,648到2,147,483,647，在变量初始化的时候，int类型的默认值为0。
 
@@ -63,6 +65,8 @@ int 是基本数据类型 Integer是其包装类，注意是一个类。 为什�
     String b=String.valueOf(true); 
     String c=new Integer(12).toString();//通过包装类的toString()也可以 
     String d=new Double(2.3).toString(); 
+
+#### 3、再次举例
 
 再举例下。现在要用泛型 List nums; 这里<>需要类。如果你用int。它会报错的 int是java提供的8种原始数据类型之一。Java为每个原始类型提供了封装类，Integer是java为int提供的封装类。
 
@@ -113,6 +117,7 @@ int   一般只用在数值计算中，而Integer是用在Java的其它要使用
 
 Java   提供两种不同的类型：引用类型和原始类型（或内置类型）。Int是java的原始数据类型，Integer是java为int提供的封装类。Java为每个原始类型提供了封装类。  
  
+#### 4、类型区别
 
 原始类型         封装类   
   boolean            Boolean
@@ -146,6 +151,8 @@ Java   提供两种不同的类型：引用类型和原始类型（或内置类�
  
 **实现这种对象包装的目的主要是因为类能够提供必要的方法，用于实现基本数据类型的数值与可打印字符串之间的转换，以及一些其他的实用程序方法；**   
 
+#### 5、额外的情况
+
 **另外，有些数据结构库类只能操作对象，而不支持基本数据类型的变量，包装类提供一种便利的方式，能够把基本数据类型转换成等价的对象，从而可以利用数据结构库类进行处理。**   
 
 
@@ -164,11 +171,11 @@ Float a= new Float(null);是可以的用Float初始化一个对象
 **integer是对象，用一个引用指向这个对象**
 
 
-####1.Java 中的数据类型分为基本数据类型和复杂数据类型
+#### A、Java 中的数据类型分为基本数据类型和复杂数据类型
 
 int 是前者>>integer 是后者（也就是一个类）
 
-####2.初始化
+#### B、初始化
 
 int i =1;
 
@@ -188,5 +195,5 @@ Integer i= new Integer(1);(要把integer 当做一个类看)
 
 **java 提供两种不同的类型：引用类型（或者封装类型，Warpper）和原始类型（或内置类型，Primitive）。Int是java的原始数据类型，Integer是java为int提供的封装类。Java为每个原始类型提供了封装类。** 
 
-#####int 是基本类型，(int)(Math.Random()*100)就是一个数，可以进行加见乘除。 Integer是class ,那么 new Integer(temp)就是一个对象了，可以用到Integer这个class的方法，例如用intvalue()可以返回这个int的值。
+##### int 是基本类型，(int)(Math.Random()*100)就是一个数，可以进行加见乘除。 Integer是class ,那么 new Integer(temp)就是一个对象了，可以用到Integer这个class的方法，例如用intvalue()可以返回这个int的值。
 
