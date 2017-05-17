@@ -43,11 +43,11 @@ mouseenter 与 mouseover 的不同
 
 A、鼠标移动到标签p上之前：
 
-![](http://i1.piimg.com/567571/3fc897b476a65cb2.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-6-FEW-%20css3-the%20difference%20between%20mouseenter%20and%20mouseover%20-1.png)
 
 B、鼠标移动到标签p上之后：
 
-![](http://i4.buimg.com/567571/b77fcacff974e04f.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-6-FEW-%20css3-the%20difference%20between%20mouseenter%20and%20mouseover%20-2.png)
 
 ### 2、定义和用法
 
@@ -94,11 +94,11 @@ mouseover() 方法触发 mouseover 事件，或规定当发生 mouseover 事件�
 
 **A、这个是未触发任何效果之前的显示结果:**
 
-![](http://i2.muimg.com/567571/14977a579a9e866b.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-6-FEW-%20css3-the%20difference%20between%20mouseenter%20and%20mouseover%20-3.jpg)
 
 **B、这个是触发后的显示结果:**
 
-![](http://i4.buimg.com/567571/5b7136e1516d5160.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-6-FEW-%20css3-the%20difference%20between%20mouseenter%20and%20mouseover%20-4.png)
 
 ### 4、总结
 
