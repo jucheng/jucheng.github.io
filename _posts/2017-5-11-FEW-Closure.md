@@ -34,15 +34,15 @@ tags: [前端开发，JavaScript]
 
 那么我们再优化一下代码，如下：
 
-![](http://i4.buimg.com/588926/52f7501822899c56.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-1.png)
 
 或者也可以这样写：
 
-![](http://i4.buimg.com/588926/649aec27252f1784.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-2.png)
 
 两者的执行结果是一样的：
 
-![](http://i4.buimg.com/588926/9633ce4de8562615.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-3.png)
 
 #### B、分析结果
 
@@ -65,9 +65,9 @@ tags: [前端开发，JavaScript]
 
 闭包是如何工作的，先撇开所有的乱七八糟的东西，我们先看一个小例子。
 
-![](http://i1.piimg.com/588926/ca997394ef76e621.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-4.png)
 
-![](http://i4.buimg.com/588926/8b0503bbd760679c.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-5.png)
 
 当调用testclosure时，为这次特定的调用创建一个执行环境对象，将传入的值赋予closurename。请记住，执行环境对象是JavaScript引擎的一部分，在JavaScript中不能直接访问。
 
@@ -83,18 +83,18 @@ tags: [前端开发，JavaScript]
 
 当删除这个变量的时候，这个执行环境对象的引用计数就会降到0，那么在JavaScript空闲的时候，就会移除这个变量。
 
-![](http://i2.muimg.com/588926/a1ca4696c245b2c9.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-6.png)
 
 ### 二、进一步讨论
 
-![](http://i2.muimg.com/588926/5c157aa40beb8837.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-7.png)
 
-![](http://i2.muimg.com/588926/2419a703935c87e4.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-8.png)
 
 当我们调用outerFunction的时候，创建了一个执行环境。在这个执行环境中定义了一个innerFuntion的函数，因为在outerFunction执行环境里定义了innerFunction,它有权限访问在outerFunction作用域内的所有变量，这里是name,age,innerFunction,outerFunction和menu。当outerFunction执行完时，你可能期望在执行环境中的所有东西都会被垃圾回收器销毁。你想错了，因为innerFunction的引用保存给了全局作用域中的变量menu,所以它并不会被销毁。在声明innerFunction的作用域内，需要保留对所有变量的访问权限，它“关闭了”outerFunction执行环境的大门，阻止垃圾回收器来移除它们。这就是闭包。
 
 ### 三、最后的一个例子的讨论
 
-![](http://i4.buimg.com/588926/b33abc9369ac69d8.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-9.png)
 
 这个例子是在Ajax请求返回后，name还是可以访问的。之所以可以访问，是因为success方法是在调用sendAjaxRequest的时候创建的执行环境中定义的，此时name在作用域中。
