@@ -50,7 +50,7 @@ Sass文件导入@import
 
 因为我们其实只是想把test.scss编译成test.css。但是，这个时候，我们会发现，另外一个文件external.scss也被编译成了external.css。如下图，我们用Koala来编译一下此时的目录，得到以下的结果：
 
-![](http://i2.muimg.com/567571/f61494b71a617899.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-20-FEW-sass_import-1.png)
 
 
 可想而知，这个结果并不是我们想要的，external.scss 作为一个中间文件，一般情况下是不需要在生成css的。
@@ -59,11 +59,11 @@ Sass文件导入@import
 
 我们只需要在文件名前加上下划线_ ，sass编译的时候就会忽略这个文件，@import 引用的时候可以加下划线引用，也可以不加。还是上面的例子，我们可以进行修改：
 
-![](http://i1.piimg.com/567571/de6f21e4d756dd84.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-20-FEW-sass_import-2.png)
 
 在Koala编译的结果是：
 
-![](http://i1.piimg.com/567571/ad76e675649ae746.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-20-FEW-sass_import-3.png)
 
 我们可以看到，在最终编译生成的test.css文件中也出现了_external.scss中的内容，只是在Koala中的编译这个文件被忽略了而已。这样一来，就不会生成多余的_external.css文件了。
 
