@@ -39,7 +39,7 @@ ES6 & babel 实战
 
 初始化过程就不写了，就是npm init ,我们新建一个测试文件test.js，写下测试代码：
 
-![](http://i1.piimg.com/588926/b54e5dce2380104d.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel-1.png)
 
 ##### A、运行程序
 
@@ -49,13 +49,13 @@ ES6 & babel 实战
 
 这时候会报错：
 
-![](http://i4.buimg.com/588926/9af73502fe76fb8b.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel-2.png)
 
 由提示信息可判断出，**应该是不支持async function导致的，因为这是 ES7 标准中定义的新语法，需要配置相应的 babel 插件才能支持它**。
 
 ##### B、新建一个后缀为.babelrc的文件：
 
-![](http://i2.muimg.com/588926/7225564010a6bb74.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel-3.png)
 
 **.babelrc为 babel 的配置文件，保存在项目的根目录下，其中presets用于设置开启的语法特性集合**，详细内容可以到官网看一下：
 
@@ -66,10 +66,9 @@ ES6 & babel 实战
 
     $ cnpm i babel-preset-es2015 babel-preset-stage-0 --save-dev
 
-![](http://i1.piimg.com/588926/45a1fd744136c106.png)
-
 ##### D 、现在我们再次执行一次代码，就可以看到控制台每隔 500ms 打印出一行，直到输出done时结束：
-![](http://i1.piimg.com/588926/81f2276c03d405d9.png)
+
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel-4.png)
 
 #### 3、编译程序
 
@@ -77,17 +76,15 @@ ES6 & babel 实战
 
      $ babel test.js --out-file test.compiled.js
 
-![](http://i2.muimg.com/588926/80c5d29d3920a0f8.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel-5.png)
 
 接下来，我们执行一下这个test.compiled.js，看一下执行结果如何：
 
-![](http://i4.buimg.com/588926/a5c76613ca61d241.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel-6.png)
 
 **经阅读官方文档可知，编译后的 JavaScript 程序有时候需要依赖一些运行时polyfill，通过安装babel-polyfill模块来获得**：
 
      $ cnpm i babel-polyfill --save
-
-![](http://i1.piimg.com/588926/bd1114d66af7e0a7.png)
 
 接着，我们需要做的是，在test.compiled.js文件中的首行中添加一句代码：
 
@@ -95,7 +92,7 @@ ES6 & babel 实战
 
 再次执行test.compiled.js便可看到与$ babel-node test.js一样的结果。
 
-![](http://i2.muimg.com/588926/197068d9ca277e1e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel-7.png)
 
 polyfill的详细介绍可参考<a href="http://babeljs.io/docs/usage/polyfill/">官方文档</a>
 
