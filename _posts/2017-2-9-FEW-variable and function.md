@@ -14,7 +14,7 @@ javascript中变量名和函数名重名
 
 今天突然在复习javascript的时候发现一个比较有趣的问题就是，假如在声明的时候不小心设置了变量名和函数名重名的话，那么输出的时候会是什么样的结果呢，疑惑如下：
 
-![](http://i1.piimg.com/567571/a6b5644d6c170ed4.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-variable%20and%20function-1.png)
 
 这个串代码执行完会报错 : a is not a function
 
@@ -33,7 +33,7 @@ javascript中变量名和函数名重名
 
 知道以上的规则,上面的代码等同于 :  
 
-![](http://i1.piimg.com/567571/25bd215245fddfe5.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-variable%20and%20function-2.png)
 
 根据上述代码，var a=100就是相当于给a重新赋值了,所以会报错.
 
@@ -43,18 +43,18 @@ javascript中变量名和函数名重名
 
 1、测试代码：
 
-![](http://i1.piimg.com/567571/4ab00f5c04220a13.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-variable%20and%20function-3.png)
 
 2、输出结果：
 
-![](http://p1.bpimg.com/567571/cb1bef8d5dae7c90.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-variable%20and%20function-4.png)
 
 二、当函数声明在后边的时候：
 
 1、测试代码：
 
-![](http://p1.bqimg.com/567571/3d9d9f9f1aef0a6a.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-variable%20and%20function-5.png)
 
 2、输出结果：
 
-![](http://i1.piimg.com/567571/2b797f1d320f745c.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-variable%20and%20function-6.png)
