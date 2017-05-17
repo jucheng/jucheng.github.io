@@ -60,7 +60,7 @@ ECMAScript5中的5个迭代和两个归并的方法
 
 **B、而对于some()来说，只要传入的函数对数组中任意一项返回了true，那么就会返回true，也就是说满足了其中一项即可。**
 
-![](http://i1.piimg.com/567571/b9575b4b6071416e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-24-FEW-%20iteration%20and%20merger-1.png)
 
 以上的代码就是调用了every()和some()方法，传入的参数只要满足数组项大于2就会返回true。这对于every()来说，它返回的是false,因为它只有部分数组符合条件，而对于some()来说，结果就是true,因为它至少有一项是大于2的。
 
@@ -70,7 +70,7 @@ A 、filter()函数
 
 下边我们再来看一下filter()函数，**它利用指定的函数确定是否在返回的数组中包含某一项**。例如要返回一个所有数值都大于2的数组。
 
-![](http://p1.bpimg.com/567571/018459517d4f32aa.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-24-FEW-%20iteration%20and%20merger-2.png)
 
 这里返回了数组[3, 4, 5, 6, 7, 8]，因为传入的函数对它们的每一项都返回了true。这个方法对查询符合某些条件的数组项非常有用。
 
@@ -78,14 +78,14 @@ B、map（）函数
 
 **map()也返回一个数组，而这个数组的每一项都是在原始数组中的对应项上传入函数的结果**。例如，可以给数组中的每一项乘以2，然后返回这些乘积组成的数组。
 
-![](http://i1.piimg.com/567571/306c6a3165ee0867.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-24-FEW-%20iteration%20and%20merger-3.png)
 
 
 ### 5、孤零零的但是重要的foreach()
 
 这里别看我不给它找一个对象来做对比就不显得它不重要啊，是你想太多......，这个方法是对数组中的每一项运行传入的函数。再次提醒一下，这个方法没有返回值，**本质上是与使用for循环迭代数组一样**。
 
-![](http://i1.piimg.com/567571/e4fd592d597afd5e.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-24-FEW-%20iteration%20and%20merger-4.png)
 
 ### 二、归并的两个方法
 
@@ -109,12 +109,12 @@ C、这个函数返回的任何值都会作为第一个参数自动传给下一�
 
 #### 3、reduce()函数从数组左边计算到数组右边
 
-![](http://p1.bpimg.com/567571/36c6aa0362773a96.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-24-FEW-%20iteration%20and%20merger-5.jpg)
 
 第一次执行回调函数，prev是1，cur是2。第二次，prev是3（1加2的结果），cur是3（数组的第三项）。这个过程会持续到把数组中的每一项都访问一遍，最后返回结果。
 
 #### 4、reduceRight()函数从数组右边计算到数组左边
 
-![](http://i1.piimg.com/567571/3132ef68bb9b6f9a.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-24-FEW-%20iteration%20and%20merger-7.jpg)
 
 第一次执行回调函数，prev是5，cur是4。当然，接下来的就不多说了，结果还是一样的，只不过是计算方向反过来的而已。除了计算方向相反之外，它们是完全一样的。
