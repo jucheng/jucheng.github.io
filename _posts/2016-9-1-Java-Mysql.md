@@ -35,10 +35,6 @@ Java MySQL 连接
     ('4', 'Facebook', 'https://www.facebook.com/', '3', 'USA'),
     ('5', 'TentCent', 'http://www.qq.com/', '21', 'CHINA');
 
-数据表显示如下：
-
-![](http://obzqtmk2d.bkt.clouddn.com/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%88%AA%E5%9B%BE.PNG)
-
 3、连接数据库
 
 以下实例使用了 JDBC 连接 MySQL 数据库，注意一些数据如用户名，密码需要根据你的开发环境来配置：
@@ -130,7 +126,7 @@ Java MySQL 连接
 				}
 	}
 
-以上实例执行输出结果如下：
 
-![](http://obzqtmk2d.bkt.clouddn.com/%E7%BB%93%E6%9E%9C%E8%BF%90%E8%A1%8C%E5%9B%BE.PNG)
+
+
 
