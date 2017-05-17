@@ -14,11 +14,11 @@ tags: [前端开发，JavaScript]
 
 这两个单词的概念想必大家已经熟悉到不能再熟悉了，但是今天我之所以想做这个笔记，是因为在用到属性探测神器的”Can I Use"这网站的时候，真心觉得他的ajax的真的用到出神入化了，哈哈，不过这篇文章说的不是ajax，差点说跑题了。因为出于习惯性，更是出于好奇心，打开控制台，看了一下该网站的控制台，其在兼容方面做得挺好，贴一下图吧：
 
-![](http://i2.muimg.com/567571/ce9579beb0bc1ea4.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-async%20and%20defer-1.png)
 
 但是我今天要讲的也不是这个，而是这个：
 
-![](http://i1.piimg.com/567571/da9fbc7bf7bd7890.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-async%20and%20defer-2.png)
 
 因为，既然看到了，我就想起了它和defer的区别，好了，接下来，小做笔记吧。
 
@@ -52,7 +52,7 @@ tags: [前端开发，JavaScript]
 
 **蓝色线代表网络读取，红色线代表执行时间，这俩都是针对脚本的；绿色线代表 HTML 解析。**
 
-![](http://i4.buimg.com/567571/46f534e96ce88124.jpg)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-async%20and%20defer-3.jpg)
 
 #### 5、总结
 
