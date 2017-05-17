@@ -44,7 +44,7 @@ String,StringBuffer与StringBuilder的区别
 
 **在大部分情况下 StringBuffer > String**
 
-###StringBuffer
+### StringBuffer
 
 Java.lang.StringBuffer线程安全的可变字符序列。一个类似于 String 的字符串缓冲区，但不能修改。虽然在任意时间点上它都包含某种特定的字符序列，但通过某些方法调用可以改变该序列的长度和内容。
 
@@ -55,7 +55,7 @@ StringBuffer 上的主要操作是 append 和 insert 方法，可重载这些方
 例如，如果 z 引用一个当前内容是“start”的字符串缓冲区对象，则此方法调用 z.append("le") 会使字符串缓冲区包含“startle”，而 z.insert(4, "le") 将更改字符串缓冲区，使之包含“starlet”。
 在大部分情况下 StringBuilder > StringBuffer
 
-###java.lang.StringBuilde
+### java.lang.StringBuilde
 java.lang.StringBuilder一个可变的字符序列是5.0新增的。此类提供一个与 StringBuffer 兼容的 API，但不保证同步。
 
 该类被设计用作 StringBuffer 的一个简易替换，用在字符串缓冲区被单个线程使用的时候（这种情况很普遍）。如果可能，建议优先采用该类，因为在大多数实现中，它比 StringBuffer 要快。两者的方法基本相同。

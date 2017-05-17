@@ -18,11 +18,11 @@ String与StringBuffer的区别
 **StringBuffer:StringBuffer类属于一种辅助类，可预先分配指定长度的内存块建立一个字符串缓冲区。这样使用StringBuffer类的append方法追加字符 比 String使用 + 操作符添加字符 到 一个已经存在的字符串后面有效率得多。因为使用 + 操作符每一次将字符添加到一个字符串中去时，字符串对象都需要寻找一个新的内存空间来容纳更大的字符串，这无凝是一个非常消耗时间的操作。添加多个字符也就意味着要一次又一次的对字符串重新分配内存。使用StringBuffer类就避免了这个问题。
 StringBuffer是线程安全的，在多线程程序中也可以很方便的进行使用，但是程序的执行效率相对来说就要稍微慢一些。**
 
-###StringBuffer的常用方法
+### StringBuffer的常用方法
 
 StringBuffer类中的方法要偏重于对字符串的变化例如追加、插入和删除等，这个也是StringBuffer和String类的主要区别。
 
-####1、append方法
+#### 1、append方法
 public StringBuffer append(boolean b)
 
 该方法的作用是追加内容到当前StringBuffer对象的末尾，类似于字符串的连接。调用该方法以后，StringBuffer对象的内容也发生改变，例如：
@@ -44,7 +44,7 @@ public StringBuffer append(boolean b)
 
 这样对象sb的值就是字符串“select * from userInfo where username=test and pwd=123”。
 
-####2、deleteCharAt方法
+#### 2、deleteCharAt方法
 
 **public StringBuffer deleteCharAt(int index)**
 
@@ -66,7 +66,7 @@ public StringBuffer append(boolean b)
 
 该代码的作用是删除索引值1(包括)到索引值4(不包括)之间的所有字符，剩余的字符形成新的字符串。则对象sb的值是”TString”。
 
-####3、insert方法
+#### 3、insert方法
 
 **public StringBuffer insert(int offset, String s)**
 
@@ -77,7 +77,7 @@ public StringBuffer append(boolean b)
 
 该示例代码的作用是在对象sb的索引值4的位置插入字符串false，形成新的字符串，则执行以后对象sb的值是”TestfalseString”。 
 
-###4、reverse方法
+### 4、reverse方法
 
 **public StringBuffer reverse()**
 
@@ -88,7 +88,7 @@ public StringBuffer append(boolean b)
 
 经过反转以后，对象sb中的内容将变为”cba”。 
 
-###5、setCharAt方法
+### 5、setCharAt方法
 
 **public void setCharAt(int index, char ch)**
 
@@ -99,19 +99,19 @@ public StringBuffer append(boolean b)
 
 则对象sb的值将变成”aDc”。
 
-###6、trimToSize方法
+### 6、trimToSize方法
 
 **public void trimToSize()**
 
 该方法的作用是将StringBuffer对象的中存储空间缩小到和字符串长度一样的长度，减少空间的浪费。
 
-###7、构造方法：
+### 7、构造方法：
 
     StringBuffer s0=new StringBuffer();分配了长16字节的字符缓冲区
 
     StringBuffer s1=new StringBuffer(512);分配了512字节的字符缓冲区
 
-###8、获取字符串的长度: length()
+### 8、获取字符串的长度: length()
 
     StringBuffer s = new StringBuffer("www");
     int i=s.length();
@@ -120,9 +120,9 @@ m.返回字符串的一部分值
     substring(int start) //返回从start下标开始以后的字符串
     substring(int start,int end) //返回从start到 end-1字符串
 
-###9.替换字符串
+### 9.替换字符串
 
     replace(int start,int end,String str)
     s.replace(0,1,"qqq");
 
-###10.转换为不变字符串:toString()。
+### 10.转换为不变字符串:toString()。
