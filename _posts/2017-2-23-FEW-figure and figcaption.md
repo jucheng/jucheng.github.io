@@ -27,7 +27,7 @@ A、div+span的方式
 
    效果如下：
 
- ![](http://i1.piimg.com/567571/a060d6856b274988.png)
+ ![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-figure%20and%20figcaption-1.png)
 
 
 B、figure+figcaption的实现
@@ -43,4 +43,4 @@ B、figure+figcaption的实现
 
    效果如下：
 
-![](http://p1.bqimg.com/567571/b2d9ae40f6e97fa2.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-figure%20and%20figcaption-2.png)
