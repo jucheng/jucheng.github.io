@@ -147,7 +147,7 @@ bar() 显然可以被正常执行。但是在这个例子中，它在自己定�
 
 当我们直接运行上述代码的时候，会抛出如下的错误：
 
-![](http://p1.bqimg.com/567571/d3107e41031367e2.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-13-FEW-%20Closure-1.png)
 
 **SyntaxError: Block-scoped declarations (let, const, function, class) not yet supported outside strict mode**
 
@@ -166,7 +166,7 @@ bar() 显然可以被正常执行。但是在这个例子中，它在自己定�
 
 运行结果就会跟我们想像的一样了：
 
-![](http://p1.bqimg.com/567571/d770262ac5203652.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-13-FEW-%20Closure-2.png)
 
 ### 七、总结
 
