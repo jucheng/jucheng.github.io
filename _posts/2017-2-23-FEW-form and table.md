@@ -28,11 +28,11 @@ tags: [前端开发，CSS]
 
 （小插曲）本来想直接贴代码的，但发现Markdown这里直接贴代码的话，显示效果就直接给我显示了一个表格了，代码不见了 >-<
 
-![](http://p1.bpimg.com/567571/3f40b9f0e218dea3.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-form%20and%20table-1.png)
 
 显示效果如下：
 
-![](http://i1.piimg.com/567571/0b72a4d7974a4ad7.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-form%20and%20table-2.png)
 
 
 ### 3、表单语义化
@@ -53,7 +53,7 @@ label标签的for属性有两个作用：
 
 代码如下：
 
-![](http://p1.bpimg.com/567571/b06854b3d57618ec.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-form%20and%20table-3.png)
 
 
   
@@ -81,8 +81,8 @@ fieldset标签和legend标签的作用：
 
 2、可以定义fieldset标签的disabled属性来禁用整个组中的表单元素
 
-![](http://p1.bpimg.com/567571/e7998e86c0a0ba67.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-form%20and%20table-4.png)
 
-![](http://i1.piimg.com/567571/6e286bec7d289ef2.png)
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-form%20and%20table-5.png)
 
 （PS：是不是顿时觉得很高大上勒！！！）
