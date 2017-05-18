@@ -138,3 +138,5 @@ getName()内部创建的箭头函数会捕获调用时getName()的this。由于g
 + **由call或者apply（或者bind）调用？绑定到指定的对象。**
 + **由上下文对象调用？绑定到那个上下文对象。**
 + **默认：在严格模式下绑定到undefined，否则绑定到全局对象。**
+
+本文参考自<a href="https://my.oschina.net/keysITer/blog/901601">This其实不难，通过实例全面解析JS中的This</a>这篇文章，十分感谢作者！！！
