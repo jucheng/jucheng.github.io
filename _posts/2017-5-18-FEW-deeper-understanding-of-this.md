@@ -21,7 +21,7 @@ tags: [前端开发，JavaScript]
 
 #### A 、被调用者为方法时，侧重谁是调用者
 
-一般我们都会说，谁调用了方法（注意是“方法”），该方法的this关键字就指向谁。
+**一般我们都会说，谁调用了方法（注意是“方法”），该方法的this关键字就指向谁。**
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-18-FEW-deeper-understanding-of-this-1.png)
 
@@ -29,7 +29,7 @@ tags: [前端开发，JavaScript]
 
 #### B 、存在多次调用的关系，侧重最后一层
 
-如果存在多次调用，对象属性引用链只有上一层或者说最后一层在调用位置中起作用
+**如果存在多次调用，对象属性引用链只有上一层或者说最后一层在调用位置中起作用**
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-18-FEW-deeper-understanding-of-this-2.png)
 
@@ -40,7 +40,9 @@ tags: [前端开发，JavaScript]
 
 #### A、被隐式绑定的函数
 
-一个最常见的this绑定的问题就是，被隐式绑定的的函数（这里指的是“函数”，而不是方法，注意区别）,也就是说会采用默认的绑定，从而把this绑定到全局对象或者undefinded上，这个是取决于是否是严格模式，如果是严格模式，那就是undefinded，否则就是绑定到全局对象上。
+**一个最常见的this绑定的问题就是，被隐式绑定的的函数（这里指的是“函数”，而不是方法，注意区别）,也就是说会采用默认的绑定，从而把this绑定到全局对象或者undefinded上**，这个是取决于是否是严格模式。
+
+如果是严格模式，那就是undefinded，否则就是绑定到全局对象上。
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-18-FEW-deeper-understanding-of-this-4.png)
 
@@ -55,7 +57,7 @@ tags: [前端开发，JavaScript]
 
 ### 四、显式绑定
 
-更简单一点的说法就是，所谓的显式绑定值的就是指定this，如call,apply,bind,new绑定等。
+更简单一点的说法就是，所谓的**显式绑定值的就是指定this，如call,apply,bind,new绑定等**。
 
 #### A、硬绑定
 
