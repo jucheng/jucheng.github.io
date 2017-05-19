@@ -130,3 +130,9 @@ tags: [前端开发，JavaScript]
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-19-FEW-using%20nodejs%20to%20build%20server-6.png)
 
 **快动手尝试一下吧，以后前端开发再也不用等服务器端框架搭好，接口写好了。**
+
+参考文章：
+
+<a href="http://www.jianshu.com/p/80307e1a86ff">NodeJs本地搭建服务器，模拟接口请求，获取json数据</a>
+
+<a href="http://www.expressjs.com.cn/">Express中文官网</a>
