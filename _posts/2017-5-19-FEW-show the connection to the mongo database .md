@@ -91,6 +91,9 @@ tags: [前端开发，Node.js]
 		taskkill /F /PID 3044（这里是被查到的进程ID，每次不一样的）
 
 
+**参考文章如下：**
+
+<a href="https://github.com/wteam-xq/mongoDemo/blob/master/graphTutorial.md">项目部署图文说明</a>
 
 
 
