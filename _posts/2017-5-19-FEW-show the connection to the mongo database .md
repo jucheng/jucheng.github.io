@@ -40,8 +40,7 @@ tags: [前端开发，Node.js]
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-19-FEW-show%20the%20connection%20to%20the%20mongo%20database-2.png)
 
-**此时前一个窗口显示：2015-03-26T15:31:10.148+0800 I NETWORK 
- [initandlisten] connection accepted from 127.0.0.1:60408 #1 (1 connection now open)**
+如果此时前一个窗口显示：2017-05-19T17:41:17.617+0800 I NETWORK  [thread1] connection accepted from 127.0.0.1:4243 #1 (1 connection now open)，就证明连接成功了：
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-19-FEW-show%20the%20connection%20to%20the%20mongo%20database-1.png)
 
