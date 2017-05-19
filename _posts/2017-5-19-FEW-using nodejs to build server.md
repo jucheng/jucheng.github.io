@@ -3,7 +3,7 @@ layout: post
 title: "利用NodeJs搭建本地服务器"
 date: 2017-5-19
 categories: 前端
-tags: [前端开发，JavaScript]
+tags: [前端开发，Node.js]
 ---
 
 利用NodeJs搭建本地服务器
