@@ -26,7 +26,7 @@ tags: [前端开发，Node.js]
 
 #### 3、启动mongo数据库
 
-##### A、进行mongodb安装目录
+##### A、进入mongodb安装目录
 
 **进入 f:\mongodb\bin目录**：执行以下命令
 
