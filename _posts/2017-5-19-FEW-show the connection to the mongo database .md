@@ -91,6 +91,14 @@ tags: [前端开发，Node.js]
 		taskkill /F /PID 3044（这里是被查到的进程ID，每次不一样的）
 
 
+(拓展：如果是在linux中，以上的命令就简单了：)
+
+    ps -ef| grep 3000
+
+    kill ID 
+
+
+
 **参考文章如下：**
 
 <a href="https://github.com/wteam-xq/mongoDemo/blob/master/graphTutorial.md">项目部署图文说明</a>
