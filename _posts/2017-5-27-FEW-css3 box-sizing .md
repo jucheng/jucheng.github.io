@@ -67,7 +67,7 @@ tags: [前端开发，CSS]
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-css3%20box-sizing-3.png)
 
-由下图，我们可以看到，默认的情况的content-box的总宽高是150px,自身的元素的实际宽高就是100px,完全符合，然后另外的50px分别是20*2的padding值和5*2的boder值。
+由下图，我们可以看到，默认的情况的content-box的总宽高是150px,自身的元素的实际宽高就是100px,完全符合，然后另外的50px分别是两倍的20px的padding值和两倍的5px的boder值。
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-css3%20box-sizing-5.png)
 
@@ -76,7 +76,7 @@ tags: [前端开发，CSS]
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-css3%20box-sizing-4.png)
 
-由下图，我们可以看到，默认的情况的border-box的总宽高是100px,自身的元素的实际宽高变成了50px,完全符合，然后另外的50px分别是20*2的padding值和5*2的boder值。
+由下图，我们可以看到，默认的情况的border-box的总宽高是100px,自身的元素的实际宽高变成了50px,完全符合，然后另外的50px分别是两倍的20px的padding值和两倍的5px的boder值。
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-css3%20box-sizing-6.png)
 
