@@ -8,6 +8,8 @@ tags: [前端开发，面试]
 
 前端一些易错的知识点总结
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-6-FEW-Summary.jpg)
+
 <!-- more -->
 
 ### HTML
