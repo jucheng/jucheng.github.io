@@ -7,6 +7,7 @@ tags: [前端开发，JavaScript]
 ---
 
 JavaScript创建对象方法一览
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-26-FEW-JavaScript%20create%20object%20.jpeg)
 
 <!-- more -->
 
