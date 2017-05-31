@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 scrollWidth,clientWidth,offsetWidth的区别
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-26-FEW-all%20type%20of%20width.jpg)
+
 <!-- more -->
 
 ### 一、前言
