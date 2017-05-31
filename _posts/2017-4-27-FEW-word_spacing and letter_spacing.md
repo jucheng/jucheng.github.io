@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 浅析css word-spacing单词间距与letter-spacing字符间距的区别
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-word_spacing%20and%20letter_spacing.jpg)
+
 <!-- more -->
 
 ### 一、前言
