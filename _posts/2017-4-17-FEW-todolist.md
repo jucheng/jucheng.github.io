@@ -8,6 +8,8 @@ tags: [前端开发，项目]
 
 备忘录的项目笔记
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-17-FEW-todolist.jpeg)
+
 <!-- more -->
 
 ### 前言
