@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 浅析JavaScript中==和===
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-the%20differen%20between%20two%20and%20three%20equals%20sign.jpeg)
+
 <!-- more -->
 
 
