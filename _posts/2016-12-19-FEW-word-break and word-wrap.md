@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 word-break:break-all和word-wrap:break-word的区别
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-19-FEW-word-break%20and%20word-wrap.jpg)
+
 <!-- more -->
 
 ### 一、前言
