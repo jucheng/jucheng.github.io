@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 CSS3选择器:nth-child和:nth-of-type之间的差异
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-16-FEW-%20css3-child-selector%20.jpeg)
+
 <!-- more -->
 
 ### 一、前言
