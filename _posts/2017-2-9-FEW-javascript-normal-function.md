@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 javascript中相应的方法练习代码
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-javascript-normal-function.jpg)
+
 <!-- more -->
 
 ### 前言
