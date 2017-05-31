@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 了解一下css3中的box-sizing
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-css3%20box-sizing%20.jpeg)
+
 <!-- more -->
 
 ### 一、概念（直接盗用MDN的概念）
