@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 深入理解JavaScript运行机制
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-8-FEW-JavaScript%20Operating%20Mechanism.jpg)
+
 <!-- more -->
 
 想要理解JavaScript的运行机制，需要分别深刻理解以下几个点：
