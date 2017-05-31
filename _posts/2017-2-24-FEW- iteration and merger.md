@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 ECMAScript5中的5个迭代和两个归并的方法
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-24-FEW-%20iteration%20and%20merger.jpeg)
+
 <!-- more -->
 
 ### 前言
