@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 javascript中变量名和函数名重名
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-9-FEW-variable%20and%20function.jpg)
+
 <!-- more -->
 
 ### 1、缘由
