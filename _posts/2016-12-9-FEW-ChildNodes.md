@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 深入理解JavaScript中的childNodes的length的计算
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-9-FEW-ChildNodes.jpg)
+
 <!-- more -->
 
 最近也在写代码的时候遇到一个问题，就是关于JS中的childNodes的length计算，本来觉得这个可能也就是一个单纯目测计算的问题，但是后来发现了错误之后，查了一下资料，发现是自己想太多了，z毕竟我们是程序猿，代码是最好的解决方法的展示，这里我就借鉴文章作者的代码了：
