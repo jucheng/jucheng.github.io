@@ -8,6 +8,8 @@ tags: [前端开发，兼容性]
 
 主流浏览器内核介绍
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-19-FEW-%20Browser%20Core.jpg)
+
 <!-- more -->
 
 ### 内核
