@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 浅谈JSON，JSON字面量，JSON对象之间的区别
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-9-FEW-JavaScript%20JSON.jpg)
+
 <!-- more -->
 
 ### 1、首先明确JSON是什么？
