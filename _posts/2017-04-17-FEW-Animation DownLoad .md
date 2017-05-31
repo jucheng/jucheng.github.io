@@ -8,6 +8,7 @@ tags: [前端开发，项目]
 
 Animation DownLoad项目的笔记
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-04-17-FEW-Animation%20DownLoad%20.jpg)
 <!-- more -->
 
 ### 一、前言
