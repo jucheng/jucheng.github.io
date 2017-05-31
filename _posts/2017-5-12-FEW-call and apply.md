@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 解开心中关于call和apply的迷惑
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-12-FEW-call%20and%20apply.jpeg)
+
 <!-- more -->
 
 
