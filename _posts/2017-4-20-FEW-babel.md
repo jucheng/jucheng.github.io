@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 利用babel将es6转换成es5
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-20-FEW-babel.jpeg)
+
 <!-- more -->
 
 ### 一、前言
