@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 JavaScript数据类型检测，没你想象的那么简单
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-25-FEW-JavaScript%20Data%20type%20checking.jpeg)
+
 <!-- more -->
 
 
