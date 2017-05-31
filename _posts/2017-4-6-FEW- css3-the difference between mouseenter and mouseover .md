@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 mouseenter 与 mouseover 的不同
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-6-FEW-%20css3-the%20difference%20between%20mouseenter%20and%20mouseover%20.jpeg)
+
 <!-- more -->
 
 ### 一、前言
