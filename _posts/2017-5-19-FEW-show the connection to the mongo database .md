@@ -8,6 +8,8 @@ tags: [前端开发，Node.js]
 
 图文演示连接mongo数据库
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-19-FEW-show%20the%20connection%20to%20the%20mongo%20database%20.jpeg)
+
 <!-- more -->
 
 ### 一、前言
