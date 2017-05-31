@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 ES6 & babel 实战
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-15-FEW-ES6%20and%20babel.jpeg)
+
 <!-- more -->
 
 
