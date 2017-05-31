@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 表格语义化 PK 表单语义化
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-form%20and%20table.jpeg)
+
 <!-- more -->
 
 ### 1、前言
