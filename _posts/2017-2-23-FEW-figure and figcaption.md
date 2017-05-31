@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 figure元素和figcaption元素的作用
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-23-FEW-figure%20and%20figcaption.jpg)
+
 <!-- more -->
 
 ### 1、前言
