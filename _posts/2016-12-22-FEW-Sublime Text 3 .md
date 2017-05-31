@@ -8,6 +8,8 @@ tags: [前端开发，编辑器]
 
 Sublime Text内运行javascript(ES6)
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-22-FEW-Sublime%20Text%203%20.jpg)
+
 <!-- more -->
 
 ### 前言 
