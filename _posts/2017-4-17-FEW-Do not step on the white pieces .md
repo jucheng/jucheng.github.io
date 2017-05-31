@@ -8,6 +8,8 @@ tags: [前端开发，项目]
 
 网页版 别踩白块
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-17-FEW-Do%20not%20step%20on%20the%20white%20pieces%20.jpeg)
+
 <!-- more -->
 
 ### 1、思路分析
