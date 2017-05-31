@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 Javascript 经典实例
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-14-FEW-%20javascript%20typical%20exmaple%20.jpeg)
+
 <!-- more -->
 
 ### 一、前言
