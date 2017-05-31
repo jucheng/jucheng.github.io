@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 javascript中容易混淆的两个数组的操作方法slice()和splice()
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-2-22-FEW-slice%28%29%20and%20splice%28%29.jpg)
+
 <!-- more -->
 
 ### 1、前言
