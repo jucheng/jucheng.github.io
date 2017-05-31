@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 CSS 实现三角形
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-28-FEW-%20CSS%20-triangle.jpeg)
+
 <!-- more -->
 
 ### 一、CSS实现三角形的原理
