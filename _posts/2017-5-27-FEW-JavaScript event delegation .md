@@ -10,6 +10,7 @@ tags: [前端开发，JavaScript]
 
 <!-- more -->
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-JavaScript%20event%20delegation%20.jpeg)
 
 ### 一、前言
 
