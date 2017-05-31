@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 之于闭包的理解和总结
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure.jpeg)
+
 <!-- more -->
 
 ### 一、前言
