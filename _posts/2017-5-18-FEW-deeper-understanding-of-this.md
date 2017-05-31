@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 深入理解js中的this关键字
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-18-FEW-deeper-understanding-of-this.jpeg)
+
 <!-- more -->
 
 ### 一、前言

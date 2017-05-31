@@ -8,7 +8,7 @@ tags: [前端开发，Node.js]
 
 利用NodeJs搭建本地服务器
 
-![]()
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-19-FEW-using%20nodejs%20to%20build%20server.jpeg)
 
 <!-- more -->
 
