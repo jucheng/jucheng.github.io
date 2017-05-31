@@ -22,10 +22,10 @@ JavaScript提供定时执行代码的功能，叫做定时器（timer），主�
 
 setTimeout函数用来指定某个函数或某段代码，在多少毫秒之后执行。它返回一个整数，表示定时器的编号，以后可以用来取消这个定时器。
 
->  var timerId = setTimeout(func|code, delay)
+>  var timerId = setTimeout(func/code, delay)
 
 
-上面代码中，setTimeout函数接受两个参数，第一个参数func|code是将要推迟执行的函数名或者一段代码，第二个参数delay是推迟执行的毫秒数。
+上面代码中，setTimeout函数接受两个参数，第一个参数fun或者code是将要推迟执行的函数名或者一段代码，第二个参数delay是推迟执行的毫秒数。
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-31-FEW-JavaScript%20setTimeout%20-2.png)
 
