@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 javascript的符号中括号[]和大括号{}的区别
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-3-17-FEW-%20javascript%20symbol%20difference%20.jpeg)
+
 <!-- more -->
 
 ### 一、前言
