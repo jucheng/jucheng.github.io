@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 JavaScript闭包浅析
 
+![](http://oq2sjn05e.bkt.clouddn.com/2016-12-13-FEW-%20Closure.jpg)
+
 <!-- more -->
 
 ###  一、前言
