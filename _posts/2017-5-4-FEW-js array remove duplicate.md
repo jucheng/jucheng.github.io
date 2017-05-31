@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 谈谈js数组去重
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-4-FEW-js%20array%20remove%20duplicate.jpg)
+
 <!-- more -->
 
 ### 一、前言
