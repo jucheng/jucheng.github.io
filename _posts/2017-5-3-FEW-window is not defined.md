@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 sublime 运行js文件window is not defined
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-3-FEW-window%20is%20not%20defined.jpg)
+
 <!-- more -->
 
 ### 一、前言
