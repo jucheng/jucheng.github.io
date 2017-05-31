@@ -98,3 +98,7 @@ tags: [前端开发，JavaScript]
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-11-FEW-Closure-9.png)
 
 这个例子是在Ajax请求返回后，name还是可以访问的。之所以可以访问，是因为success方法是在调用sendAjaxRequest的时候创建的执行环境中定义的，此时name在作用域中。
+
+**推荐相关闭包文章：**
+
+<a href="https://juejin.im/post/58f1fa6a44d904006cf25d22">破解前端面试（80% 应聘者不及格系列）：从闭包说起</a>
