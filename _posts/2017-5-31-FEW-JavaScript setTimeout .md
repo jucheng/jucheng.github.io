@@ -8,13 +8,15 @@ tags: [前端开发，JavaScript]
 
 你所不知道的setTimeout
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-31-FEW-JavaScript%20setTimeout%20-1.jpeg)
+
 <!-- more -->
 
 ### 一、前言
 
 JavaScript提供定时执行代码的功能，叫做定时器（timer），主要由setTimeout()和setInterval()这两个函数来完成。它们向任务队列添加定时任务。初始接触它的人都觉得好简单，实时上真的如此么？这里记载下，一路对其使用姿势变迁的历程。
 
-![](http://oq2sjn05e.bkt.clouddn.com/2017-5-31-FEW-JavaScript%20setTimeout%20-1.jpeg)
+
 
 ### 二、setTimeout()基础
 

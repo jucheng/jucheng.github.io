@@ -8,9 +8,9 @@ tags: [前端开发，JavaScript]
 
 研究一下js中的事件委托和事件代理机制
 
-<!-- more -->
-
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-JavaScript%20event%20delegation%20.jpeg)
+
+<!-- more -->
 
 ### 一、前言
 

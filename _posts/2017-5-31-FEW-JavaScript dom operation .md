@@ -8,9 +8,9 @@ tags: [前端开发，JavaScript]
 
 解开心中关于DOM操作的几个结
 
-<!-- more -->
-
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-5-31-FEW-JavaScript%20dom%20operation%20-1.jpg)
+
+<!-- more -->
 
 ### 一、如何修改页面内容？
 
