@@ -8,6 +8,8 @@ tags: [前端开发，JavaScript]
 
 浅析async和defer的区别
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-4-27-FEW-async%20and%20defer.jpg)
+
 <!-- more -->
 
 ### 一、前言
