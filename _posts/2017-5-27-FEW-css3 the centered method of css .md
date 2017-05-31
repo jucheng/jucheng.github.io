@@ -8,6 +8,8 @@ tags: [前端开发，CSS]
 
 带你走进css居中的世界
 
+![](http://oq2sjn05e.bkt.clouddn.com/2017-5-27-FEW-css3%20the%20centered%20method%20of%20css%20.jpeg)
+
 <!-- more -->
 
 ### 一、水平居中
