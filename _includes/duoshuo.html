@@ -1,4 +1,4 @@
-{% assign tid = page.url | split:"/" | last | split:"." | first %}
+<!-- {% assign tid = page.url | split:"/" | last | split:"." | first %}
 <div class="ds-thread" data-thread-key="{{page.date|date:"%Y-%m-%d-"}}{{ tid }}" data-title="{{ page.title }}" data-url="{{ site.blog.url }}{{ page.url }}"></div>
 <script type="text/javascript">
     var duoshuoQuery = {short_name:"{{ site.blog.duoshuo }}"};
@@ -10,4 +10,15 @@
         (document.getElementsByTagName('head')[0]
         || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
+</script>
+ -->
+
+ <!--PC版-->
+<div id="SOHUCS" sid="{{ site.blog.url }}{{ page.url }}"></div>
+<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+appid: 'cyt2vg9uV',
+conf: 'prod_54277d2e54fd319db4f97571f6cfc64e'
+});
 </script>
