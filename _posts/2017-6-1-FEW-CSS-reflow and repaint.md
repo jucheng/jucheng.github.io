@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "高性能JavaScript 重排与重绘"
+title: "JavaScript之重排与重绘"
 date: 2017-6-1
 categories: 前端
 tags: [前端开发，CSS]
 ---
 
-高性能JavaScript 重排与重绘
+JavaScript之重排与重绘
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-6-1-FEW-CSS-reflow%20and%20repaint.jpg)
 
