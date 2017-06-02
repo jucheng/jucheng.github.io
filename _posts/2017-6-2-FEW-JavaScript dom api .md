@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Javascript操作DOM常用API总结"
+title: "JS之DOM操作的常用API总结"
 date: 2017-6-2
 categories: 前端
 tags: [前端开发，JavaScript]
 ---
 
-Javascript操作DOM常用API总结
+JS之DOM操作的常用API总结
 
 ![](http://oq2sjn05e.bkt.clouddn.com/2017-6-2-FEW-JavaScript%20dom%20api.jpg)
 
@@ -430,3 +430,6 @@ clientRect是一个DOMRect对象，包含left，top，right，bottom，它是相
 本文主要总结了原生js中常用的操作DOM的api接口，主要为了复习基础知识。平时开发用多了jQuery等类库，对基础知识的了解可能就渐渐地遗忘，但这些基础知识才是我们立足的根本，只有掌握原生的js，才能真正做好js的开发。
 
 
+**参考文章：十分感谢博主“狼狼的蓝胖子”**：
+
+<a href="http://luopq.com/2015/11/30/javascript-dom/">Javascript操作DOM常用API总结</a>
